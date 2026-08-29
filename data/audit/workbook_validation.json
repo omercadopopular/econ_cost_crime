@@ -1,0 +1,645 @@
+{
+  "tolerances": {
+    "currency_absolute_reais": 2.0,
+    "gdp_relative": 1e-09,
+    "percentage_point_absolute": 1e-08,
+    "allocation_weight_absolute": 1e-09,
+    "discontinuity_warning_fraction": 0.4
+  },
+  "workbooks": [
+    {
+      "path": "data\\output\\tabela_final_cec_brasil.xlsx",
+      "size_bytes": 411046,
+      "sha256": "e9824ef3e77e184eb7bc9850694169cd84cfb30bdd91da238cb615e9fe5d135a",
+      "sheets": [
+        {
+          "name": "custo_total_violencia",
+          "state": "visible",
+          "stored_cells": 25025,
+          "nonempty_cells": 527,
+          "formula_cells": 218,
+          "max_row": 1001,
+          "max_column": 25
+        },
+        {
+          "name": "seguranca_publica_br",
+          "state": "visible",
+          "stored_cells": 6006,
+          "nonempty_cells": 126,
+          "formula_cells": 0,
+          "max_row": 1001,
+          "max_column": 6
+        },
+        {
+          "name": "seguranca_privada_br",
+          "state": "visible",
+          "stored_cells": 18288,
+          "nonempty_cells": 343,
+          "formula_cells": 4,
+          "max_row": 1016,
+          "max_column": 18
+        },
+        {
+          "name": "encarceramento_br",
+          "state": "visible",
+          "stored_cells": 5090,
+          "nonempty_cells": 155,
+          "formula_cells": 0,
+          "max_row": 1018,
+          "max_column": 5
+        },
+        {
+          "name": "seguros_&_danos_materiais_br",
+          "state": "visible",
+          "stored_cells": 339,
+          "nonempty_cells": 310,
+          "formula_cells": 1,
+          "max_row": 31,
+          "max_column": 11
+        },
+        {
+          "name": "perdas_produtivas_br",
+          "state": "visible",
+          "stored_cells": 26130,
+          "nonempty_cells": 93,
+          "formula_cells": 1,
+          "max_row": 1005,
+          "max_column": 26
+        },
+        {
+          "name": "processos_judiciais_br",
+          "state": "visible",
+          "stored_cells": 4082,
+          "nonempty_cells": 124,
+          "formula_cells": 0,
+          "max_row": 1013,
+          "max_column": 5
+        },
+        {
+          "name": "servicos_medicos_br",
+          "state": "visible",
+          "stored_cells": 26000,
+          "nonempty_cells": 124,
+          "formula_cells": 0,
+          "max_row": 1000,
+          "max_column": 26
+        }
+      ]
+    },
+    {
+      "path": "data\\output\\tabela_final_cec_ufs.xlsx",
+      "size_bytes": 714523,
+      "sha256": "4815cc84efddad1274f358336622acbe1d7861d3f778fadece09d9d8b0135c8c",
+      "sheets": [
+        {
+          "name": "custo_total_violencia_ufs",
+          "state": "visible",
+          "stored_cells": 24021,
+          "nonempty_cells": 550,
+          "formula_cells": 218,
+          "max_row": 1001,
+          "max_column": 24
+        },
+        {
+          "name": "graficos_ufs",
+          "state": "visible",
+          "stored_cells": 35035,
+          "nonempty_cells": 1155,
+          "formula_cells": 441,
+          "max_row": 1001,
+          "max_column": 35
+        },
+        {
+          "name": "seguranca_publica_ufs",
+          "state": "visible",
+          "stored_cells": 26270,
+          "nonempty_cells": 477,
+          "formula_cells": 29,
+          "max_row": 998,
+          "max_column": 27
+        },
+        {
+          "name": "seguranca_privada_ufs",
+          "state": "visible",
+          "stored_cells": 23345,
+          "nonempty_cells": 440,
+          "formula_cells": 1,
+          "max_row": 1015,
+          "max_column": 23
+        },
+        {
+          "name": "encarceramento_ufs",
+          "state": "visible",
+          "stored_cells": 32936,
+          "nonempty_cells": 605,
+          "formula_cells": 10,
+          "max_row": 1000,
+          "max_column": 33
+        },
+        {
+          "name": "seguros_&_danos_materiais_uf",
+          "state": "visible",
+          "stored_cells": 15000,
+          "nonempty_cells": 825,
+          "formula_cells": 2,
+          "max_row": 1000,
+          "max_column": 15
+        },
+        {
+          "name": "perdas_produtivas_ufs",
+          "state": "visible",
+          "stored_cells": 76247,
+          "nonempty_cells": 495,
+          "formula_cells": 0,
+          "max_row": 4013,
+          "max_column": 19
+        },
+        {
+          "name": "processos_judiciais_ufs",
+          "state": "visible",
+          "stored_cells": 26338,
+          "nonempty_cells": 275,
+          "formula_cells": 0,
+          "max_row": 1013,
+          "max_column": 26
+        },
+        {
+          "name": "servicos_medicos_ufs",
+          "state": "visible",
+          "stored_cells": 17000,
+          "nonempty_cells": 880,
+          "formula_cells": 1,
+          "max_row": 1000,
+          "max_column": 17
+        },
+        {
+          "name": "dados_aux_graficos",
+          "state": "visible",
+          "stored_cells": 794,
+          "nonempty_cells": 794,
+          "formula_cells": 8,
+          "max_row": 62,
+          "max_column": 19
+        },
+        {
+          "name": "graficos_finais_ufs",
+          "state": "visible",
+          "stored_cells": 0,
+          "nonempty_cells": 0,
+          "formula_cells": 0,
+          "max_row": 0,
+          "max_column": 0
+        }
+      ]
+    }
+  ],
+  "national": {
+    "year_coverage": [
+      1996,
+      2025
+    ],
+    "terminal_year": 2025,
+    "terminal_year_numerically_complete": true,
+    "grand_total_difference_reais": {
+      "1996": 0.0,
+      "1997": 0.0,
+      "1998": 3.0517578125e-05,
+      "1999": 3.0517578125e-05,
+      "2000": 0.0,
+      "2001": 0.0,
+      "2002": 0.0,
+      "2003": 0.0,
+      "2004": 3.0517578125e-05,
+      "2005": 0.0,
+      "2006": 0.0,
+      "2007": 0.0,
+      "2008": -6.103515625e-05,
+      "2009": 0.0,
+      "2010": 6.103515625e-05,
+      "2011": -6.103515625e-05,
+      "2012": 0.0,
+      "2013": 0.0,
+      "2014": 0.0,
+      "2015": -6.103515625e-05,
+      "2016": 0.0,
+      "2017": 0.0,
+      "2018": 0.0,
+      "2019": 0.0,
+      "2020": 0.0,
+      "2021": 6.103515625e-05,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 6.103515625e-05,
+      "2025": 0.0
+    }
+  },
+  "uf": {
+    "year_coverage": [
+      2016,
+      2025
+    ],
+    "terminal_year": 2025,
+    "terminal_year_has_27_ufs": true,
+    "reconciliation": {
+      "2016": {
+        "seguranca_publica": {
+          "national": 127102306272.20277,
+          "sum_ufs": 105295549543.78104,
+          "difference": -21806756728.421738,
+          "ratio": 0.8284314630631461
+        },
+        "seguranca_privada": {
+          "national": 62969142478.32,
+          "sum_ufs": 62961986753.3044,
+          "difference": -7155725.015602112,
+          "ratio": 0.99988636140284
+        },
+        "encarceramento": {
+          "national": 7450756920.64,
+          "sum_ufs": 20743364526.48065,
+          "difference": 13292607605.840652,
+          "ratio": 2.784061370867921
+        },
+        "seguros_danos": {
+          "national": 82867310214.15,
+          "sum_ufs": 82867310214.1498,
+          "difference": -0.0001983642578125,
+          "ratio": 0.9999999999999976
+        },
+        "justica": {
+          "national": 45871946588.57001,
+          "sum_ufs": 46831040940.79,
+          "difference": 959094352.2199936,
+          "ratio": 1.0209080805055475
+        },
+        "perdas_produtivas": {
+          "national": 48661099426.57,
+          "sum_ufs": 48669290620.600006,
+          "difference": 8191194.030006409,
+          "ratio": 1.0001683314624317
+        },
+        "servicos_medicos": {
+          "national": 175569797.88,
+          "sum_ufs": 175569797.87894702,
+          "difference": -0.0010529756546020508,
+          "ratio": 0.9999999999940026
+        },
+        "pib": {
+          "national": 9747820129596.121,
+          "sum_ufs": 9747820128571.209,
+          "difference": -1024.912109375,
+          "ratio": 0.9999999998948573
+        }
+      },
+      "2025": {
+        "seguranca_publica": {
+          "national": 163117868907.88,
+          "sum_ufs": 131252276972.62999,
+          "difference": -31865591935.250015,
+          "ratio": 0.8046468351468842
+        },
+        "seguranca_privada": {
+          "national": 63807214236.72,
+          "sum_ufs": 63914845998.236206,
+          "difference": 107631761.51620483,
+          "ratio": 1.0016868274661999
+        },
+        "encarceramento": {
+          "national": 13330956631.49,
+          "sum_ufs": 29698105985.071762,
+          "difference": 16367149353.581762,
+          "ratio": 2.227755052095793
+        },
+        "seguros_danos": {
+          "national": 96240427662,
+          "sum_ufs": 96240427661.99988,
+          "difference": -0.0001220703125,
+          "ratio": 0.9999999999999988
+        },
+        "justica": {
+          "national": 73738865148.73999,
+          "sum_ufs": 75203888212.76,
+          "difference": 1465023064.0200043,
+          "ratio": 1.0198677191609185
+        },
+        "perdas_produtivas": {
+          "national": 29169191035.266026,
+          "sum_ufs": 25308210345.000004,
+          "difference": -3860980690.2660217,
+          "ratio": 0.8676349753547147
+        },
+        "servicos_medicos": {
+          "national": 120016241.84,
+          "sum_ufs": 120016241.87508,
+          "difference": 0.03508000075817108,
+          "ratio": 1.0000000002922937
+        },
+        "pib": {
+          "national": 12700000000000,
+          "sum_ufs": 12700000000000.02,
+          "difference": 0.01953125,
+          "ratio": 1.0000000000000016
+        }
+      }
+    }
+  },
+  "summary": {
+    "checks": 3247,
+    "passed": 3244,
+    "errors": 0,
+    "warnings": 16
+  },
+  "findings": [
+    {
+      "severity": "WARNING",
+      "code": "NATIONAL_STATUS_FLAGS",
+      "message": "The workbook uses red font and cell comments rather than a machine-readable status column; colors do not exhaustively flag all subcomponent imputations documented in the appendix.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_brasil.xlsx"
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "PRODUCTIVE_LOSS_2025_PROXY",
+      "message": "The 2025 productive-loss source uses 40,775 aggregate homicides but no 2025 age-region microdata; it scales the 2024 loss in proportion to the homicide count.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_brasil.xlsx",
+        "sheet": "custo_total_violencia",
+        "cell": "G31",
+        "source_formula": "C30*B31/B30"
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "GDP_METADATA_PENDING",
+      "message": "The national GDP denominator has no source, release/vintage, or construction metadata in the workbook or methodological appendix.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_brasil.xlsx",
+        "sheet": "custo_total_violencia",
+        "column": "pib_deflacionado"
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "LARGE_ANNUAL_CHANGE",
+      "message": "Annual change exceeds the documented 40% diagnostic screen and should be checked against source/method breaks.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_brasil.xlsx",
+        "series": "encarceramento",
+        "year": 2013,
+        "change_percent": 94.53175793962632,
+        "threshold_percent": 40.0
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "LARGE_ANNUAL_CHANGE",
+      "message": "Annual change exceeds the documented 40% diagnostic screen and should be checked against source/method breaks.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_brasil.xlsx",
+        "series": "encarceramento",
+        "year": 2017,
+        "change_percent": 74.49171340558583,
+        "threshold_percent": 40.0
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "LARGE_ANNUAL_CHANGE",
+      "message": "Annual change exceeds the documented 40% diagnostic screen and should be checked against source/method breaks.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_brasil.xlsx",
+        "series": "servicos_medicos",
+        "year": 2009,
+        "change_percent": 48.525756319528355,
+        "threshold_percent": 40.0
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "UF_PUBLIC_SECURITY_MISSING_SUBFUNCTIONS",
+      "message": "Some UF public-security totals use SUM over blank subfunction cells; the workbook does not document whether blanks mean zero or missing.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "affected": [
+          {
+            "uf": "CE",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "DF",
+            "year": 2016,
+            "variables": [
+              "defesa_civil",
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "DF",
+            "year": 2025,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "ES",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "ES",
+            "year": 2025,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "MA",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "MA",
+            "year": 2025,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "MS",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia",
+              "demais_subfunções"
+            ]
+          },
+          {
+            "uf": "MS",
+            "year": 2025,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "PI",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "RJ",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "RN",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "RN",
+            "year": 2025,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "RO",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "SE",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          },
+          {
+            "uf": "TO",
+            "year": 2016,
+            "variables": [
+              "informacao_&_inteligencia"
+            ]
+          }
+        ],
+        "affected_count": 16
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "UF_LABEL_TRUNCATION",
+      "message": "seguranca_publica_ufs truncates the labels Amazonas, Minas Gerais, Pernambuco, and Santa Catarina.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx"
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "UF_GDP_POPULATION_METADATA_PENDING",
+      "message": "State GDP and population cells have no source, release/vintage, or construction metadata in the workbook or appendix.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "sheet": "graficos_ufs"
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "UF_PRISON_CONCEPT_CONFLICT",
+      "message": "UF incarceration uses prisoners × a cost parameter plus staff × remuneration, while the national method uses subfunction 421 plus auxílio-reclusão and explicitly excludes a separate staff estimate to avoid overlap.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx"
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "NATIONAL_UF_JUSTICE_COMPONENT",
+      "message": "The appendix says national justice equals the sum of UFs, but this component does not reconcile.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "year": 2016,
+        "component": "mp",
+        "sum_ufs": 17060652028.49,
+        "national": 16101557676.27,
+        "difference_reais": 959094352.2199993
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "NATIONAL_UF_PRODUCTIVE_MINOR_REVISION",
+      "message": "The 2016 UF productive-loss sum differs slightly from the national value; this is treated as a plausible vintage/aggregation revision, not a hard failure.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "year": 2016,
+        "uf_homicides": 62517,
+        "national_homicides": 62517,
+        "difference_reais": 8191194.030006409,
+        "relative_difference_percent": 0.01683314624316491
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "NATIONAL_UF_PRIVATE_SECURITY",
+      "message": "Sum of separately estimated UF PNAD Contínua private-security values differs from the national survey estimate.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "year": 2016,
+        "difference_reais": -7155725.015602112,
+        "relative_difference_percent": 0.011363859715996287
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "NATIONAL_UF_JUSTICE_COMPONENT",
+      "message": "The appendix says national justice equals the sum of UFs, but this component does not reconcile.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "year": 2025,
+        "component": "mp",
+        "sum_ufs": 24216343280.15,
+        "national": 22751320216.13,
+        "difference_reais": 1465023064.0200005
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "NATIONAL_UF_PRODUCTIVE_2025",
+      "message": "The 2025 UF productive-loss block does not reconcile with the national 2025 estimate; state data are pending an upstream update.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "year": 2025,
+        "uf_homicides": 36362,
+        "national_homicides": 40775,
+        "uf_loss": 25308210345.000004,
+        "national_loss": 29169191035.266026,
+        "homicide_difference": -4413,
+        "loss_difference_reais": -3860980690.2660217
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "NATIONAL_UF_PRIVATE_SECURITY",
+      "message": "Sum of separately estimated UF PNAD Contínua private-security values differs from the national survey estimate.",
+      "context": {
+        "workbook": "data\\output\\tabela_final_cec_ufs.xlsx",
+        "year": 2025,
+        "difference_reais": 107631761.51620483,
+        "relative_difference_percent": 0.16868274661999666
+      }
+    }
+  ]
+}

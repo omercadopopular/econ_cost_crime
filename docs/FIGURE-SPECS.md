@@ -12,6 +12,14 @@ These specifications define the intended analytical content. `docs/graphing-styl
 - Every script must export PDF and PNG versions to `figs/` and, whenever feasible, a figure-ready CSV to `data/figure_data/`.
 - Source notes must identify the institution, series or database, author calculations, and any non-obvious transformation.
 - Validate totals, denominators, missing values, year coverage, and geographic coverage before plotting.
+- For annual time series, use bars so that each year's value is visually discrete. Print every
+  year on the horizontal axis and rotate the labels 90 degrees.
+- Name panels that report category shares **"Percentual do total"**. The denominator is the
+  relevant component total in Figures 5–8 and 10, and total measured crime costs in Figure 12.
+- When an authoritative total exists but its component decomposition is unavailable for part of the
+  period, show the total over the full available period and leave the decomposition visibly absent.
+  Do not impute component shares solely to complete a figure. Figure code must detect newly populated
+  source components and extend the decomposition automatically on the next run.
 - When a preferred period is unavailable, use the nearest defensible common period and document the change in `docs/METHODOLOGY-DECISIONS.md` and `docs/STATUS.md`.
 
 ## Figure 1 — Mundo: distribuição das taxas de homicídio
@@ -100,9 +108,11 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Preferred design:** Three aligned panels by level of government: União, states/Federal District, and municipalities.
 
+- Overlay a clearly identified total line in Panels A and B. Where the sphere decomposition is
+  unavailable, retain the total bars and line rather than dropping those years.
 - Panel A: constant reais, preferably R$ billions.
 - Panel B: percentage of GDP.
-- Panel C: percentage composition of total public-security expenditure.
+- Panel C: percentage of total public-security expenditure.
 - Verify whether the workbook series are consolidated or gross of intergovernmental transfers and state the treatment in the note.
 - Categories in Panel C must sum to 100% within numerical tolerance.
 
@@ -118,7 +128,7 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 - Panel A: constant reais.
 - Panel B: percentage of GDP.
-- Panel C: percentage composition of total private-security expenditure.
+- Panel C: percentage of total private-security expenditure.
 - Use publication labels such as “setor formal” and “provisão informal”; do not expose raw variable names.
 - Categories in Panel C must sum to 100% within numerical tolerance.
 
@@ -134,7 +144,7 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 - Panel A: constant reais.
 - Panel B: percentage of GDP.
-- Panel C: percentage composition of the displayed accounting component.
+- Panel C: percentage of the displayed accounting component total.
 - Replace raw labels such as `custodia_&_reintegracao` with publication-quality Portuguese.
 - Identify `auxílio-reclusão` explicitly as a transfer rather than a direct resource cost. Preserve the original accounting treatment in totals unless a documented methodology decision changes it.
 - Categories in Panel C must sum to 100% within numerical tolerance.
@@ -151,7 +161,7 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 - Panel A: constant reais.
 - Panel B: percentage of GDP.
-- Panel C: percentage composition of total insurance and material-loss costs.
+- Panel C: percentage of total insurance and material-loss costs.
 - Use a stable, documented display mapping for all components.
 - Explain in the note that insurance expenditures or claims and material losses have different accounting interpretations.
 - Categories in Panel C must sum to 100% within numerical tolerance.
@@ -183,7 +193,7 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 - Panel A: constant reais.
 - Panel B: percentage of GDP.
-- Panel C: percentage composition of total judicial costs attributed to criminality.
+- Panel C: percentage of total judicial costs attributed to criminality.
 - Do not label an aggregate simply as “defesa” unless the underlying institutions and perimeter are defined.
 - Categories in Panel C must sum to 100% within numerical tolerance.
 
@@ -223,7 +233,7 @@ Panels:
 
 - Panel A: constant reais.
 - Panel B: percentage of GDP.
-- Panel C: percentage composition of total measured economic costs of crime.
+- Panel C: percentage of total measured economic costs of crime.
 - Components in Panel C must sum to 100% within numerical tolerance.
 - The note must flag transfers, model-based components, and any known overlap retained in the total.
 - Use the same component ordering and display mapping across all panels and related text.

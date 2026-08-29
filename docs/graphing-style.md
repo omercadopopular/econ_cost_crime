@@ -1,6 +1,6 @@
 # Graphing style
 
-**Status:** Initial project standard. Refine after auditing the figures in `docs/bib/original-report.pdf` and the pinned historical template in `docs/REFERENCE-FILES.md`.
+**Status:** Audited against selected figures in `docs/bib/original-report.pdf` and the pinned historical template in `docs/REFERENCE-FILES.md`.
 
 ## Visual hierarchy
 
@@ -10,12 +10,17 @@
 - Keep backgrounds, gridlines, and borders unobtrusive.
 - Use readable type at the final report dimensions; do not rely on notebook-scale viewing.
 - Apply one consistent font family and sizing hierarchy across all figures, subject to repository licensing and portability.
+- Preserve the useful hierarchy of the 2018 publication and its historical notebook: white
+  background, bold left-aligned title, explanatory subtitle, compact legend above the data,
+  prominent horizontal reference grid, and a separate source/method note below the plot.
 
 ## Axes and units
 
 - Label every axis and state units explicitly.
 - Use Brazilian number formatting in tick labels.
 - Start bar-chart axes at zero unless a clearly documented analytical reason requires otherwise.
+- Use bars for annual cost series, with every year printed and rotated 90 degrees. This follows
+  the principal historical cost figures and makes each annual observation explicit.
 - Prefer aligned panels to dual y-axes.
 - Keep comparable panels on common scales when that aids comparison; when scales differ, label them clearly rather than forcing visual equivalence.
 - Avoid unnecessary scientific notation.
@@ -42,6 +47,8 @@
 - Use tight but non-crowded spacing and reserve room for source notes.
 - Export vector PDF and high-resolution PNG from the same figure object and data.
 - Use transparent or white backgrounds consistently.
+- Do not inherit the notebook's grey plotting background. Its `fivethirtyeight` conventions are
+  adapted through hierarchy, grid, typography and spacing rather than copied literally.
 - Save figure-ready data whenever feasible.
 - Inspect the final PNG and PDF for clipping, unreadable labels, incorrect accents, broken glyphs, and inconsistent panel sizes.
 

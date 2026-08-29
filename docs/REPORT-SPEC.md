@@ -8,7 +8,7 @@ The update has three objectives:
 
 1. extend the national and state series through the latest complete year, with 2025 as the target;
 2. explain how the level and composition of measured costs changed since the original report; and
-3. preserve a transparent bridge between the 2018 estimates and the revised data vintage.
+3. document material conceptual and methodological differences from 2018 without treating the published point estimates as numerical targets.
 
 The report is primarily a descriptive accounting exercise. It should distinguish measured expenditures and losses from a causal social-welfare calculation.
 
@@ -97,18 +97,11 @@ Describe how the measured burden varies across states and over time. Relate the 
 
 Complete after Sections 3–5. Summarize the robust findings, explain what the accounting exercise does and does not establish, and identify the principal measurement priorities for future updates.
 
-## Historical reconciliation
+## Historical comparability
 
-Before treating the update as complete, prepare a reconciliation table for the common historical period. At minimum include:
+Treat the final workbooks as the numerical ground truth and the 2018 report as a conceptual and historical benchmark. Do not prepare a point-by-point numerical reconciliation merely because overlapping estimates differ modestly. State generally that updated historical values may reflect source, deflator and method revisions, and flag changes that materially alter interpretation.
 
-- component and year;
-- value published in 2018;
-- value in the updated vintage;
-- absolute and percentage difference;
-- reason code: source revision, conceptual revision, coding correction, classification change, price-base revision, geographic change, or imputation change;
-- explanatory note.
-
-The reconciliation may appear in an appendix, but the main text must flag revisions that materially alter the interpretation of earlier findings.
+Prepare a targeted reconciliation only when a discrepancy is large or unusual enough to indicate a possible coding error, unit error, accounting inconsistency or genuine methodological break. For such cases, record the affected component/year, competing values, reason class and evidence. Relevant reason classes are source revision, conceptual revision, coding correction, classification change, price-base revision, geographic change and imputation change.
 
 ## Figure insertion
 

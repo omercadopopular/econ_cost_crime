@@ -18,35 +18,39 @@
 
 ### 4.1 Custos de segurança pública e privada
 
-<!-- FIGURAS 05–06 -->
+<!-- FIGURA 05: ../figs/fig_05_seguranca_publica.pdf -->
+
+<!-- FIGURA 06: ../figs/fig_06_seguranca_privada.pdf -->
 
 ### 4.2 Custos de encarceramento
 
-<!-- FIGURA 07 -->
+<!-- FIGURA 07: ../figs/fig_07_encarceramento_auxilio_reclusao.pdf -->
 
 ### 4.3 Custos de seguros e perdas materiais
 
-<!-- FIGURA 08 -->
+<!-- FIGURA 08: ../figs/fig_08_seguros_perdas_materiais.pdf -->
 
 ### 4.4 Perda de capacidade produtiva
 
-<!-- FIGURA 09 -->
+<!-- FIGURA 09: ../figs/fig_09_perda_capacidade_produtiva.pdf -->
 
 ### 4.5 Custos dos processos judiciais
 
-<!-- FIGURA 10 -->
+<!-- FIGURA 10: ../figs/fig_10_custos_judiciais.pdf -->
 
 ### 4.6 Serviços médico-terapêuticos e recuperação de feridos
 
-<!-- FIGURA 11 -->
+<!-- FIGURA 11: ../figs/fig_11_custos_medico_terapeuticos.pdf -->
 
 ### 4.7 Custos econômicos totais
 
-<!-- FIGURA 12 -->
+<!-- FIGURA 12: ../figs/fig_12_custos_economicos_criminalidade.pdf -->
 
 ## 5. Padrões regionais
 
-<!-- FIGURAS 13–14 -->
+<!-- FIGURA 13: ../figs/fig_13_custos_economicos_ufs.pdf -->
+
+<!-- FIGURA 14: ../figs/fig_14_trajetoria_renda_custo_ufs.pdf -->
 
 ## 6. Conclusão
 
