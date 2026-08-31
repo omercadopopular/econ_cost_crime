@@ -1,1 +1,2 @@
 matplotlib==3.11.1
+pyshp==2.3.1

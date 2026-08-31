@@ -1,4 +1,4 @@
-"""Validate figure-ready data and outputs for Figures 5--14.
+"""Validate figure-ready data and outputs for Figures 6--15.
 
 The numerical tolerances are inherited from the workbook audit: R$ 2 for
 cached/rounded monetary identities and 1e-8 percentage point for shares.
@@ -24,20 +24,20 @@ from .data_helpers import (
     national_summary,
     sheet_records,
 )
-from .fig_05_public_security import CONFIG as FIG05
-from .fig_06_private_security import CONFIG as FIG06
-from .fig_07_incarceration import CONFIG as FIG07
-from .fig_08_insurance_material_losses import CONFIG as FIG08
-from .fig_09_productive_capacity import CONFIG as FIG09
-from .fig_10_judicial_costs import CONFIG as FIG10
-from .fig_11_medical_costs import CONFIG as FIG11
-from .fig_12_total_costs import CONFIG as FIG12
-from .fig_13_state_costs import CONFIG as FIG13
-from .fig_14_state_trajectories import CONFIG as FIG14
+from .fig_06_public_security import CONFIG as FIG06
+from .fig_07_private_security import CONFIG as FIG07
+from .fig_08_incarceration import CONFIG as FIG08
+from .fig_09_insurance_material_losses import CONFIG as FIG09
+from .fig_10_productive_capacity import CONFIG as FIG10
+from .fig_11_judicial_costs import CONFIG as FIG11
+from .fig_12_medical_costs import CONFIG as FIG12
+from .fig_13_total_costs import CONFIG as FIG13
+from .fig_14_state_costs import CONFIG as FIG14
+from .fig_15_state_trajectories import CONFIG as FIG15
 
 
-GENERIC_CONFIGS = (FIG06, FIG07, FIG08, FIG09, FIG10, FIG11, FIG12)
-ALL_CONFIGS = (FIG05, *GENERIC_CONFIGS, FIG13, FIG14)
+GENERIC_CONFIGS = (FIG07, FIG08, FIG09, FIG10, FIG11, FIG12, FIG13)
+ALL_CONFIGS = (FIG06, *GENERIC_CONFIGS, FIG14, FIG15)
 
 
 def number(row: Mapping[str, str], field: str, *, context: str) -> float:
@@ -95,17 +95,17 @@ def validate_generic(config: Mapping[str, Any]) -> None:
         assert_close(gdp_share, 100.0 * reported / gdp, context=f"GDP shares {config['output_stem']} {year}", absolute=PERCENTAGE_TOLERANCE)
 
 
-def validate_figure_05() -> None:
-    rows = read_csv(Path(FIG05["data_file"]))
-    require_unique(rows, ("ano", "componente"), context=FIG05["output_stem"])
-    validate_nonnegative(rows, context=FIG05["output_stem"])
+def validate_figure_06() -> None:
+    rows = read_csv(Path(FIG06["data_file"]))
+    require_unique(rows, ("ano", "componente"), context=FIG06["output_stem"])
+    validate_nonnegative(rows, context=FIG06["output_stem"])
     totals = [row for row in rows if row["serie"] == "total"]
     components = [row for row in rows if row["serie"] == "decomposição"]
     total_years = sorted(int(row["ano"]) for row in totals)
     if total_years != list(range(min(total_years), max(total_years) + 1)):
-        raise ValueError("Figure 5 total series is not contiguous.")
+        raise ValueError("Figure 6 total series is not contiguous.")
     if max(total_years) != max(national_summary()):
-        raise ValueError("Figure 5 terminal year does not match the national workbook.")
+        raise ValueError("Figure 6 terminal year does not match the national workbook.")
 
     source = sheet_records(
         NATIONAL_WORKBOOK,
@@ -121,28 +121,28 @@ def validate_figure_05() -> None:
     actual_component_years = {int(row["ano"]) for row in components}
     if actual_component_years != expected_component_years:
         raise ValueError(
-            "Figure 5 decomposition is not dynamically aligned with populated workbook components: "
+            "Figure 6 decomposition is not dynamically aligned with populated workbook components: "
             f"expected={sorted(expected_component_years)}, actual={sorted(actual_component_years)}"
         )
-    expected_components = set(FIG05["component_order"])
+    expected_components = set(FIG06["component_order"])
     by_year: dict[int, list[Mapping[str, str]]] = defaultdict(list)
     for row in components:
         by_year[int(row["ano"])].append(row)
     totals_by_year = {int(row["ano"]): row for row in totals}
     for year, subset in by_year.items():
         if {row["componente"] for row in subset} != expected_components:
-            raise ValueError(f"Incomplete Figure 5 decomposition in {year}.")
-        value_sum = sum(number(row, "valor_reais_dez_2025", context=f"fig05 {year}") for row in subset)
-        total = number(totals_by_year[year], "valor_reais_dez_2025", context=f"fig05 total {year}")
-        assert_close(value_sum, total, context=f"Figure 5 component total {year}")
-        composition = sum(number(row, "composicao_pct", context=f"fig05 {year}") for row in subset)
-        assert_close(composition, 100.0, context=f"Figure 5 composition {year}", absolute=PERCENTAGE_TOLERANCE)
+            raise ValueError(f"Incomplete Figure 6 decomposition in {year}.")
+        value_sum = sum(number(row, "valor_reais_dez_2025", context=f"fig06 {year}") for row in subset)
+        total = number(totals_by_year[year], "valor_reais_dez_2025", context=f"fig06 total {year}")
+        assert_close(value_sum, total, context=f"Figure 6 component total {year}")
+        composition = sum(number(row, "composicao_pct", context=f"fig06 {year}") for row in subset)
+        assert_close(composition, 100.0, context=f"Figure 6 composition {year}", absolute=PERCENTAGE_TOLERANCE)
 
 
-def validate_figure_13() -> None:
-    rows = read_csv(Path(FIG13["data_file"]))
-    require_unique(rows, ("uf", "ano", "componente"), context=FIG13["output_stem"])
-    validate_nonnegative(rows, context=FIG13["output_stem"])
+def validate_figure_14() -> None:
+    rows = read_csv(Path(FIG14["data_file"]))
+    require_unique(rows, ("uf", "ano", "componente"), context=FIG14["output_stem"])
+    validate_nonnegative(rows, context=FIG14["output_stem"])
     years = {int(row["ano"]) for row in rows}
     required_fields = (
         "pib_estadual", "populacao", "pib_per_capita", "custo_total_crime", "custo_total_%_pib",
@@ -151,43 +151,43 @@ def validate_figure_13() -> None:
     )
     expected_year = latest_complete_uf_year(required_fields)
     if years != {expected_year}:
-        raise ValueError(f"Figure 13 terminal year mismatch: {years} versus {expected_year}.")
+        raise ValueError(f"Figure 14 terminal year mismatch: {years} versus {expected_year}.")
     if {row["uf"] for row in rows} != UF_CODES:
-        raise ValueError("Figure 13 does not include all 27 UFs.")
-    expected_components = set(FIG13["component_order"])
+        raise ValueError("Figure 14 does not include all 27 UFs.")
+    expected_components = set(FIG14["component_order"])
     by_uf: dict[str, list[Mapping[str, str]]] = defaultdict(list)
     for row in rows:
         by_uf[row["uf"]].append(row)
     for uf, subset in by_uf.items():
         if {row["componente"] for row in subset} != expected_components:
-            raise ValueError(f"Figure 13 component coverage mismatch for {uf}.")
-        values = sum(number(row, "valor_reais_dez_2025", context=f"fig13 {uf}") for row in subset)
-        total = number(subset[0], "custo_total_reais_dez_2025", context=f"fig13 {uf}")
-        assert_close(values, total, context=f"Figure 13 value identity {uf}")
-        shares = sum(number(row, "participacao_pib_pct", context=f"fig13 {uf}") for row in subset)
-        total_share = number(subset[0], "custo_total_pib_pct", context=f"fig13 {uf}")
-        assert_close(shares, total_share, context=f"Figure 13 GDP-share identity {uf}", absolute=PERCENTAGE_TOLERANCE)
-        composition = sum(number(row, "composicao_total_pct", context=f"fig13 {uf}") for row in subset)
-        assert_close(composition, 100.0, context=f"Figure 13 composition {uf}", absolute=PERCENTAGE_TOLERANCE)
+            raise ValueError(f"Figure 14 component coverage mismatch for {uf}.")
+        values = sum(number(row, "valor_reais_dez_2025", context=f"fig14 {uf}") for row in subset)
+        total = number(subset[0], "custo_total_reais_dez_2025", context=f"fig14 {uf}")
+        assert_close(values, total, context=f"Figure 14 value identity {uf}")
+        shares = sum(number(row, "participacao_pib_pct", context=f"fig14 {uf}") for row in subset)
+        total_share = number(subset[0], "custo_total_pib_pct", context=f"fig14 {uf}")
+        assert_close(shares, total_share, context=f"Figure 14 GDP-share identity {uf}", absolute=PERCENTAGE_TOLERANCE)
+        composition = sum(number(row, "composicao_total_pct", context=f"fig14 {uf}") for row in subset)
+        assert_close(composition, 100.0, context=f"Figure 14 composition {uf}", absolute=PERCENTAGE_TOLERANCE)
 
 
-def validate_figure_14() -> None:
-    rows = read_csv(Path(FIG14["data_file"]))
-    require_unique(rows, ("uf", "ano"), context=FIG14["output_stem"])
+def validate_figure_15() -> None:
+    rows = read_csv(Path(FIG15["data_file"]))
+    require_unique(rows, ("uf", "ano"), context=FIG15["output_stem"])
     years = sorted({int(row["ano"]) for row in rows})
     end_year = latest_complete_uf_year(("pib_estadual", "populacao", "pib_per_capita", "custo_total_crime", "custo_total_%_pib"))
-    if years != [FIG14["parameters"]["start_year"], end_year]:
-        raise ValueError(f"Figure 14 endpoint mismatch: {years}.")
+    if years != [FIG15["parameters"]["start_year"], end_year]:
+        raise ValueError(f"Figure 15 endpoint mismatch: {years}.")
     for year in years:
         codes = {row["uf"] for row in rows if int(row["ano"]) == year}
         if codes != UF_CODES:
-            raise ValueError(f"Figure 14 lacks 27 UFs in {year}.")
+            raise ValueError(f"Figure 15 lacks 27 UFs in {year}.")
     for row in rows:
-        if number(row, "pib_per_capita_reais_dez_2025", context="fig14") <= 0:
-            raise ValueError(f"Non-positive GDP per capita in Figure 14: {row}")
-        share = number(row, "custo_total_pib_pct", context="fig14")
+        if number(row, "pib_per_capita_reais_dez_2025", context="fig15") <= 0:
+            raise ValueError(f"Non-positive GDP per capita in Figure 15: {row}")
+        share = number(row, "custo_total_pib_pct", context="fig15")
         if share < 0 or share > 100:
-            raise ValueError(f"Implausibly scaled cost share in Figure 14: {row}")
+            raise ValueError(f"Implausibly scaled cost share in Figure 15: {row}")
 
 
 def validate_outputs() -> None:
@@ -216,10 +216,10 @@ def validate_outputs() -> None:
 
 def main() -> int:
     checks = (
-        ("Figure 5", validate_figure_05),
+        ("Figure 6", validate_figure_06),
         *((config["output_stem"], lambda config=config: validate_generic(config)) for config in GENERIC_CONFIGS),
-        ("Figure 13", validate_figure_13),
         ("Figure 14", validate_figure_14),
+        ("Figure 15", validate_figure_15),
         ("Output files and manifest", validate_outputs),
     )
     errors: list[str] = []
@@ -244,4 +244,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

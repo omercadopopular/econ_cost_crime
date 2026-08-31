@@ -1,0 +1,2 @@
+# Runtime dependencies for data processing, validation, figures, and the site.
+-r requirements-figures.txt

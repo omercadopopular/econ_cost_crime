@@ -9,8 +9,8 @@
   "workbooks": [
     {
       "path": "data\\output\\tabela_final_cec_brasil.xlsx",
-      "size_bytes": 411046,
-      "sha256": "e9824ef3e77e184eb7bc9850694169cd84cfb30bdd91da238cb615e9fe5d135a",
+      "size_bytes": 412237,
+      "sha256": "41428f4cd309cde2e0dd979df355baee8402379e31c4bd952e320ac433245bb3",
       "sheets": [
         {
           "name": "custo_total_violencia",

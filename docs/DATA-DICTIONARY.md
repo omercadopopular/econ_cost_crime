@@ -40,6 +40,70 @@ As dimensões abaixo referem-se às observações com chave preenchida, não ao 
 
 Todas as chaves relevantes são únicas. As abas de UF cobrem os 26 estados e o Distrito Federal em ambos os anos. A ordenação das linhas varia entre abas e não deve ser usada como chave.
 
+## Pipeline SIM–IBGE para as Figuras 3 e 4
+
+### Definição epidemiológica
+
+| Elemento | Definição aplicada |
+|---|---|
+| Base | Sistema de Informações sobre Mortalidade (SIM), bancos de disseminação de Declarações de Óbito (`DO_BDD`) do Ministério da Saúde |
+| Variável de causa | `CAUSABAS`, causa básica do óbito, normalizada para CID-10 sem pontuação |
+| Códigos de homicídio | X85–X99, Y00–Y09, Y35 e Y36 |
+| Inclusões explícitas | Intervenções legais (Y35) e operações de guerra (Y36) |
+| Exclusões explícitas | Eventos de intenção indeterminada (Y10–Y34) e quaisquer causas fora do conjunto acima |
+| Tempo | Ano extraído de `DTOBITO`; os arquivos anuais finais reconciliam integralmente com esse ano |
+| Geografia do óbito | Município de residência, `CODMUNRES`; não se usa o município de ocorrência |
+| Idade | Todas as idades; idade ausente não exclui o registro |
+| Circunstância | `CIRCOBITO` é apenas diagnóstico auxiliar e não filtra a amostra |
+| Município ausente | Códigos `UF0000` informam a UF, mas não o município; são excluídos das agregações microrregionais e quantificados, sem rateio |
+
+O apêndice é a autoridade para essa definição. O código legado filtrava `CIRCOBITO == 3` e idades codificadas entre 1 e 99 anos; esses filtros não foram reproduzidos porque conflitam com a metodologia atual documentada.
+
+### Fontes, vintages e cobertura
+
+| Bloco | Fonte retida | Cobertura/convenção |
+|---|---|---|
+| Mortalidade | OpenDataSUS/SIM, arquivos anuais finais; URLs, releases, tamanhos e SHA-256 em `data/raw/source_manifest.json` | 2015–2017 e 2022–2024. `ANO_FINAL_SIM = 2024`; 2025 é prévio e não entra nas figuras |
+| População 2015–2017 e 2024 | IBGE, SIDRA 6579, variável 9324 | Estimativa municipal da população residente em 1º de julho |
+| População 2022 | IBGE, Censo Demográfico 2022, SIDRA 4709, variável 93 | População residente em 1º de agosto de 2022 |
+| População 2023 | Derivada, apenas para o diagnóstico suavizado | Interpolação linear, município a município, entre o Censo 2022 e a estimativa 2024; não entra nos pontos principais de 2016 ou 2024 |
+| Correspondência territorial | API de Localidades do IBGE, campo de microrregião antiga | 5.570 municípios, 558 microrregiões e 27 UFs; chave municipal IBGE de 7 dígitos e chave SIM de 6 dígitos |
+| Geometria | IBGE, Malha Municipal 2015, microrregiões e UFs, escala operacional 1:250.000, SIRGAS 2000 | Divisão territorial com referência em 1º/7/2015, mantida fixa em todos os anos |
+
+Não houve instalação de novo município no intervalo principal 2016–2024; a composição municipal das microrregiões é mantida fixa mesmo diante de revisões posteriores de limites. Brasília é tratada como o município IBGE `5300108`, código SIM `530010`, pertencente à microrregião `53001` (Brasília). Boa Esperança do Norte (`5101837`) foi instalada em 2025, fora do período. A API atual a devolve sem microrregião antiga e o SIDRA registra `...`, não uma população numérica, nos anos utilizados. Sua exclusão do crosswalk fixo não remove população nem óbitos dos anos das figuras. A malha contém 562 registros geométricos para 558 códigos; `13012` e `13013` aparecem em três feições cada porque suas geometrias são multipartes. Todos os 558 códigos reconciliam com o crosswalk.
+
+A rota oficial `DO23OPEN.csv` é usada em 2023. Uma conversão genérica posterior, `Mortalidade_Geral_2023_csv.zip`, foi retida apenas como diagnóstico e marcada como não utilizada no manifesto: ela contém 38.559 homicídios e não reconcilia com o total final de 45.747. O arquivo selecionado reconcilia, assim como 2024 (42.590).
+
+### Arquivos derivados e variáveis
+
+| Arquivo | Unidade/chave | Variáveis e construção |
+|---|---|---|
+| `data/interim/municipality_microrregion_crosswalk.csv` | Município; `municipality_code_7` | Código SIM de 6 dígitos, município, microrregião, mesorregião, UF e macrorregião |
+| `data/interim/municipality_homicides_population.csv` | Município-ano; `(municipality_code_7, year)` | `homicide_count`, `population` e `population_status`; 33.420 linhas, sem duplicatas |
+| `data/interim/microrregion_homicides.csv` | Microrregião-ano; `(microrregion_code, year)` | 3.348 linhas; `homicide_count`, `population`, `homicide_rate_per_100k`, `percentile_unweighted`, metadados geográficos e status |
+| `data/figure_data/fig_03_microrregion_homicides.csv` | Microrregião em 2024 | Taxa, percentil e área da bolha; `bubble_area_points2 = population / 7.500`, portanto a área é exatamente proporcional à população |
+| `data/figure_data/fig_04_microrregion_homicide_change.csv` | Microrregião; uma linha por código | Taxas e níveis de 2016 e 2024; `delta_rate_per_100k = rate_2024 - rate_2016`; médias agrupadas de 2015–2017 e 2022–2024 para diagnóstico; valor verdadeiro e valor visual limitado preservados separadamente |
+| `data/figure_data/fig_05_microrregion_homicide_convergence.csv` | Microrregião; uma linha por código | Taxa de 2016, taxa de 2024, variação absoluta, populações e área da bolha; ajuste linear descritivo ponderado pela população de 2016 e diagnóstico com médias trienais |
+
+Para cada microrregião-ano:
+
+`homicide_rate_per_100k = 100000 × homicide_count / population`.
+
+O percentil é a posição média do posto em caso de empates, dividida por 558 e multiplicada por 100. Trata-se de uma distribuição não ponderada; a população é codificada separadamente pela área das bolhas.
+
+### Cobertura e perdas de geocodificação
+
+| Ano | Homicídios SIM | Com município identificável | Cobertura | Excluídos (`UF0000`) |
+|---:|---:|---:|---:|---:|
+| 2015 | 59.080 | 58.278 | 98,6425% | 802 |
+| 2016 | 62.517 | 61.531 | 98,4228% | 986 |
+| 2017 | 65.602 | 64.660 | 98,5641% | 942 |
+| 2022 | 46.409 | 45.819 | 98,7287% | 590 |
+| 2023 | 45.747 | 45.210 | 98,8262% | 537 |
+| 2024 | 42.590 | 42.132 | 98,9246% | 458 |
+
+Não há óbitos homicidas excluídos por data ausente, ano divergente, idade ausente ou código municipal não reconhecido nesses arquivos. A única perda geográfica é `UF0000`; os totais nacionais brutos permanecem no arquivo de auditoria. O piso mecânico documentado para permitir agregação subestadual é 95%, e a cobertura efetiva o supera em todos os anos. Valores abaixo de 99% são mantidos como advertências, não erros.
+
 ## Variáveis nacionais
 
 ### Agregado, componentes e PIB
@@ -68,7 +132,7 @@ Não há participação de cada componente no total armazenada. Quando necessár
 
 | Variáveis | Unidade e construção | Fonte, status e limitações |
 |---|---|---|
-| `uniao`, `ufs`, `municipios` | R$ na convenção da fonte; valores numéricos no arquivo atual em 2016–2025 e células vazias em 1996–2015 | A série total incorpora Ipea/STN, STN e FBSP ao longo do período, mas o arquivo final atual só expõe a decomposição por esfera em 2016–2025. Não imputar parcelas para anos anteriores. O código da Figura 5 detecta dinamicamente anos nos quais as três colunas estejam preenchidas |
+| `uniao`, `ufs`, `municipios` | R$ na convenção da fonte; valores numéricos no arquivo atual em 2016–2025 e células vazias em 1996–2015 | A série total incorpora Ipea/STN, STN e FBSP ao longo do período, mas o arquivo final atual só expõe a decomposição por esfera em 2016–2025. Não imputar parcelas para anos anteriores. O código da Figura 6 detecta dinamicamente anos nos quais as três colunas estejam preenchidas |
 | `gasto_total_deflaciodo` | Total das esferas convertido para R$ de dez./2025 pelo IPCA | Para 1996–2003, total Ipea a preços de 2005 atualizado a dez./2025; depois, soma anual das esferas e deflação. Série agregada principal |
 | `fonte` | Texto | Referência anual; não é valor econômico |
 
@@ -248,6 +312,60 @@ TJs e defesa somam exatamente aos valores nacionais em 2016 e 2025. MPs excedem 
 | `custo_medico_total` | R$ de dez./2025 | `custo_SUS + perda_produtiva_temporaria`; identidade conferida |
 
 As somas das UFs reconciliam com o nacional dentro de R$ 2 em 2016 e 2025.
+
+## Painéis externos das Figuras 1 e 2
+
+### Sinesp VDE e população das UFs
+
+**Insumos:** arquivos anuais oficiais `bancovde-2015.xlsx`–`bancovde-2025.xlsx`, retidos
+em `data/raw/sinesp/`, e Projeções da População do IBGE, Revisão 2024. A unidade bruta
+é UF × mês × evento; a pipeline seleciona `abrangencia = Estadual`, soma linhas repetidas
+do mesmo indicador/mês conforme a nota do Sinesp e jamais converte ausência de reporte em zero.
+
+| Variável derivada | Unidade/construção | Cobertura e interpretação |
+|---|---|---|
+| `count` | Soma anual de `total_vitima` para homicídio doloso, latrocínio, tentativa de homicídio, estupro, estupro de vulnerável e feminicídio | Vítimas registradas; 27 UFs, 12 meses e 2016–2025 nas Figuras 2A–2B. Estupro e estupro de vulnerável são indicadores separados e não são somados |
+| `count` | Soma anual de `total` para furto de veículo, roubo de veículo, roubo de carga e roubo a instituição financeira | Ocorrências registradas; painel balanceado específico por indicador em 2016–2025 nas Figuras 2C–2D, não total nacional |
+| `population` | Soma da população das UFs da amostra, em 1º de julho | IBGE, Revisão 2024, ambos os sexos e todas as idades; a mesma amostra geográfica do numerador |
+| `rate_per_100k` | `100000 × count / population` | Vítimas ou ocorrências por 100 mil habitantes, conforme o indicador |
+| `reporting_status` | `FULL_12_MONTHS`, `PARTIAL_MONTHS` ou `NOT_REPORTED` | Flag explícita por UF–ano–crime em `sinesp_category_coverage.csv` |
+
+A amostra é fixa no tempo, mas específica por indicador. Furto e roubo de veículo usam 22 UFs
+(excluem AC, ES, GO, PR e RO) e cobrem 87,8% da população brasileira em 2025. Roubo de carga
+usa 20 UFs (exclui AC, ES, GO, MS, PR, RO e SE) e cobre 85,3%; roubo a instituição financeira
+usa 20 UFs (exclui AC, AP, ES, GO, MS, PR e RO) e cobre 86,0%. Tráfico de drogas foi retido no
+diagnóstico, mas não plotado porque varia com a atividade policial; armas de fogo apreendidas medem
+objetos apreendidos e tampouco são uma série de ocorrências ou vítimas. Feminicídio é mantido com alerta de consolidação da
+classificação legal.
+
+### UNODC — homicídio intencional
+
+**Insumo:** `data_cts_intentional_homicide_2026-07.xlsx`, versão oficial de julho de 2026.
+A unidade analítica inicial é unidade de reporte país/território × ano. O seletor é `Indicator = Victims of intentional
+homicide`, `Dimension = Category = Sex = Age = Total` e `Unit of measurement = Rate per 100,000
+population`. A definição segue ICCS 0101: morte ilegal infligida intencionalmente a uma pessoa
+por outra pessoa. Não se misturam contagens e taxas, não se interpola e unidades subnacionais
+com identificador não ISO-3 são excluídas.
+
+O campo oficial `Country` inclui algumas unidades territoriais com ISO-3 (Bermuda, Hong Kong,
+Macau e Porto Rico) e elas permanecem no universo do UNODC. Unidades explicitamente subnacionais
+com identificadores compostos, como Inglaterra e Gales, Escócia e regiões do Iraque, são
+excluídas. A figura deve, portanto, ser interpretada como distribuição entre unidades oficiais de
+reporte país/território, não como uma lista estrita de Estados soberanos.
+
+| Variável | Unidade/construção | Cobertura |
+|---|---|---|
+| `homicide_rate_per_100k` | Taxa anual oficial do UNODC por 100 mil habitantes | 2003–2024 no arquivo processado; a Figura 1 usa 2016 e 2024 sem interpolação; a cobertura anual chega a 95 unidades em 2024 |
+| `included_common_sample` | Indicador de inclusão | Mesmas 87 unidades de reporte, observadas em 2016 e 2024 |
+| `percentile_unweighted` | `100 × (posto médio−1)/(N−1)` | Distribuição não ponderada entre as 87 unidades; empates recebem posto médio |
+
+Os arquivos derivados são `data/interim/unodc_homicide_country_year.csv`, com a série anual
+selecionada, `data/interim/unodc_homicide_country_comparison.csv`, com o universo e as flags de
+inclusão nas duas datas, e `data/figure_data/fig_01_distribuicao_mundial_homicidios.csv`, que contém
+exatamente as 87 observações plotadas em cada painel.
+
+O UNODC informa que as taxas usam população das World Population Prospects 2024. O Brasil
+é mantido exclusivamente na série do próprio UNODC, sem emenda com fonte nacional.
 
 ## Cobertura terminal
 

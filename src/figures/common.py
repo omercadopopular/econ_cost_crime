@@ -149,7 +149,19 @@ def _update_manifest(stem: str, data_path: Path, pdf_path: Path, png_path: Path)
     if MANIFEST_PATH.exists():
         manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     rows = read_csv(data_path)
-    years = sorted({int(float(row["ano"])) for row in rows if row.get("ano")})
+    years = sorted(
+        {
+            int(float(value))
+            for row in rows
+            for value in (
+                row.get("ano"), row.get("year"), row.get("start_year"), row.get("end_year"),
+                row.get("period_start"), row.get("period_end"),
+            )
+            if value not in (None, "")
+        }
+    )
+    if not years:
+        raise ValueError(f"Figure-ready data have no recognizable year field: {data_path}")
     manifest[stem] = {
         "data_file": str(data_path.relative_to(REPO_ROOT)).replace("\\", "/"),
         "data_sha256": sha256(data_path),

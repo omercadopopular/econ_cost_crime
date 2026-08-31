@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Custos Econômicos da Criminalidade no Brasil — relatório, dados e visualizações interativas.">
+  <title>Custos Econômicos da Criminalidade no Brasil</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/vendor/plotly-2.35.2.min.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Página inicial">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>INTER-AMERICAN DIALOGUE</strong><small>BRAZIL PROGRAM</small></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#resultados" data-i18n="nav_results">Resultados</a>
+      <a href="#figuras" data-i18n="nav_figures">Figuras</a>
+      <a href="#metodologia" data-i18n="nav_method">Metodologia</a>
+      <a href="#downloads" data-i18n="nav_downloads">Downloads</a>
+    </nav>
+    <div class="language-switch" role="group" aria-label="Idioma">
+      <button type="button" data-language="pt" class="active" aria-pressed="true">PT</button>
+      <button type="button" data-language="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">RELATÓRIO 2026</p>
+        <h1 data-i18n="title">Custos Econômicos da Criminalidade no Brasil</h1>
+        <p class="dek" data-i18n="dek">Uma contabilidade atualizada dos recursos mobilizados e das perdas econômicas associadas ao crime, com séries nacionais de 1996 a 2025 e resultados territoriais.</p>
+        <p class="authors"><span data-i18n="authors_label">Autores</span>: Carlos Góes, Lucas Siqueira Simões, Giulia Spiess e Bruna Santos</p>
+        <div class="hero-actions">
+          <a class="button primary report-pdf" href="downloads/report.pdf" data-i18n="download_pdf">Baixar relatório em PDF</a>
+          <a class="button secondary report-word" href="downloads/report.docx" data-i18n="download_word">Baixar arquivo Word</a>
+        </div>
+      </div>
+      <div class="hero-stat" aria-label="Resultado principal">
+        <span data-i18n="headline_year">CUSTO MENSURADO EM 2025</span>
+        <strong data-i18n="headline_value">R$ 439,5 bi</strong>
+        <em data-i18n="headline_share">3,5% do PIB</em>
+        <small data-i18n="headline_note">Valores em reais de dezembro de 2025</small>
+      </div>
+    </section>
+
+    <section class="section findings" id="resultados">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="findings_eyebrow">PRINCIPAIS RESULTADOS</p>
+        <h2 data-i18n="findings_title">A queda da violência letal convive com custos altos e desiguais</h2>
+      </div>
+      <div class="finding-grid">
+        <article><strong>18,7</strong><h3 data-i18n="finding_1_title">homicídios por 100 mil</h3><p data-i18n="finding_1_text">Taxa brasileira no UNODC em 2024, abaixo de 30,1 em 2016, mas ainda no percentil 86 da amostra internacional.</p></article>
+        <article><strong>70,3%</strong><h3 data-i18n="finding_2_title">das microrregiões</h3><p data-i18n="finding_2_text">registraram queda na taxa de homicídios entre 2016 e 2024. A redução foi maior, em média, onde a taxa inicial era mais alta.</p></article>
+        <article><strong>37,1%</strong><h3 data-i18n="finding_3_title">do custo total</h3><p data-i18n="finding_3_text">correspondia à segurança pública em 2025. Seguros e perdas materiais, custos judiciais e segurança privada também tinham peso expressivo.</p></article>
+        <article><strong>4,9%</strong><h3 data-i18n="finding_4_title">do PIB estadual</h3><p data-i18n="finding_4_text">era a carga mediana preliminar em 2025; metade das UFs ficou entre 3,2% e 6,4%.</p></article>
+      </div>
+      <div class="interpretation">
+        <h3 data-i18n="interpretation_title">Como interpretar o total</h3>
+        <p data-i18n="interpretation_text">O agregado combina despesas públicas e privadas, uma transferência previdenciária, prêmios de seguro, perdas materiais e perdas de capacidade produtiva estimadas por modelo. É uma medida contábil ampla da carga econômica associada ao crime — não uma estimativa causal de bem-estar nem do PIB que existiria na ausência de criminalidade.</p>
+      </div>
+    </section>
+
+    <section class="section figures-section" id="figuras">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="figures_eyebrow">EXPLORE OS DADOS</p>
+        <h2 data-i18n="figures_title">Quinze figuras interativas</h2>
+        <p data-i18n="figures_intro">Passe o cursor para consultar valores, use os controles das figuras e baixe o CSV exato que sustenta cada visualização.</p>
+      </div>
+
+      <div class="chart-toolbar" role="group" aria-label="Filtro temático">
+        <button type="button" class="active" data-filter="all" data-i18n="filter_all">Todas</button>
+        <button type="button" data-filter="crime" data-i18n="filter_crime">Crime e homicídios</button>
+        <button type="button" data-filter="national" data-i18n="filter_national">Custos nacionais</button>
+        <button type="button" data-filter="states" data-i18n="filter_states">Estados</button>
+      </div>
+
+      <div class="chart-grid">
+        <article class="chart-card wide" data-topic="crime" data-chart="fig01"><div class="card-head"><div><span>01</span><h3 data-i18n="chart_01">Brasil na distribuição internacional de homicídios</h3></div><a class="csv-download" data-csv="fig01" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig01" class="chart"></div><p class="chart-note" data-i18n="note_01">Comparação entre 87 países ou territórios observados em 2016 e 2024; percentis sem ponderação populacional.</p></article>
+        <article class="chart-card wide" data-topic="crime" data-chart="fig02a"><div class="card-head"><div><span>02A</span><h3 data-i18n="chart_02a">Crimes registrados — contagens</h3></div><a class="csv-download" data-csv="fig02a" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig02a" class="chart tall"></div></article>
+        <article class="chart-card wide" data-topic="crime" data-chart="fig02b"><div class="card-head"><div><span>02B</span><h3 data-i18n="chart_02b">Crimes registrados — taxas</h3></div><a class="csv-download" data-csv="fig02b" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig02b" class="chart tall"></div></article>
+        <article class="chart-card wide" data-topic="crime" data-chart="fig02c"><div class="card-head"><div><span>02C</span><h3 data-i18n="chart_02c">Crimes patrimoniais — cobertura parcial</h3></div><a class="csv-download" data-csv="fig02c" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig02c" class="chart tall"></div></article>
+        <article class="chart-card wide" data-topic="crime" data-chart="fig02d"><div class="card-head"><div><span>02D</span><h3 data-i18n="chart_02d">Taxas de crimes patrimoniais — cobertura parcial</h3></div><a class="csv-download" data-csv="fig02d" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig02d" class="chart tall"></div></article>
+        <article class="chart-card" data-topic="crime" data-chart="fig03"><div class="card-head"><div><span>03</span><h3 data-i18n="chart_03">Distribuição dos homicídios nas microrregiões</h3></div><a class="csv-download" data-csv="fig03" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig03" class="chart"></div></article>
+        <article class="chart-card" data-topic="crime" data-chart="fig04"><div class="card-head"><div><span>04</span><h3 data-i18n="chart_04">Mudança geográfica dos homicídios</h3></div><a class="csv-download" data-csv="fig04" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig04" class="chart"></div></article>
+        <article class="chart-card wide" data-topic="crime" data-chart="fig05"><div class="card-head"><div><span>05</span><h3 data-i18n="chart_05">Convergência das taxas de homicídio</h3></div><a class="csv-download" data-csv="fig05" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig05" class="chart"></div></article>
+        <article class="chart-card" data-topic="national" data-chart="fig06"><div class="card-head"><div><span>06</span><h3 data-i18n="chart_06">Segurança pública</h3></div><a class="csv-download" data-csv="fig06" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig06" class="chart"></div></article>
+        <article class="chart-card" data-topic="national" data-chart="fig07"><div class="card-head"><div><span>07</span><h3 data-i18n="chart_07">Segurança privada</h3></div><a class="csv-download" data-csv="fig07" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig07" class="chart"></div></article>
+        <article class="chart-card" data-topic="national" data-chart="fig08"><div class="card-head"><div><span>08</span><h3 data-i18n="chart_08">Encarceramento e auxílio-reclusão</h3></div><a class="csv-download" data-csv="fig08" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig08" class="chart"></div></article>
+        <article class="chart-card" data-topic="national" data-chart="fig09"><div class="card-head"><div><span>09</span><h3 data-i18n="chart_09">Seguros e perdas materiais</h3></div><a class="csv-download" data-csv="fig09" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig09" class="chart"></div></article>
+        <article class="chart-card" data-topic="national" data-chart="fig10"><div class="card-head"><div><span>10</span><h3 data-i18n="chart_10">Perda de capacidade produtiva</h3></div><a class="csv-download" data-csv="fig10" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig10" class="chart"></div></article>
+        <article class="chart-card" data-topic="national" data-chart="fig11"><div class="card-head"><div><span>11</span><h3 data-i18n="chart_11">Custos judiciais</h3></div><a class="csv-download" data-csv="fig11" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig11" class="chart"></div></article>
+        <article class="chart-card" data-topic="national" data-chart="fig12"><div class="card-head"><div><span>12</span><h3 data-i18n="chart_12">Serviços médico-terapêuticos</h3></div><a class="csv-download" data-csv="fig12" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig12" class="chart"></div></article>
+        <article class="chart-card wide featured" data-topic="national" data-chart="fig13"><div class="card-head"><div><span>13</span><h3 data-i18n="chart_13">Custos econômicos mensurados da criminalidade</h3></div><a class="csv-download" data-csv="fig13" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig13" class="chart"></div><p class="chart-note" data-i18n="note_13">Use o seletor para alternar entre valores reais, percentual do PIB e composição do total.</p></article>
+        <article class="chart-card wide" data-topic="states" data-chart="fig14"><div class="card-head"><div><span>14</span><h3 data-i18n="chart_14">Nível e composição dos custos estaduais</h3></div><a class="csv-download" data-csv="fig14" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig14" class="chart tall"></div><p class="chart-note warning" data-i18n="state_warning">Resultados estaduais de 2025 são preliminares e serão atualizados antes da publicação final.</p></article>
+        <article class="chart-card wide" data-topic="states" data-chart="fig15"><div class="card-head"><div><span>15</span><h3 data-i18n="chart_15">Trajetória da renda e do custo por UF</h3></div><a class="csv-download" data-csv="fig15" href="#" download data-i18n="csv">Baixar CSV</a></div><div id="chart-fig15" class="chart"></div></article>
+      </div>
+    </section>
+
+    <section class="section method" id="metodologia">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="method_eyebrow">COMO MEDIMOS</p>
+        <h2 data-i18n="method_title">Uma contabilidade ampla, com conceitos preservados</h2>
+        <p data-i18n="method_intro">As séries reúnem sete canais econômicos. Cada um tem fonte, convenção monetária e interpretação próprias; a agregação não transforma objetos diferentes em perdas de bem-estar equivalentes.</p>
+      </div>
+      <div class="method-grid">
+        <article><span>01</span><h3 data-i18n="method_public">Segurança pública</h3><p data-i18n="method_public_text">Despesas da União, estados, Distrito Federal e municípios classificadas na função Segurança Pública.</p></article>
+        <article><span>02</span><h3 data-i18n="method_private">Segurança privada</h3><p data-i18n="method_private_text">Custo do trabalho formal e massa de rendimentos do trabalho informal em ocupações de vigilância e proteção.</p></article>
+        <article><span>03</span><h3 data-i18n="method_prison">Encarceramento</h3><p data-i18n="method_prison_text">Custódia e reintegração social, além do auxílio-reclusão, explicitamente tratado como transferência.</p></article>
+        <article><span>04</span><h3 data-i18n="method_material">Seguros e perdas</h3><p data-i18n="method_material_text">Prêmios de seguro e perdas materiais estimadas para veículos, patrimônio e transporte de cargas.</p></article>
+        <article><span>05</span><h3 data-i18n="method_productive">Capacidade produtiva</h3><p data-i18n="method_productive_text">Valor presente da renda esperada não produzida por vítimas de homicídio — uma perda modelada, não uma despesa observada.</p></article>
+        <article><span>06</span><h3 data-i18n="method_justice">Custos judiciais</h3><p data-i18n="method_justice_text">Parcela criminal dos tribunais e Ministérios Públicos, acrescida dos serviços de defesa valorados.</p></article>
+        <article><span>07</span><h3 data-i18n="method_health">Serviços médicos</h3><p data-i18n="method_health_text">Internações no SUS associadas a agressões e perda produtiva temporária durante a hospitalização.</p></article>
+      </div>
+    </section>
+
+    <section class="section downloads" id="downloads">
+      <div class="section-heading"><p class="eyebrow" data-i18n="downloads_eyebrow">RELATÓRIO E DADOS</p><h2 data-i18n="downloads_title">Continue a análise</h2></div>
+      <div class="download-grid">
+        <a class="report-pdf" href="downloads/report.pdf"><span>PDF</span><div><h3 data-i18n="full_report">Relatório completo</h3><p data-i18n="pdf_desc">Versão diagramada com apêndice metodológico.</p></div></a>
+        <a class="report-word" href="downloads/report.docx"><span>DOCX</span><div><h3 data-i18n="word_report">Versão editável</h3><p data-i18n="word_desc">Arquivo Word para revisão substantiva.</p></div></a>
+        <a class="report-md" href="downloads/report.md"><span>MD</span><div><h3 data-i18n="source_report">Texto-fonte</h3><p data-i18n="md_desc">Manuscrito em Markdown, com referências às figuras.</p></div></a>
+        <a href="https://github.com/omercadopopular/econ_cost_crime"><span>GIT</span><div><h3 data-i18n="repository">Repositório</h3><p data-i18n="repo_desc">Código, dados processados e documentação metodológica.</p></div></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand inverse"><span class="brand-mark"><i></i><i></i><i></i></span><span><strong>INTER-AMERICAN DIALOGUE</strong><small>BRAZIL PROGRAM</small></span></div>
+    <p data-i18n="footer">Publicação do Inter-American Dialogue — Brazil Program. Cálculos dos autores com dados das fontes identificadas em cada figura.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+# Local Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*.docx
+~$*.xlsx
+
+# Reproducible intermediate build products. Publication outputs live in
+# docs/, figs/, data/figure_data/, and site/ and remain versioned.
+build/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Immutable downloaded source vintages remain local. Their acquisition code,
+# checksums, methodological documentation, and derived publication data remain
+# versioned in src/, docs/, data/interim/, and data/figure_data/.
+data/raw/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

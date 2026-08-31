@@ -1,0 +1,61 @@
+year,crime,measurement_concept,geographic_sample,reporting_ufs,population_coverage_pct,population,count,rate_per_100k,plotted_value,plot_unit
+2016,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,203871925,51157,25.092714457863682,25.092714457863682,vítimas por 100 mil habitantes
+2017,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,205211557,55881,27.230922476749203,27.230922476749203,vítimas por 100 mil habitantes
+2018,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,206529038,48517,23.49161186718935,23.49161186718935,vítimas por 100 mil habitantes
+2019,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,207900099,39228,18.868677883602164,18.868677883602164,vítimas por 100 mil habitantes
+2020,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,209164889,41595,19.886224786034717,19.886224786034717,vítimas por 100 mil habitantes
+2021,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,210103642,39286,18.698390768495102,18.698390768495102,vítimas por 100 mil habitantes
+2022,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,210862983,38578,18.295292730445723,18.295292730445723,vítimas por 100 mil habitantes
+2023,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,211695158,37339,17.6380982695882,17.6380982695882,vítimas por 100 mil habitantes
+2024,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,212583750,35136,16.528074229568347,16.528074229568347,vítimas por 100 mil habitantes
+2025,Homicídio doloso,vítimas,Brasil — 27 UFs,27,100.0,213421037,31492,14.75580872564123,14.75580872564123,vítimas por 100 mil habitantes
+2016,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,203871925,2421,1.187510246935668,1.187510246935668,vítimas por 100 mil habitantes
+2017,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,205211557,2349,1.144672373398541,1.144672373398541,vítimas por 100 mil habitantes
+2018,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,206529038,1988,0.9625765070382015,0.9625765070382015,vítimas por 100 mil habitantes
+2019,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,207900099,1603,0.7710434038802454,0.7710434038802454,vítimas por 100 mil habitantes
+2020,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,209164889,1461,0.6984919921239745,0.6984919921239745,vítimas por 100 mil habitantes
+2021,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,210103642,1458,0.6939432301701843,0.6939432301701843,vítimas por 100 mil habitantes
+2022,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,210862983,1241,0.5885338347888212,0.5885338347888212,vítimas por 100 mil habitantes
+2023,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,211695158,1004,0.47426687010007096,0.47426687010007096,vítimas por 100 mil habitantes
+2024,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,212583750,967,0.4548795474724667,0.4548795474724667,vítimas por 100 mil habitantes
+2025,Latrocínio,vítimas,Brasil — 27 UFs,27,100.0,213421037,799,0.3743773393810283,0.3743773393810283,vítimas por 100 mil habitantes
+2016,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,203871925,45002,22.073662177859948,22.073662177859948,vítimas por 100 mil habitantes
+2017,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,205211557,43316,21.10797297834449,21.10797297834449,vítimas por 100 mil habitantes
+2018,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,206529038,41399,20.045123146315145,20.045123146315145,vítimas por 100 mil habitantes
+2019,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,207900099,42354,20.372284671206433,20.372284671206433,vítimas por 100 mil habitantes
+2020,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,209164889,38296,18.3090002261326,18.3090002261326,vítimas por 100 mil habitantes
+2021,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,210103642,36004,17.136304567247816,17.136304567247816,vítimas por 100 mil habitantes
+2022,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,210862983,36862,17.481494132139826,17.481494132139826,vítimas por 100 mil habitantes
+2023,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,211695158,35207,16.630989736666532,16.630989736666532,vítimas por 100 mil habitantes
+2024,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,212583750,36973,17.392204248913664,17.392204248913664,vítimas por 100 mil habitantes
+2025,Tentativa de homicídio,vítimas,Brasil — 27 UFs,27,100.0,213421037,33917,15.892060350170635,15.892060350170635,vítimas por 100 mil habitantes
+2016,Estupro,vítimas,Brasil — 27 UFs,27,100.0,203871925,33595,16.478482753326627,16.478482753326627,vítimas por 100 mil habitantes
+2017,Estupro,vítimas,Brasil — 27 UFs,27,100.0,205211557,29423,14.337886437848137,14.337886437848137,vítimas por 100 mil habitantes
+2018,Estupro,vítimas,Brasil — 27 UFs,27,100.0,206529038,28361,13.732209414542472,13.732209414542472,vítimas por 100 mil habitantes
+2019,Estupro,vítimas,Brasil — 27 UFs,27,100.0,207900099,29026,13.961513313180289,13.961513313180289,vítimas por 100 mil habitantes
+2020,Estupro,vítimas,Brasil — 27 UFs,27,100.0,209164889,21820,10.431961169161617,10.431961169161617,vítimas por 100 mil habitantes
+2021,Estupro,vítimas,Brasil — 27 UFs,27,100.0,210103642,23729,11.293949868798562,11.293949868798562,vítimas por 100 mil habitantes
+2022,Estupro,vítimas,Brasil — 27 UFs,27,100.0,210862983,23227,11.015209815181263,11.015209815181263,vítimas por 100 mil habitantes
+2023,Estupro,vítimas,Brasil — 27 UFs,27,100.0,211695158,24711,11.67291695920603,11.67291695920603,vítimas por 100 mil habitantes
+2024,Estupro,vítimas,Brasil — 27 UFs,27,100.0,212583750,25222,11.864500461582788,11.864500461582788,vítimas por 100 mil habitantes
+2025,Estupro,vítimas,Brasil — 27 UFs,27,100.0,213421037,19877,9.31351486217359,9.31351486217359,vítimas por 100 mil habitantes
+2016,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,203871925,26003,12.754576187967029,12.754576187967029,vítimas por 100 mil habitantes
+2017,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,205211557,36002,17.543846226945202,17.543846226945202,vítimas por 100 mil habitantes
+2018,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,206529038,44455,21.524818219508678,21.524818219508678,vítimas por 100 mil habitantes
+2019,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,207900099,48524,23.34005622575485,23.34005622575485,vítimas por 100 mil habitantes
+2020,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,209164889,45306,21.66042313153237,21.66042313153237,vítimas por 100 mil habitantes
+2021,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,210103642,48853,23.251857766463658,23.251857766463658,vítimas por 100 mil habitantes
+2022,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,210862983,57288,27.168353204981454,27.168353204981454,vítimas por 100 mil habitantes
+2023,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,211695158,63709,30.09468927012492,30.09468927012492,vítimas por 100 mil habitantes
+2024,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,212583750,63919,30.067679208782423,30.067679208782423,vítimas por 100 mil habitantes
+2025,Estupro de vulnerável,vítimas,Brasil — 27 UFs,27,100.0,213421037,63612,29.805871480232756,29.805871480232756,vítimas por 100 mil habitantes
+2016,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,203871925,809,0.3968177570305475,0.3968177570305475,vítimas por 100 mil habitantes
+2017,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,205211557,1048,0.5106924850241256,0.5106924850241256,vítimas por 100 mil habitantes
+2018,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,206529038,1176,0.5694114548676685,0.5694114548676685,vítimas por 100 mil habitantes
+2019,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,207900099,1331,0.6402113353490996,0.6402113353490996,vítimas por 100 mil habitantes
+2020,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,209164889,1346,0.6435114451737644,0.6435114451737644,vítimas por 100 mil habitantes
+2021,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,210103642,1366,0.6501553171553304,0.6501553171553304,vítimas por 100 mil habitantes
+2022,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,210862983,1456,0.6904957803807603,0.6904957803807603,vítimas por 100 mil habitantes
+2023,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,211695158,1478,0.6981737390516981,0.6981737390516981,vítimas por 100 mil habitantes
+2024,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,212583750,1501,0.7060746646909747,0.7060746646909747,vítimas por 100 mil habitantes
+2025,Feminicídio,vítimas,Brasil — 27 UFs,27,100.0,213421037,1562,0.731886613408218,0.731886613408218,vítimas por 100 mil habitantes

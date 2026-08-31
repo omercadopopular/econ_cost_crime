@@ -1,9 +1,10 @@
-"""Workbook extraction and accounting checks shared by Figures 5--14."""
+"""Workbook extraction and accounting checks shared by Figures 6--15."""
 
 from __future__ import annotations
 
 from collections import Counter
 from functools import lru_cache
+import os
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Sequence
 
@@ -11,8 +12,14 @@ from src.validation.workbook_reader import Sheet, Workbook
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-NATIONAL_WORKBOOK = REPO_ROOT / "data" / "output" / "tabela_final_cec_brasil.xlsx"
-UF_WORKBOOK = REPO_ROOT / "data" / "output" / "tabela_final_cec_ufs.xlsx"
+NATIONAL_WORKBOOK = Path(os.environ.get(
+    "CEC_NATIONAL_WORKBOOK",
+    REPO_ROOT / "data" / "output" / "tabela_final_cec_brasil.xlsx",
+)).resolve()
+UF_WORKBOOK = Path(os.environ.get(
+    "CEC_UF_WORKBOOK",
+    REPO_ROOT / "data" / "output" / "tabela_final_cec_ufs.xlsx",
+)).resolve()
 
 # These match the documented validation tolerances in DATA-DICTIONARY.md.
 CURRENCY_TOLERANCE = 2.0
@@ -255,4 +262,3 @@ def latest_complete_uf_year(required_numeric: Sequence[str]) -> int:
     if not complete:
         raise ValueError("No year has complete coverage of all 27 UFs.")
     return max(complete)
-

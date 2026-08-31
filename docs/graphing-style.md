@@ -29,7 +29,7 @@
 
 - Use a restrained, colorblind-accessible palette.
 - Do not encode an essential distinction by color alone; combine color with line style, marker, direct label, or panel structure.
-- Use a stable component-to-color mapping across Figures 5–13.
+- Use a stable component-to-color mapping across Figures 6–14.
 - For change maps, use a diverging scale centered at zero and a distinct missing-data treatment.
 - Bubble charts must map magnitude to marker area, not radius.
 

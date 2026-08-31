@@ -1,0 +1,33 @@
+{
+  "unit": "microrregion",
+  "n": 558,
+  "start_year": 2016,
+  "end_year": 2024,
+  "population_weight": "population_2016",
+  "endpoint_unweighted": {
+    "intercept": 8.346527378527497,
+    "slope": -0.5311294716230336,
+    "correlation": -0.6443800967716911,
+    "r_squared": 0.41522570911549395,
+    "x_mean": 26.432681155941914,
+    "y_mean": -5.6926485974080485
+  },
+  "endpoint_population_weighted": {
+    "intercept": 4.955241394511331,
+    "slope": -0.49708396030076946,
+    "correlation": -0.6869602930406948,
+    "r_squared": 0.4719144442145573,
+    "x_mean": 29.857614731636765,
+    "y_mean": -9.886499981425269
+  },
+  "smoothed_population_weighted": {
+    "intercept": 3.99247290981503,
+    "slope": -0.41126881059905146,
+    "correlation": -0.6387608357213385,
+    "r_squared": 0.4080154052514227,
+    "x_mean": 29.84055387326803,
+    "y_mean": -8.28001618926083
+  },
+  "share_with_rate_decline": 0.7025089605734767,
+  "interpretation": "A negative slope is consistent with descriptive beta convergence, but the endpoint specification mechanically includes the initial rate in the dependent variable and can reflect regression to the mean."
+}

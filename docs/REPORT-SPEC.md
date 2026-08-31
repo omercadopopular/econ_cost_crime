@@ -55,7 +55,7 @@ Cover:
 - changes in the geographic concentration of homicides;
 - data-coverage and reporting limitations.
 
-Integrate Figures 1–4. State disaggregation belongs here when it explains crime incidence; place it in Section 5 when it is used to interpret regional cost burdens.
+Integrate Figures 1–5. State disaggregation belongs here when it explains crime incidence; place it in Section 5 when it is used to interpret regional cost burdens.
 
 ### 4. Estimando os custos econômicos da criminalidade
 
@@ -63,35 +63,35 @@ Open the section by defining the accounting perimeter and distinguishing resourc
 
 #### 4.1 Custos de segurança pública e privada
 
-Explain public-security expenditures by level of government and private-security costs by formal and informal provision. Integrate Figures 5 and 6.
+Explain public-security expenditures by level of government and private-security costs by formal and informal provision. Integrate Figures 6 and 7.
 
 #### 4.2 Custos de encarceramento
 
-Explain custody and reintegration expenditures and the separate accounting treatment of `auxílio-reclusão`. Integrate Figure 7.
+Explain custody and reintegration expenditures and the separate accounting treatment of `auxílio-reclusão`. Integrate Figure 8.
 
 #### 4.3 Custos de seguros e perdas materiais
 
-Explain insurance-related costs and estimated material losses, preserving their different economic interpretations. Integrate Figure 8.
+Explain insurance-related costs and estimated material losses, preserving their different economic interpretations. Integrate Figure 9.
 
 #### 4.4 Perda de capacidade produtiva
 
-Explain the valuation of premature mortality or injury-related productive-capacity losses, including the assumptions that drive the estimate. Integrate Figure 9.
+Explain the valuation of premature mortality or injury-related productive-capacity losses, including the assumptions that drive the estimate. Integrate Figure 10.
 
 #### 4.5 Custos dos processos judiciais
 
-Explain the crime-attributable portions of courts, public prosecutors, and defense or legal-aid institutions. Integrate Figure 10.
+Explain the crime-attributable portions of courts, public prosecutors, and defense or legal-aid institutions. Integrate Figure 11.
 
 #### 4.6 Serviços médico-terapêuticos e recuperação de feridos
 
-Explain the construction of health-service costs attributable to violence and their coverage limitations. Integrate Figure 11.
+Explain the construction of health-service costs attributable to violence and their coverage limitations. Integrate Figure 12.
 
 #### 4.7 Custos econômicos totais
 
-Aggregate the components only after explaining denominator consistency, overlap, and the treatment of transfers. Discuss changes in levels, GDP share, and composition. Integrate Figure 12.
+Aggregate the components only after explaining denominator consistency, overlap, and the treatment of transfers. Discuss changes in levels, GDP share, and composition. Integrate Figure 13.
 
 ### 5. Padrões regionais
 
-Describe how the measured burden varies across states and over time. Relate the GDP share of costs to real GDP per capita without interpreting the association causally. Discuss whether convergence in income is accompanied by convergence in the crime-cost burden. Integrate Figures 13 and 14.
+Describe how the measured burden varies across states and over time. Relate the GDP share of costs to real GDP per capita without interpreting the association causally. Discuss whether convergence in income is accompanied by convergence in the crime-cost burden. Integrate Figures 14 and 15.
 
 ### 6. Conclusão
 
@@ -108,7 +108,7 @@ Prepare a targeted reconciliation only when a discrepancy is large or unusual en
 While drafting, insert figures with comments rather than executable text:
 
 ```markdown
-<!-- FIGURA 05: ../figs/fig_05_seguranca_publica.pdf -->
+<!-- FIGURA 06: ../figs/fig_06_seguranca_publica.pdf -->
 ```
 
 Reference every displayed figure in the surrounding prose and explain the comparison the reader should take from it. Do not narrate every plotted observation.

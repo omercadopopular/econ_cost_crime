@@ -1,0 +1,1404 @@
+{
+  "schema_version": 1,
+  "checks": [
+    {
+      "code": "raw_manifest_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Raw source manifest exists.",
+      "details": {}
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_population_2015.",
+      "details": {
+        "source_id": "ibge_population_2015"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_population_2015.",
+      "details": {
+        "source_id": "ibge_population_2015",
+        "expected": "a4b07185118638f194ad13c0fe929e72adf716015188e2133f0ac67e54ca53ed",
+        "actual": "a4b07185118638f194ad13c0fe929e72adf716015188e2133f0ac67e54ca53ed"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_population_2016.",
+      "details": {
+        "source_id": "ibge_population_2016"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_population_2016.",
+      "details": {
+        "source_id": "ibge_population_2016",
+        "expected": "2c71cbb719f1bf534310f65d5474cf870c614f4ac37b5a38a69bfdcbbbb65fc8",
+        "actual": "2c71cbb719f1bf534310f65d5474cf870c614f4ac37b5a38a69bfdcbbbb65fc8"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_population_2017.",
+      "details": {
+        "source_id": "ibge_population_2017"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_population_2017.",
+      "details": {
+        "source_id": "ibge_population_2017",
+        "expected": "989677290d4f1cf865854c4cf199705a6c2d4afd7356657e95031113f4ffe035",
+        "actual": "989677290d4f1cf865854c4cf199705a6c2d4afd7356657e95031113f4ffe035"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_population_2022.",
+      "details": {
+        "source_id": "ibge_population_2022"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_population_2022.",
+      "details": {
+        "source_id": "ibge_population_2022",
+        "expected": "bc464f32f97bbedfb5c986e58be0d2cdeb759b014fcbeb0de2facd62e34a50be",
+        "actual": "bc464f32f97bbedfb5c986e58be0d2cdeb759b014fcbeb0de2facd62e34a50be"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_population_2024.",
+      "details": {
+        "source_id": "ibge_population_2024"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_population_2024.",
+      "details": {
+        "source_id": "ibge_population_2024",
+        "expected": "a2b62956c5a7070606e7d323208a9a305e8a3b37799150462fe8c5de639f386d",
+        "actual": "a2b62956c5a7070606e7d323208a9a305e8a3b37799150462fe8c5de639f386d"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_localities_municipalities_2026-08-29.",
+      "details": {
+        "source_id": "ibge_localities_municipalities_2026-08-29"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_localities_municipalities_2026-08-29.",
+      "details": {
+        "source_id": "ibge_localities_municipalities_2026-08-29",
+        "expected": "d07362079fbab429bab2e9b833628b58419ce1d183630bc94808faf167097635",
+        "actual": "d07362079fbab429bab2e9b833628b58419ce1d183630bc94808faf167097635"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_microrregions_shape_2015.",
+      "details": {
+        "source_id": "ibge_microrregions_shape_2015"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_microrregions_shape_2015.",
+      "details": {
+        "source_id": "ibge_microrregions_shape_2015",
+        "expected": "2a4aaa23442db8cc1820b3b9a32f1a80cec52752459f7fd2a2147008b7b49f2d",
+        "actual": "2a4aaa23442db8cc1820b3b9a32f1a80cec52752459f7fd2a2147008b7b49f2d"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_states_shape_2015.",
+      "details": {
+        "source_id": "ibge_states_shape_2015"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_states_shape_2015.",
+      "details": {
+        "source_id": "ibge_states_shape_2015",
+        "expected": "c5ee2b2dcc8d259c1520f15c57612383090e19588e890b661852cb9ac27fefc3",
+        "actual": "c5ee2b2dcc8d259c1520f15c57612383090e19588e890b661852cb9ac27fefc3"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sim_mortality_2015_final.",
+      "details": {
+        "source_id": "sim_mortality_2015_final"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sim_mortality_2015_final.",
+      "details": {
+        "source_id": "sim_mortality_2015_final",
+        "expected": "4a7c1cc3444c730cfecfbbe0f682072a5efb36e7dafa5ab0f88348766a6d29d4",
+        "actual": "4a7c1cc3444c730cfecfbbe0f682072a5efb36e7dafa5ab0f88348766a6d29d4"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sim_mortality_2016_final.",
+      "details": {
+        "source_id": "sim_mortality_2016_final"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sim_mortality_2016_final.",
+      "details": {
+        "source_id": "sim_mortality_2016_final",
+        "expected": "55476c5591858484db259fdf469bf3787e6042aec96f323eccdb3e35528abb17",
+        "actual": "55476c5591858484db259fdf469bf3787e6042aec96f323eccdb3e35528abb17"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sim_mortality_2017_final.",
+      "details": {
+        "source_id": "sim_mortality_2017_final"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sim_mortality_2017_final.",
+      "details": {
+        "source_id": "sim_mortality_2017_final",
+        "expected": "c2ab78d74faeefecb2d6546f1992b14522666684e9e0177a67e0d04df9232893",
+        "actual": "c2ab78d74faeefecb2d6546f1992b14522666684e9e0177a67e0d04df9232893"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sim_mortality_2022_final.",
+      "details": {
+        "source_id": "sim_mortality_2022_final"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sim_mortality_2022_final.",
+      "details": {
+        "source_id": "sim_mortality_2022_final",
+        "expected": "526df16fcb76764353132c0b07e8f815f0168cedc092d56c0da013edee3ef31e",
+        "actual": "526df16fcb76764353132c0b07e8f815f0168cedc092d56c0da013edee3ef31e"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sim_mortality_2023_final.",
+      "details": {
+        "source_id": "sim_mortality_2023_final"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sim_mortality_2023_final.",
+      "details": {
+        "source_id": "sim_mortality_2023_final",
+        "expected": "e5fdeda7f210651be62bffaa75ef05e1623613e1e880831189b285914adc5831",
+        "actual": "e5fdeda7f210651be62bffaa75ef05e1623613e1e880831189b285914adc5831"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sim_mortality_2024_final.",
+      "details": {
+        "source_id": "sim_mortality_2024_final"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sim_mortality_2024_final.",
+      "details": {
+        "source_id": "sim_mortality_2024_final",
+        "expected": "13db250c90908e85d1ef9fb9cd7caa08583fb1912108b0f3260605aca0e9b787",
+        "actual": "13db250c90908e85d1ef9fb9cd7caa08583fb1912108b0f3260605aca0e9b787"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sim_mortality_2023_final_do_open.",
+      "details": {
+        "source_id": "sim_mortality_2023_final_do_open"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sim_mortality_2023_final_do_open.",
+      "details": {
+        "source_id": "sim_mortality_2023_final_do_open",
+        "expected": "b07c9a8ae98b3d7cb1fed4bc13b6aa5cc23e48311435db509eb5c652ce204126",
+        "actual": "b07c9a8ae98b3d7cb1fed4bc13b6aa5cc23e48311435db509eb5c652ce204126"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2015.",
+      "details": {
+        "source_id": "sinesp_vde_2015"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2015.",
+      "details": {
+        "source_id": "sinesp_vde_2015",
+        "expected": "e6bc8ea278e92778574c76d64916c80811394cf015958209791d75c23517e13d",
+        "actual": "e6bc8ea278e92778574c76d64916c80811394cf015958209791d75c23517e13d"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2016.",
+      "details": {
+        "source_id": "sinesp_vde_2016"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2016.",
+      "details": {
+        "source_id": "sinesp_vde_2016",
+        "expected": "d286a32eae385c7cf7e46b4f932c93ba7226b6359f2fe50eed9666a2d97e9211",
+        "actual": "d286a32eae385c7cf7e46b4f932c93ba7226b6359f2fe50eed9666a2d97e9211"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2017.",
+      "details": {
+        "source_id": "sinesp_vde_2017"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2017.",
+      "details": {
+        "source_id": "sinesp_vde_2017",
+        "expected": "1262181642765c40f5c22e9deb105eaf1cf606485bda28b6f7f14017a7009531",
+        "actual": "1262181642765c40f5c22e9deb105eaf1cf606485bda28b6f7f14017a7009531"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2018.",
+      "details": {
+        "source_id": "sinesp_vde_2018"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2018.",
+      "details": {
+        "source_id": "sinesp_vde_2018",
+        "expected": "ba9a0c58099960cf4e3ee57d619fcc538447926c83dce2bd2a85912ab968ff38",
+        "actual": "ba9a0c58099960cf4e3ee57d619fcc538447926c83dce2bd2a85912ab968ff38"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2019.",
+      "details": {
+        "source_id": "sinesp_vde_2019"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2019.",
+      "details": {
+        "source_id": "sinesp_vde_2019",
+        "expected": "8726c9bf338f609579da346246ab3872a5341c2b2739f490a6318af33a73bf99",
+        "actual": "8726c9bf338f609579da346246ab3872a5341c2b2739f490a6318af33a73bf99"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2020.",
+      "details": {
+        "source_id": "sinesp_vde_2020"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2020.",
+      "details": {
+        "source_id": "sinesp_vde_2020",
+        "expected": "e246c2fa6f92e6ca0e925b16b6381a9a23c7d2185d2b5335e4470175b52fad18",
+        "actual": "e246c2fa6f92e6ca0e925b16b6381a9a23c7d2185d2b5335e4470175b52fad18"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2021.",
+      "details": {
+        "source_id": "sinesp_vde_2021"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2021.",
+      "details": {
+        "source_id": "sinesp_vde_2021",
+        "expected": "e909d9a0018de98111dc5c108a16e2433ae0228ade038e17319e85e14bb64d61",
+        "actual": "e909d9a0018de98111dc5c108a16e2433ae0228ade038e17319e85e14bb64d61"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2022.",
+      "details": {
+        "source_id": "sinesp_vde_2022"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2022.",
+      "details": {
+        "source_id": "sinesp_vde_2022",
+        "expected": "b2fef6f344aa97f321b8e89227a55b98bb11bb220cdf02c0a0a2d609127acd42",
+        "actual": "b2fef6f344aa97f321b8e89227a55b98bb11bb220cdf02c0a0a2d609127acd42"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2023.",
+      "details": {
+        "source_id": "sinesp_vde_2023"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2023.",
+      "details": {
+        "source_id": "sinesp_vde_2023",
+        "expected": "0e07edd4c66f89e5ec6d1a87471c385d351e0b3fb8997899a098a902feb972db",
+        "actual": "0e07edd4c66f89e5ec6d1a87471c385d351e0b3fb8997899a098a902feb972db"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2024.",
+      "details": {
+        "source_id": "sinesp_vde_2024"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2024.",
+      "details": {
+        "source_id": "sinesp_vde_2024",
+        "expected": "eef41236364f6921d8d6c67ecb4acb853e9e8499b24488d4de795c55599319e9",
+        "actual": "eef41236364f6921d8d6c67ecb4acb853e9e8499b24488d4de795c55599319e9"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2025.",
+      "details": {
+        "source_id": "sinesp_vde_2025"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: sinesp_vde_2025.",
+      "details": {
+        "source_id": "sinesp_vde_2025",
+        "expected": "355b5cc288ebd08ed45a4f355dddb78de32c0ca9b7f035822c7ab0ecabf592af",
+        "actual": "355b5cc288ebd08ed45a4f355dddb78de32c0ca9b7f035822c7ab0ecabf592af"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_population_projection_2024_uf_age_sex.",
+      "details": {
+        "source_id": "ibge_population_projection_2024_uf_age_sex"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: ibge_population_projection_2024_uf_age_sex.",
+      "details": {
+        "source_id": "ibge_population_projection_2024_uf_age_sex",
+        "expected": "6e5c3d21a2e8ff50badd7be2785e1664b41a43277543be541641b0cd802c3205",
+        "actual": "6e5c3d21a2e8ff50badd7be2785e1664b41a43277543be541641b0cd802c3205"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: unodc_intentional_homicide_2026_07.",
+      "details": {
+        "source_id": "unodc_intentional_homicide_2026_07"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: unodc_intentional_homicide_2026_07.",
+      "details": {
+        "source_id": "unodc_intentional_homicide_2026_07",
+        "expected": "126c1b5282f2872d5197bcd130c0d2d4adf3b820230651f402ec3c0918c423bb",
+        "actual": "126c1b5282f2872d5197bcd130c0d2d4adf3b820230651f402ec3c0918c423bb"
+      }
+    },
+    {
+      "code": "raw_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: unodc_intentional_homicide_metadata_2026_07.",
+      "details": {
+        "source_id": "unodc_intentional_homicide_metadata_2026_07"
+      }
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw checksum matches manifest: unodc_intentional_homicide_metadata_2026_07.",
+      "details": {
+        "source_id": "unodc_intentional_homicide_metadata_2026_07",
+        "expected": "7ad6fcceb91f65493a9390af41c77908b04ea046828a3788229c1c8469bd006b",
+        "actual": "7ad6fcceb91f65493a9390af41c77908b04ea046828a3788229c1c8469bd006b"
+      }
+    },
+    {
+      "code": "active_sources",
+      "severity": "error",
+      "passed": true,
+      "message": "All active SIM and IBGE inputs are retained.",
+      "details": {
+        "active_sources": 28
+      }
+    },
+    {
+      "code": "derived_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Derived file exists: municipality_microrregion_crosswalk.csv.",
+      "details": {}
+    },
+    {
+      "code": "derived_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Derived file exists: municipality_homicides_population.csv.",
+      "details": {}
+    },
+    {
+      "code": "derived_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Derived file exists: microrregion_homicides.csv.",
+      "details": {}
+    },
+    {
+      "code": "derived_file_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Derived file exists: homicide_build_audit.json.",
+      "details": {}
+    },
+    {
+      "code": "crosswalk_municipalities",
+      "severity": "error",
+      "passed": true,
+      "message": "Crosswalk has 5,570 period municipalities.",
+      "details": {
+        "rows": 5570
+      }
+    },
+    {
+      "code": "crosswalk_key_7",
+      "severity": "error",
+      "passed": true,
+      "message": "Seven-digit municipality keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "crosswalk_key_6",
+      "severity": "error",
+      "passed": true,
+      "message": "Six-digit SIM municipality keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "crosswalk_microrregions",
+      "severity": "error",
+      "passed": true,
+      "message": "Crosswalk covers 558 old IBGE microrregions.",
+      "details": {}
+    },
+    {
+      "code": "crosswalk_ufs",
+      "severity": "error",
+      "passed": true,
+      "message": "Crosswalk covers all 27 UFs.",
+      "details": {}
+    },
+    {
+      "code": "municipality_year_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "Municipality-year consolidation has one row per key.",
+      "details": {
+        "rows": 33420
+      }
+    },
+    {
+      "code": "microrregion_year_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "Microrregion-year panel has one row per key.",
+      "details": {
+        "rows": 3348
+      }
+    },
+    {
+      "code": "panel_years",
+      "severity": "error",
+      "passed": true,
+      "message": "Panel contains the six requested endpoint/diagnostic years.",
+      "details": {}
+    },
+    {
+      "code": "nonnegative_homicides",
+      "severity": "error",
+      "passed": true,
+      "message": "Homicide counts are nonnegative.",
+      "details": {}
+    },
+    {
+      "code": "positive_population",
+      "severity": "error",
+      "passed": true,
+      "message": "Microrregion populations are positive.",
+      "details": {}
+    },
+    {
+      "code": "finite_rates",
+      "severity": "error",
+      "passed": true,
+      "message": "Homicide rates are finite.",
+      "details": {}
+    },
+    {
+      "code": "annual_geographic_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "2015 covers 558 microrregions and 27 UFs.",
+      "details": {
+        "year": 2015,
+        "rows": 558,
+        "ufs": 27
+      }
+    },
+    {
+      "code": "mapped_homicide_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "2015 panel reconciles to all SIM homicides with identifiable municipality.",
+      "details": {
+        "year": 2015,
+        "panel": 58278,
+        "audit": 58278
+      }
+    },
+    {
+      "code": "municipality_match_minimum",
+      "severity": "error",
+      "passed": true,
+      "message": "2015 municipality match rate exceeds the documented 95% sufficiency floor.",
+      "details": {
+        "year": 2015,
+        "match_rate_pct": 98.64251861882194
+      }
+    },
+    {
+      "code": "municipality_match_below_99",
+      "severity": "warning",
+      "passed": false,
+      "message": "2015 municipality match is below the 99% review threshold.",
+      "details": {
+        "year": 2015,
+        "match_rate_pct": 98.64251861882194,
+        "excluded_homicides": 802
+      }
+    },
+    {
+      "code": "annual_geographic_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "2016 covers 558 microrregions and 27 UFs.",
+      "details": {
+        "year": 2016,
+        "rows": 558,
+        "ufs": 27
+      }
+    },
+    {
+      "code": "mapped_homicide_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "2016 panel reconciles to all SIM homicides with identifiable municipality.",
+      "details": {
+        "year": 2016,
+        "panel": 61531,
+        "audit": 61531
+      }
+    },
+    {
+      "code": "municipality_match_minimum",
+      "severity": "error",
+      "passed": true,
+      "message": "2016 municipality match rate exceeds the documented 95% sufficiency floor.",
+      "details": {
+        "year": 2016,
+        "match_rate_pct": 98.42282899051457
+      }
+    },
+    {
+      "code": "municipality_match_below_99",
+      "severity": "warning",
+      "passed": false,
+      "message": "2016 municipality match is below the 99% review threshold.",
+      "details": {
+        "year": 2016,
+        "match_rate_pct": 98.42282899051457,
+        "excluded_homicides": 986
+      }
+    },
+    {
+      "code": "annual_geographic_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "2017 covers 558 microrregions and 27 UFs.",
+      "details": {
+        "year": 2017,
+        "rows": 558,
+        "ufs": 27
+      }
+    },
+    {
+      "code": "mapped_homicide_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "2017 panel reconciles to all SIM homicides with identifiable municipality.",
+      "details": {
+        "year": 2017,
+        "panel": 64660,
+        "audit": 64660
+      }
+    },
+    {
+      "code": "municipality_match_minimum",
+      "severity": "error",
+      "passed": true,
+      "message": "2017 municipality match rate exceeds the documented 95% sufficiency floor.",
+      "details": {
+        "year": 2017,
+        "match_rate_pct": 98.56406816865339
+      }
+    },
+    {
+      "code": "municipality_match_below_99",
+      "severity": "warning",
+      "passed": false,
+      "message": "2017 municipality match is below the 99% review threshold.",
+      "details": {
+        "year": 2017,
+        "match_rate_pct": 98.56406816865339,
+        "excluded_homicides": 942
+      }
+    },
+    {
+      "code": "annual_geographic_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "2022 covers 558 microrregions and 27 UFs.",
+      "details": {
+        "year": 2022,
+        "rows": 558,
+        "ufs": 27
+      }
+    },
+    {
+      "code": "mapped_homicide_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "2022 panel reconciles to all SIM homicides with identifiable municipality.",
+      "details": {
+        "year": 2022,
+        "panel": 45819,
+        "audit": 45819
+      }
+    },
+    {
+      "code": "municipality_match_minimum",
+      "severity": "error",
+      "passed": true,
+      "message": "2022 municipality match rate exceeds the documented 95% sufficiency floor.",
+      "details": {
+        "year": 2022,
+        "match_rate_pct": 98.7286948652201
+      }
+    },
+    {
+      "code": "municipality_match_below_99",
+      "severity": "warning",
+      "passed": false,
+      "message": "2022 municipality match is below the 99% review threshold.",
+      "details": {
+        "year": 2022,
+        "match_rate_pct": 98.7286948652201,
+        "excluded_homicides": 590
+      }
+    },
+    {
+      "code": "annual_geographic_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "2023 covers 558 microrregions and 27 UFs.",
+      "details": {
+        "year": 2023,
+        "rows": 558,
+        "ufs": 27
+      }
+    },
+    {
+      "code": "mapped_homicide_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "2023 panel reconciles to all SIM homicides with identifiable municipality.",
+      "details": {
+        "year": 2023,
+        "panel": 45210,
+        "audit": 45210
+      }
+    },
+    {
+      "code": "municipality_match_minimum",
+      "severity": "error",
+      "passed": true,
+      "message": "2023 municipality match rate exceeds the documented 95% sufficiency floor.",
+      "details": {
+        "year": 2023,
+        "match_rate_pct": 98.82615253459244
+      }
+    },
+    {
+      "code": "municipality_match_below_99",
+      "severity": "warning",
+      "passed": false,
+      "message": "2023 municipality match is below the 99% review threshold.",
+      "details": {
+        "year": 2023,
+        "match_rate_pct": 98.82615253459244,
+        "excluded_homicides": 537
+      }
+    },
+    {
+      "code": "annual_geographic_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "2024 covers 558 microrregions and 27 UFs.",
+      "details": {
+        "year": 2024,
+        "rows": 558,
+        "ufs": 27
+      }
+    },
+    {
+      "code": "mapped_homicide_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "2024 panel reconciles to all SIM homicides with identifiable municipality.",
+      "details": {
+        "year": 2024,
+        "panel": 42132,
+        "audit": 42132
+      }
+    },
+    {
+      "code": "municipality_match_minimum",
+      "severity": "error",
+      "passed": true,
+      "message": "2024 municipality match rate exceeds the documented 95% sufficiency floor.",
+      "details": {
+        "year": 2024,
+        "match_rate_pct": 98.92463019488143
+      }
+    },
+    {
+      "code": "municipality_match_below_99",
+      "severity": "warning",
+      "passed": false,
+      "message": "2024 municipality match is below the 99% review threshold.",
+      "details": {
+        "year": 2024,
+        "match_rate_pct": 98.92463019488143,
+        "excluded_homicides": 458
+      }
+    },
+    {
+      "code": "official_homicide_total",
+      "severity": "error",
+      "passed": true,
+      "message": "2016 raw SIM definition matches the published national total.",
+      "details": {
+        "year": 2016,
+        "expected": 62517,
+        "actual": 62517
+      }
+    },
+    {
+      "code": "official_homicide_total",
+      "severity": "error",
+      "passed": true,
+      "message": "2023 raw SIM definition matches the published national total.",
+      "details": {
+        "year": 2023,
+        "expected": 45747,
+        "actual": 45747
+      }
+    },
+    {
+      "code": "official_homicide_total",
+      "severity": "error",
+      "passed": true,
+      "message": "2024 raw SIM definition matches the published national total.",
+      "details": {
+        "year": 2024,
+        "expected": 42590,
+        "actual": 42590
+      }
+    },
+    {
+      "code": "official_population_total",
+      "severity": "error",
+      "passed": true,
+      "message": "2016 municipal populations aggregate to the official national total.",
+      "details": {
+        "year": 2016,
+        "expected": 206081432,
+        "actual": 206081432.0
+      }
+    },
+    {
+      "code": "official_population_total",
+      "severity": "error",
+      "passed": true,
+      "message": "2022 municipal populations aggregate to the official national total.",
+      "details": {
+        "year": 2022,
+        "expected": 203080756,
+        "actual": 203080756.0
+      }
+    },
+    {
+      "code": "official_population_total",
+      "severity": "error",
+      "passed": true,
+      "message": "2024 municipal populations aggregate to the official national total.",
+      "details": {
+        "year": 2024,
+        "expected": 212583750,
+        "actual": 212583750.0
+      }
+    },
+    {
+      "code": "fixed_geography_endpoints",
+      "severity": "error",
+      "passed": true,
+      "message": "The same 558 fixed microrregions are used in 2016 and the terminal year.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 CSV exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 PDF exists and is nonempty.",
+      "details": {}
+    },
+    {
+      "code": "figure_output_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 PNG exists and is nonempty.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 PNG passes image verification.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 4 CSV exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 4 PDF exists and is nonempty.",
+      "details": {}
+    },
+    {
+      "code": "figure_output_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 4 PNG exists and is nonempty.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 4 PNG passes image verification.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 CSV exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 PDF exists and is nonempty.",
+      "details": {}
+    },
+    {
+      "code": "figure_output_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 PNG exists and is nonempty.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 PNG passes image verification.",
+      "details": {}
+    },
+    {
+      "code": "fig3_rows",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 contains all 558 microrregions.",
+      "details": {
+        "rows": 558
+      }
+    },
+    {
+      "code": "fig3_terminal_year",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 uses only ANO_FINAL_SIM.",
+      "details": {}
+    },
+    {
+      "code": "fig3_bubble_area",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 bubble area is exactly proportional to population.",
+      "details": {}
+    },
+    {
+      "code": "fig3_percentiles",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 3 uses valid unweighted cross-sectional percentiles.",
+      "details": {}
+    },
+    {
+      "code": "fig4_rows",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 4 contains each microrregion once.",
+      "details": {
+        "rows": 558
+      }
+    },
+    {
+      "code": "fig4_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 4 microrregion keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "fig4_absolute_change",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 4 uses end-rate minus 2016-rate in levels.",
+      "details": {}
+    },
+    {
+      "code": "smoothing_material_change",
+      "severity": "warning",
+      "passed": true,
+      "message": "Endpoint smoothing preserves the broad geographic pattern under documented diagnostics.",
+      "details": {
+        "pearson_correlation": 0.8887046628096675,
+        "same_direction_share": 0.8154121863799283,
+        "median_absolute_difference": 3.3103896690636425
+      }
+    },
+    {
+      "code": "fig5_rows",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 contains each microrregion once.",
+      "details": {
+        "rows": 558
+      }
+    },
+    {
+      "code": "fig5_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 microrregion keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "fig5_absolute_change",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 uses 2024-rate minus 2016-rate in levels.",
+      "details": {}
+    },
+    {
+      "code": "fig5_bubble_area",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 bubble area is exactly proportional to 2016 population.",
+      "details": {}
+    },
+    {
+      "code": "fig5_audit_exists",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 convergence diagnostics are retained.",
+      "details": {}
+    },
+    {
+      "code": "fig5_audit_endpoints",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 5 diagnostics use all 558 microrregions and the intended endpoints.",
+      "details": {}
+    }
+  ],
+  "summary": {
+    "checks": 132,
+    "passed": 126,
+    "errors": 0,
+    "warnings": 6,
+    "ano_final_sim": 2024,
+    "figure_diagnostics": {
+      "smoothing": {
+        "pearson_correlation": 0.8887046628096675,
+        "same_direction_share": 0.8154121863799283,
+        "median_absolute_difference": 3.3103896690636425
+      },
+      "visual_scale_limit": 45.0,
+      "visually_clipped_microrregions": 11,
+      "convergence": {
+        "unit": "microrregion",
+        "n": 558,
+        "start_year": 2016,
+        "end_year": 2024,
+        "population_weight": "population_2016",
+        "endpoint_unweighted": {
+          "intercept": 8.346527378527497,
+          "slope": -0.5311294716230336,
+          "correlation": -0.6443800967716911,
+          "r_squared": 0.41522570911549395,
+          "x_mean": 26.432681155941914,
+          "y_mean": -5.6926485974080485
+        },
+        "endpoint_population_weighted": {
+          "intercept": 4.955241394511331,
+          "slope": -0.49708396030076946,
+          "correlation": -0.6869602930406948,
+          "r_squared": 0.4719144442145573,
+          "x_mean": 29.857614731636765,
+          "y_mean": -9.886499981425269
+        },
+        "smoothed_population_weighted": {
+          "intercept": 3.99247290981503,
+          "slope": -0.41126881059905146,
+          "correlation": -0.6387608357213385,
+          "r_squared": 0.4080154052514227,
+          "x_mean": 29.84055387326803,
+          "y_mean": -8.28001618926083
+        },
+        "share_with_rate_decline": 0.7025089605734767,
+        "interpretation": "A negative slope is consistent with descriptive beta convergence, but the endpoint specification mechanically includes the initial rate in the dependent variable and can reflect regression to the mean."
+      }
+    },
+    "matched_homicides": {
+      "2015": {
+        "raw_mortality_records": 1264175,
+        "official_sim_homicide_records": 59080,
+        "mapped_homicides": 58278,
+        "excluded_homicides": 802,
+        "match_rate_pct": 98.64251861882194,
+        "missing_death_date": 0,
+        "death_year_outside_annual_file": 0,
+        "missing_residence_municipality": 802,
+        "unmatched_residence_codes": {},
+        "homicides_with_missing_age_retained": 0,
+        "circumstance_of_death_among_mapped_homicides": {
+          "1": 762,
+          "2": 2,
+          "3": 55114,
+          "4": 825,
+          "9": 1551,
+          "missing": 24
+        }
+      },
+      "2016": {
+        "raw_mortality_records": 1309774,
+        "official_sim_homicide_records": 62517,
+        "mapped_homicides": 61531,
+        "excluded_homicides": 986,
+        "match_rate_pct": 98.42282899051457,
+        "missing_death_date": 0,
+        "death_year_outside_annual_file": 0,
+        "missing_residence_municipality": 986,
+        "unmatched_residence_codes": {},
+        "homicides_with_missing_age_retained": 0,
+        "circumstance_of_death_among_mapped_homicides": {
+          "1": 739,
+          "2": 3,
+          "3": 57090,
+          "4": 1118,
+          "9": 2550,
+          "missing": 31
+        }
+      },
+      "2017": {
+        "raw_mortality_records": 1312663,
+        "official_sim_homicide_records": 65602,
+        "mapped_homicides": 64660,
+        "excluded_homicides": 942,
+        "match_rate_pct": 98.56406816865339,
+        "missing_death_date": 0,
+        "death_year_outside_annual_file": 0,
+        "missing_residence_municipality": 942,
+        "unmatched_residence_codes": {},
+        "homicides_with_missing_age_retained": 0,
+        "circumstance_of_death_among_mapped_homicides": {
+          "1": 721,
+          "2": 13,
+          "3": 60110,
+          "4": 1579,
+          "9": 2038,
+          "missing": 199
+        }
+      },
+      "2022": {
+        "raw_mortality_records": 1544266,
+        "official_sim_homicide_records": 46409,
+        "mapped_homicides": 45819,
+        "excluded_homicides": 590,
+        "match_rate_pct": 98.7286948652201,
+        "missing_death_date": 0,
+        "death_year_outside_annual_file": 0,
+        "missing_residence_municipality": 590,
+        "unmatched_residence_codes": {},
+        "homicides_with_missing_age_retained": 0,
+        "circumstance_of_death_among_mapped_homicides": {
+          "1": 578,
+          "2": 2,
+          "3": 41773,
+          "4": 1911,
+          "9": 1488,
+          "missing": 67
+        }
+      },
+      "2023": {
+        "raw_mortality_records": 1465610,
+        "official_sim_homicide_records": 45747,
+        "mapped_homicides": 45210,
+        "excluded_homicides": 537,
+        "match_rate_pct": 98.82615253459244,
+        "missing_death_date": 0,
+        "death_year_outside_annual_file": 0,
+        "missing_residence_municipality": 537,
+        "unmatched_residence_codes": {},
+        "homicides_with_missing_age_retained": 0,
+        "circumstance_of_death_among_mapped_homicides": {
+          "1": 586,
+          "3": 41102,
+          "4": 2151,
+          "9": 1323,
+          "missing": 48
+        }
+      },
+      "2024": {
+        "raw_mortality_records": 1532015,
+        "official_sim_homicide_records": 42590,
+        "mapped_homicides": 42132,
+        "excluded_homicides": 458,
+        "match_rate_pct": 98.92463019488143,
+        "missing_death_date": 0,
+        "death_year_outside_annual_file": 0,
+        "missing_residence_municipality": 458,
+        "unmatched_residence_codes": {},
+        "homicides_with_missing_age_retained": 0,
+        "circumstance_of_death_among_mapped_homicides": {
+          "1": 600,
+          "3": 37726,
+          "4": 2529,
+          "9": 1228,
+          "missing": 49
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+﻿section,claim,value,display,source,calculation
+3.1,"Brazil homicide rate, 2016",30.1193623667804,"30,1",fig_01_distribuicao_mundial_homicidios.csv,Official UNODC annual rate for Brazil
+3.1,"Brazil percentile, 2016",91.86046511627907,"91,9",fig_01_distribuicao_mundial_homicidios.csv,Unweighted average-rank percentile
+3.1,"Brazil homicide rate, 2024",18.6911635044563,"18,7",fig_01_distribuicao_mundial_homicidios.csv,Official UNODC annual rate for Brazil
+3.1,"Brazil percentile, 2024",86.04651162790698,"86,0",fig_01_distribuicao_mundial_homicidios.csv,Unweighted average-rank percentile
+3.1,UNODC 2016/2024 common reporting-unit sample,87,87,fig_01_distribuicao_mundial_homicidios.csv,Distinct common ISO3 units
+3.2,"Estupro: count change, 2016--2025",-40.833457359726154,"-40,8",fig_02a_crimes_registrados.csv,100 * (count_2025 / count_2016 - 1)
+3.2,"Estupro: count in thousands, 2016",33.595,"33,6",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Estupro: count in thousands, 2025",19.877,"19,9",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Estupro: absolute count change in thousands, 2016--2025",-13.718,"-13,7",fig_02a_crimes_registrados.csv,"(count_2025 - count_2016) / 1,000"
+3.2,"Estupro de vulnerável: count change, 2016--2025",144.63331154097605,"144,6",fig_02a_crimes_registrados.csv,100 * (count_2025 / count_2016 - 1)
+3.2,"Estupro de vulnerável: count in thousands, 2016",26.003,"26,0",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Estupro de vulnerável: count in thousands, 2025",63.612,"63,6",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Estupro de vulnerável: absolute count change in thousands, 2016--2025",37.609,"37,6",fig_02a_crimes_registrados.csv,"(count_2025 - count_2016) / 1,000"
+3.2,"Feminicídio: count change, 2016--2025",93.0778739184178,"93,1",fig_02a_crimes_registrados.csv,100 * (count_2025 / count_2016 - 1)
+3.2,"Feminicídio: count in thousands, 2016",0.809,"0,8",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Feminicídio: count in thousands, 2025",1.562,"1,6",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Feminicídio: absolute count change in thousands, 2016--2025",0.753,"0,8",fig_02a_crimes_registrados.csv,"(count_2025 - count_2016) / 1,000"
+3.2,"Homicídio doloso: count change, 2016--2025",-38.44048712786129,"-38,4",fig_02a_crimes_registrados.csv,100 * (count_2025 / count_2016 - 1)
+3.2,"Homicídio doloso: count in thousands, 2016",51.157,"51,2",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Homicídio doloso: count in thousands, 2025",31.492,"31,5",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Homicídio doloso: absolute count change in thousands, 2016--2025",-19.665,"-19,7",fig_02a_crimes_registrados.csv,"(count_2025 - count_2016) / 1,000"
+3.2,"Homicídio doloso rate, 2016",25.092714457863682,"25,1",fig_02b_taxas_criminalidade.csv,Sinesp count / matched IBGE population
+3.2,"Homicídio doloso rate, 2025",14.75580872564123,"14,8",fig_02b_taxas_criminalidade.csv,Sinesp count / matched IBGE population
+3.2,"Latrocínio: count change, 2016--2025",-66.99710863279637,"-67,0",fig_02a_crimes_registrados.csv,100 * (count_2025 / count_2016 - 1)
+3.2,"Latrocínio: count in thousands, 2016",2.421,"2,4",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Latrocínio: count in thousands, 2025",0.799,"0,8",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Latrocínio: absolute count change in thousands, 2016--2025",-1.622,"-1,6",fig_02a_crimes_registrados.csv,"(count_2025 - count_2016) / 1,000"
+3.2,"Tentativa de homicídio: count change, 2016--2025",-24.63223856717479,"-24,6",fig_02a_crimes_registrados.csv,100 * (count_2025 / count_2016 - 1)
+3.2,"Tentativa de homicídio: count in thousands, 2016",45.002,"45,0",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Tentativa de homicídio: count in thousands, 2025",33.917,"33,9",fig_02a_crimes_registrados.csv,"Reported victims / 1,000"
+3.2,"Tentativa de homicídio: absolute count change in thousands, 2016--2025",-11.085,"-11,1",fig_02a_crimes_registrados.csv,"(count_2025 - count_2016) / 1,000"
+3.2,"Roubo de veículo: partial-panel rate change, 2016--2025",-61.691068810016134,"-61,7",fig_02d_taxas_cobertura_parcial.csv,"100 * (rate_2025 / rate_2016 - 1), indicator-specific fixed UF panel"
+3.2,"Roubo de carga: partial-panel rate change, 2016--2025",-64.35829822354849,"-64,4",fig_02d_taxas_cobertura_parcial.csv,"100 * (rate_2025 / rate_2016 - 1), indicator-specific fixed UF panel"
+3.2,Furto de veículo: balanced-panel UFs,22,22,fig_02d_taxas_cobertura_parcial.csv,Distinct UFs in the indicator-specific panel
+3.2,"Furto de veículo: population coverage, 2025",87.78124716918136,"87,8",fig_02d_taxas_cobertura_parcial.csv,IBGE population share in the indicator-specific fixed UF panel
+3.2,Roubo a instituição financeira: balanced-panel UFs,20,20,fig_02d_taxas_cobertura_parcial.csv,Distinct UFs in the indicator-specific panel
+3.2,"Roubo a instituição financeira: population coverage, 2025",86.03299027171347,"86,0",fig_02d_taxas_cobertura_parcial.csv,IBGE population share in the indicator-specific fixed UF panel
+3.2,Roubo de carga: balanced-panel UFs,20,20,fig_02d_taxas_cobertura_parcial.csv,Distinct UFs in the indicator-specific panel
+3.2,"Roubo de carga: population coverage, 2025",85.33347722417824,"85,3",fig_02d_taxas_cobertura_parcial.csv,IBGE population share in the indicator-specific fixed UF panel
+3.2,Roubo de veículo: balanced-panel UFs,22,22,fig_02d_taxas_cobertura_parcial.csv,Distinct UFs in the indicator-specific panel
+3.2,"Roubo de veículo: population coverage, 2025",87.78124716918136,"87,8",fig_02d_taxas_cobertura_parcial.csv,IBGE population share in the indicator-specific fixed UF panel
+3.3,"Microrregion homicide-rate first quartile, 2024",10.28313744766291,"10,3",fig_03_microrregion_homicides.csv,Unweighted cross-sectional quantile 0.25
+3.3,"Microrregion homicide-rate median, 2024",18.10471548257067,"18,1",fig_03_microrregion_homicides.csv,Unweighted cross-sectional quantile 0.5
+3.3,"Microrregion homicide-rate third quartile, 2024",27.67865120334902,"27,7",fig_03_microrregion_homicides.csv,Unweighted cross-sectional quantile 0.75
+3.3,"Microrregion homicide-rate 90th percentile, 2024",38.46515471965035,"38,5",fig_03_microrregion_homicides.csv,Unweighted cross-sectional quantile 0.9
+3.3,"Mean homicide rate in bottom microrregion quartile, 2024",6.914106820268212,"6,9",fig_03_microrregion_homicides.csv,Unweighted mean among rates at or below Q1
+3.3,"Mean homicide rate in top microrregion quartile, 2024",39.13262885465198,"39,1",fig_03_microrregion_homicides.csv,Unweighted mean among rates at or above Q3
+3.3,"UNODC homicide rate, 2023: United States",5.76340794073065,"5,8",unodc_homicide_country_year.csv,Official retained UNODC annual rate
+3.3,"UNODC homicide rate, 2023: Haiti",41.1518089717388,"41,2",unodc_homicide_country_year.csv,Official retained UNODC annual rate
+3.3,Microrregions in fixed geography,558,558,fig_03_microrregion_homicides.csv,Distinct microrregion codes
+3.3,Microrregions at or above 40 per 100k,47,47,fig_03_microrregion_homicides.csv,Count with rate >= 40
+3.3,Highlighted microrregion rate: São Paulo,3.084866726607057,"3,1",fig_03_microrregion_homicides.csv,"Homicide count / population * 100,000"
+3.3,Highlighted microrregion rate: Brasília,10.325805999561489,"10,3",fig_03_microrregion_homicides.csv,"Homicide count / population * 100,000"
+3.3,Highlighted microrregion rate: Rio de Janeiro,19.25784675757924,"19,3",fig_03_microrregion_homicides.csv,"Homicide count / population * 100,000"
+3.3,Highlighted microrregion rate: São Luís,18.302675262823147,"18,3",fig_03_microrregion_homicides.csv,"Homicide count / population * 100,000"
+3.3,Highlighted microrregion rate: Fortaleza,33.01927181973392,"33,0",fig_03_microrregion_homicides.csv,"Homicide count / population * 100,000"
+3.3,Highlighted microrregion rate: Recife,41.60751159711118,"41,6",fig_03_microrregion_homicides.csv,"Homicide count / population * 100,000"
+3.3,Highlighted microrregion rate: Salvador,52.82297393914337,"52,8",fig_03_microrregion_homicides.csv,"Homicide count / population * 100,000"
+3.4,"Median microrregion homicide-rate change, 2016--2024",-4.14432621114177,"-4,1",fig_04_microrregion_homicide_change.csv,Unweighted median of end minus start rate
+3.4,Microrregions with declining endpoint rate,70.25089605734767,"70,3",fig_04_microrregion_homicide_change.csv,100 * count(delta < 0) / 558
+3.4,Endpoint versus smoothed-change correlation,0.8887046628096675,"0,889",fig_04_microrregion_homicide_change.csv,Pearson correlation across 558 microrregions
+3.4,Endpoint and smoothed change with same sign,81.54121863799283,"81,5",fig_04_microrregion_homicide_change.csv,Share with identical sign
+3.4,"Population-weighted convergence slope, 2016--2024",-0.49708396030076946,"-0,50",fig_05_microrregion_homicide_convergence.csv,Population-weighted OLS slope of endpoint rate change on 2016 homicide rate
+4,seguranca_publica: 2025 composition: Total,100.0,"100,0",fig_06_public_security.csv,100 * component / component-group total
+4,seguranca_publica: 2025 composition: União,11.092910069808962,"11,1",fig_06_public_security.csv,100 * component / component-group total
+4,seguranca_publica: 2025 composition: Estados e Distrito Federal,80.46468351467003,"80,5",fig_06_public_security.csv,100 * component / component-group total
+4,seguranca_publica: 2025 composition: Municípios,8.442406415521003,"8,4",fig_06_public_security.csv,100 * component / component-group total
+4,"seguranca_publica: real level, 1996",61.364441754,"61,4",fig_06_public_security.csv,Reported total / 1e9
+4,"seguranca_publica: real level, 2025",163.11786890788,"163,1",fig_06_public_security.csv,Reported total / 1e9
+4,"seguranca_publica: GDP share, 1996",1.3157477222762857,"1,3",fig_06_public_security.csv,100 * reported total / GDP
+4,"seguranca_publica: GDP share, 2025",1.2843926685659843,"1,3",fig_06_public_security.csv,100 * reported total / GDP
+4,"seguranca_publica: real growth, 1996--2025",165.81822346203822,"165,8",fig_06_public_security.csv,100 * (end / start - 1)
+4,seguranca_publica: real peak year,2025,2025,fig_06_public_security.csv,Year with maximum reported real total
+4,seguranca_publica: real peak level,163.11786890788,"163,1",fig_06_public_security.csv,Maximum reported total / 1e9
+4,seguranca_privada: 2025 composition: Setor formal,90.05081700566288,"90,1",fig_07_private_security.csv,100 * component / component-group total
+4,seguranca_privada: 2025 composition: Provisão informal,9.94918299433712,"9,9",fig_07_private_security.csv,100 * component / component-group total
+4,"seguranca_privada: real level, 1996",40.36652785422999,"40,4",fig_07_private_security.csv,Reported total / 1e9
+4,"seguranca_privada: real level, 2025",63.80721423672,"63,8",fig_07_private_security.csv,Reported total / 1e9
+4,"seguranca_privada: GDP share, 1996",0.865520251831237,"0,9",fig_07_private_security.csv,100 * reported total / GDP
+4,"seguranca_privada: GDP share, 2025",0.5024190097379527,"0,5",fig_07_private_security.csv,100 * reported total / GDP
+4,"seguranca_privada: real growth, 1996--2025",58.06961269281836,"58,1",fig_07_private_security.csv,100 * (end / start - 1)
+4,seguranca_privada: real peak year,2014,2014,fig_07_private_security.csv,Year with maximum reported real total
+4,seguranca_privada: real peak level,66.70547119336,"66,7",fig_07_private_security.csv,Maximum reported total / 1e9
+4,encarceramento: 2025 composition: Custódia e reintegração social,97.97992188224605,"98,0",fig_08_incarceration.csv,100 * component / component-group total
+4,encarceramento: 2025 composition: Auxílio-reclusão (transferência),2.0200781177539606,"2,0",fig_08_incarceration.csv,100 * component / component-group total
+4,"encarceramento: real level, 1996",1.4460223490475,"1,4",fig_08_incarceration.csv,Reported total / 1e9
+4,"encarceramento: real level, 2025",13.33095663149,"13,3",fig_08_incarceration.csv,Reported total / 1e9
+4,"encarceramento: GDP share, 1996",0.03100493637255052,"0,0",fig_08_incarceration.csv,100 * reported total / GDP
+4,"encarceramento: GDP share, 2025",0.10496816245267716,"0,1",fig_08_incarceration.csv,100 * reported total / GDP
+4,"encarceramento: real growth, 1996--2025",821.9052969873632,"821,9",fig_08_incarceration.csv,100 * (end / start - 1)
+4,encarceramento: real peak year,2025,2025,fig_08_incarceration.csv,Year with maximum reported real total
+4,encarceramento: real peak level,13.33095663149,"13,3",fig_08_incarceration.csv,Maximum reported total / 1e9
+4,seguros_perdas: 2025 composition: Prêmios — automóveis,38.954612026108805,"39,0",fig_09_insurance_material_losses.csv,100 * component / component-group total
+4,seguros_perdas: 2025 composition: Prêmios — patrimônio,32.6327356090921,"32,6",fig_09_insurance_material_losses.csv,100 * component / component-group total
+4,seguros_perdas: 2025 composition: Prêmios — transporte e carga,6.295115830404964,"6,3",fig_09_insurance_material_losses.csv,100 * component / component-group total
+4,seguros_perdas: 2025 composition: Perdas — patrimônio,9.037461315681824,"9,0",fig_09_insurance_material_losses.csv,100 * component / component-group total
+4,seguros_perdas: 2025 composition: Perdas — transporte e carga,3.3454992732449065,"3,3",fig_09_insurance_material_losses.csv,100 * component / component-group total
+4,seguros_perdas: 2025 composition: Perdas — veículos,9.734575945467395,"9,7",fig_09_insurance_material_losses.csv,100 * component / component-group total
+4,"seguros_perdas: real level, 1996",57.879835916,"57,9",fig_09_insurance_material_losses.csv,Reported total / 1e9
+4,"seguros_perdas: real level, 2025",96.240427662,"96,2",fig_09_insurance_material_losses.csv,Reported total / 1e9
+4,"seguros_perdas: GDP share, 1996",1.2410324301082398,"1,2",fig_09_insurance_material_losses.csv,100 * reported total / GDP
+4,"seguros_perdas: GDP share, 2025",0.757798643007874,"0,8",fig_09_insurance_material_losses.csv,100 * reported total / GDP
+4,"seguros_perdas: real growth, 1996--2025",66.27626208490305,"66,3",fig_09_insurance_material_losses.csv,100 * (end / start - 1)
+4,seguros_perdas: real peak year,2024,2024,fig_09_insurance_material_losses.csv,Year with maximum reported real total
+4,seguros_perdas: real peak level,98.22079264835001,"98,2",fig_09_insurance_material_losses.csv,Maximum reported total / 1e9
+4,perda_produtiva: 2025 composition: Perda de capacidade produtiva,100.0,"100,0",fig_10_productive_capacity.csv,100 * component / component-group total
+4,"perda_produtiva: real level, 1996",35.50603688211,"35,5",fig_10_productive_capacity.csv,Reported total / 1e9
+4,"perda_produtiva: real level, 2025",29.169191035266024,"29,2",fig_10_productive_capacity.csv,Reported total / 1e9
+4,"perda_produtiva: GDP share, 1996",0.7613038727211888,"0,8",fig_10_productive_capacity.csv,100 * reported total / GDP
+4,"perda_produtiva: GDP share, 2025",0.22967866956902383,"0,2",fig_10_productive_capacity.csv,100 * reported total / GDP
+4,"perda_produtiva: real growth, 1996--2025",-17.847235014947117,"-17,8",fig_10_productive_capacity.csv,100 * (end / start - 1)
+4,perda_produtiva: real peak year,2017,2017,fig_10_productive_capacity.csv,Year with maximum reported real total
+4,perda_produtiva: real peak level,50.26795015253,"50,3",fig_10_productive_capacity.csv,Maximum reported total / 1e9
+4,custos_judiciais: 2025 composition: Tribunais de Justiça,17.31240654365853,"17,3",fig_11_judicial_costs.csv,100 * component / component-group total
+4,custos_judiciais: 2025 composition: Ministérios Públicos,30.853906105332516,"30,9",fig_11_judicial_costs.csv,100 * component / component-group total
+4,custos_judiciais: 2025 composition: Serviços de defesa criminal,51.83368735100896,"51,8",fig_11_judicial_costs.csv,100 * component / component-group total
+4,"custos_judiciais: real level, 1996",23.89849987427,"23,9",fig_11_judicial_costs.csv,Reported total / 1e9
+4,"custos_judiciais: real level, 2025",73.73886514873999,"73,7",fig_11_judicial_costs.csv,Reported total / 1e9
+4,"custos_judiciais: GDP share, 1996",0.5124204812527472,"0,5",fig_11_judicial_costs.csv,100 * reported total / GDP
+4,"custos_judiciais: GDP share, 2025",0.5806209854231495,"0,6",fig_11_judicial_costs.csv,100 * reported total / GDP
+4,"custos_judiciais: real growth, 1996--2025",208.55018321936578,"208,6",fig_11_judicial_costs.csv,100 * (end / start - 1)
+4,custos_judiciais: real peak year,2025,2025,fig_11_judicial_costs.csv,Year with maximum reported real total
+4,custos_judiciais: real peak level,73.73886514873999,"73,7",fig_11_judicial_costs.csv,Maximum reported total / 1e9
+4,servicos_medicos: 2025 composition: Serviços médico-terapêuticos,100.0,"100,0",fig_12_medical_costs.csv,100 * component / component-group total
+4,"servicos_medicos: real level, 1996",0.10252336793000001,"0,1",fig_12_medical_costs.csv,Reported total / 1e9
+4,"servicos_medicos: real level, 2025",0.12001624184000001,"0,1",fig_12_medical_costs.csv,Reported total / 1e9
+4,"servicos_medicos: GDP share, 1996",0.0021982582091231695,"0,0",fig_12_medical_costs.csv,100 * reported total / GDP
+4,"servicos_medicos: GDP share, 2025",0.0009450097782677166,"0,0",fig_12_medical_costs.csv,100 * reported total / GDP
+4,"servicos_medicos: real growth, 1996--2025",17.062328582439502,"17,1",fig_12_medical_costs.csv,100 * (end / start - 1)
+4,servicos_medicos: real peak year,2012,2012,fig_12_medical_costs.csv,Year with maximum reported real total
+4,servicos_medicos: real peak level,0.18741649811000002,"0,2",fig_12_medical_costs.csv,Maximum reported total / 1e9
+4,total: 2025 composition: Serviços médico-terapêuticos,0.027305925142917735,"0,0",fig_13_total_costs.csv,100 * component / component-group total
+4,total: 2025 composition: Encarceramento e auxílio-reclusão,3.0330403475575847,"3,0",fig_13_total_costs.csv,100 * component / component-group total
+4,total: 2025 composition: Custos judiciais,16.776962026185704,"16,8",fig_13_total_costs.csv,100 * component / component-group total
+4,total: 2025 composition: Perda de capacidade produtiva,6.636532978180457,"6,6",fig_13_total_costs.csv,100 * component / component-group total
+4,total: 2025 composition: Seguros e perdas materiais,21.896485618708166,"21,9",fig_13_total_costs.csv,100 * component / component-group total
+4,total: 2025 composition: Segurança privada,14.517326895211095,"14,5",fig_13_total_costs.csv,100 * component / component-group total
+4,total: 2025 composition: Segurança pública,37.11234620901407,"37,1",fig_13_total_costs.csv,100 * component / component-group total
+4,"total: real level, 1996",220.56388799758747,"220,6",fig_13_total_costs.csv,Reported total / 1e9
+4,"total: real level, 2025",439.524539863936,"439,5",fig_13_total_costs.csv,Reported total / 1e9
+4,"total: GDP share, 1996",4.729227952771371,"4,7",fig_13_total_costs.csv,100 * reported total / GDP
+4,"total: GDP share, 2025",3.4608231485349292,"3,5",fig_13_total_costs.csv,100 * reported total / GDP
+4,"total: real growth, 1996--2025",99.27311939148605,"99,3",fig_13_total_costs.csv,100 * (end / start - 1)
+4,total: real peak year,2025,2025,fig_13_total_costs.csv,Year with maximum reported real total
+4,total: real peak level,439.524539863936,"439,5",fig_13_total_costs.csv,Maximum reported total / 1e9
+4.7,"Total measured cost, 1996",220.56388799758747,"220,6",fig_13_total_costs.csv,Reported accounting total / 1e9
+4.7,"Total measured cost GDP share, 1996",4.729227952771371,"4,7",fig_13_total_costs.csv,100 * total / GDP
+4.7,"Total measured cost, 2015",385.8595126007999,"385,9",fig_13_total_costs.csv,Reported accounting total / 1e9
+4.7,"Total measured cost GDP share, 2015",3.868687553189285,"3,9",fig_13_total_costs.csv,100 * total / GDP
+4.7,"Total measured cost, 2025",439.524539863936,"439,5",fig_13_total_costs.csv,Reported accounting total / 1e9
+4.7,"Total measured cost GDP share, 2025",3.4608231485349292,"3,5",fig_13_total_costs.csv,100 * total / GDP
+4.7,2025 total composition: Segurança pública,37.11234620901407,"37,1",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,2025 total composition: Seguros e perdas materiais,21.896485618708166,"21,9",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,2025 total composition: Custos judiciais,16.776962026185704,"16,8",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,2025 total composition: Segurança privada,14.517326895211095,"14,5",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,2025 total composition: Perda de capacidade produtiva,6.636532978180457,"6,6",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,2025 total composition: Encarceramento e auxílio-reclusão,3.0330403475575847,"3,0",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,2025 total composition: Serviços médico-terapêuticos,0.027305925142917735,"0,0",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,"Cumulative measured cost, 1996--2025, R$ trillion",9.999656605014636,"10,0",fig_13_total_costs.csv,Sum of annual reported totals / 1e12
+4.4,"Average modeled productive loss per homicide, 2025, R$ thousand",715.369491974642,"715,4",fig_10_productive_capacity.csv,"Reported productive loss / homicide count / 1,000"
+4.6,"Medical costs, 2025, R$ million",120.01624184,"120,0",fig_12_medical_costs.csv,Reported total / 1e6
+4.6,"Medical costs GDP share, 2025",0.0009450097782677166,"0,001",fig_12_medical_costs.csv,100 * reported total / GDP
+4.6,"Medical share of total measured costs, 2025",0.027305925142917735,"0,03",fig_13_total_costs.csv,100 * component / accounting total
+4.6,"Violent-injury admissions, 1998, thousands",42.521,"42,5",fig_12_medical_costs.csv,"SIH/SUS admissions / 1,000"
+4.6,"Violent-injury admissions, 2015, thousands",57.47,"57,5",fig_12_medical_costs.csv,"SIH/SUS admissions / 1,000"
+4.6,"Violent-injury admissions, 2025, thousands",52.768,"52,8",fig_12_medical_costs.csv,"SIH/SUS admissions / 1,000"
+5.1,"State burden first quartile, 2025",3.167757238507132,"3,2",fig_14_state_costs.csv,Unweighted cross-state quantile 0.25
+5.1,"State burden median, 2025",4.857516920310012,"4,9",fig_14_state_costs.csv,Unweighted cross-state quantile 0.5
+5.1,"State burden third quartile, 2025",6.362173094264925,"6,4",fig_14_state_costs.csv,Unweighted cross-state quantile 0.75
+5.1,"GDP per capita versus state burden correlation, 2025",-0.744440275535617,"-0,74",fig_14_state_costs.csv,Pearson correlation across 27 UFs
+5.1,"Log GDP per capita versus state burden correlation, 2025",-0.7803469594466268,"-0,78",fig_14_state_costs.csv,Pearson correlation across 27 UFs
+5.1,"State burden, 2025: AP",9.860543670220816,"9,9",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: AC",9.033865268628178,"9,0",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: RR",7.0259776704421215,"7,0",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: PI",6.9556631556556825,"7,0",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: SE",6.580734331943031,"6,6",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: CE",6.559437275927571,"6,6",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: PB",6.367179168313025,"6,4",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: RO",6.357167020216825,"6,4",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: MA",5.871492783772752,"5,9",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: PE",5.837248577396343,"5,8",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: AL",5.744075975947243,"5,7",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: BA",5.36207894185262,"5,4",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: PA",5.094988905480915,"5,1",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: RN",4.857516920310012,"4,9",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: AM",4.415300773600529,"4,4",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: TO",4.010855102978894,"4,0",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: RJ",3.9573193567335503,"4,0",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: ES",3.705820737267214,"3,7",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: GO",3.481296239215523,"3,5",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: RS",3.2457300723388767,"3,2",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: MG",3.089784404675388,"3,1",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: MT",2.980692488133124,"3,0",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: PR",2.8312812826984133,"2,8",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: MS",2.601449574012911,"2,6",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: SP",2.1609210088903,"2,2",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: DF",1.9473429428795825,"1,9",fig_14_state_costs.csv,UF total / state GDP * 100
+5.1,"State burden, 2025: SC",1.873476629006756,"1,9",fig_14_state_costs.csv,UF total / state GDP * 100
+5.2,State trajectories: income_up_burden_down,19,19,fig_15_state_trajectories.csv,Count from each UF's 2016 and 2025 endpoints
+5.2,State trajectories: income_up_burden_up,8,8,fig_15_state_trajectories.csv,Count from each UF's 2016 and 2025 endpoints
+5.2,State trajectories: income_down_burden_down,0,0,fig_15_state_trajectories.csv,Count from each UF's 2016 and 2025 endpoints
+5.2,State trajectories: income_down_burden_up,0,0,fig_15_state_trajectories.csv,Count from each UF's 2016 and 2025 endpoints
+5.2,"Median state burden change, 2016--2025",-0.3731892504564691,"-0,4",fig_15_state_trajectories.csv,Median UF-level end minus start burden
+5.2,"Median real GDP per capita growth, 2016--2025",24.423590526478623,"24,4",fig_15_state_trajectories.csv,Median UF-level growth
+5.2,Initial GDP per capita versus burden change correlation,-0.14563752675408997,"-0,15",fig_15_state_trajectories.csv,Pearson correlation across UFs between 2016 real GDP per capita and 2016--2025 burden change

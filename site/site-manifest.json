@@ -1,0 +1,252 @@
+[
+  {
+    "path": ".nojekyll",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "assets/css/styles.css",
+    "bytes": 11046,
+    "sha256": "d4a957d01e34b0171188a18b50cf18eab57b69fb77d290d87bf58c386b20c161"
+  },
+  {
+    "path": "assets/js/app.js",
+    "bytes": 32288,
+    "sha256": "ad3a3874278927fef5203eeeac6b70a096623fe3e3a464165e5d28aefc05c6e3"
+  },
+  {
+    "path": "assets/vendor/plotly-2.35.2.min.js",
+    "bytes": 4558696,
+    "sha256": "6d21266ce1bd7d9e5ab4e115989c70c20de0382fd973a8f26ab58619eba4d603"
+  },
+  {
+    "path": "assets/vendor/plotly-2.35.2.min.js.LICENSE.txt",
+    "bytes": 1338,
+    "sha256": "9144a55454d7944bd0695179ec85956de3d08a64c5227ffa2d45da186ec8445a"
+  },
+  {
+    "path": "data/en/fig_01_world_homicides_en.csv",
+    "bytes": 15529,
+    "sha256": "93d3a9f5f0e5fbf080e69244fe06061414d9581dc5831e312f55780985dadcc4"
+  },
+  {
+    "path": "data/en/fig_02a_recorded_crime_en.csv",
+    "bytes": 6562,
+    "sha256": "3dfb53edc9dcd8584953d9977aeda46a1c47197013087d111f3cf1c2ad69401e"
+  },
+  {
+    "path": "data/en/fig_02b_crime_rates_en.csv",
+    "bytes": 8910,
+    "sha256": "70f60bce6e795091ab322371c22539e5f0f975fd807caa79534e4dc3137db557"
+  },
+  {
+    "path": "data/en/fig_02c_partial_coverage_counts_en.csv",
+    "bytes": 7675,
+    "sha256": "aa2cccc72c4e5b384ecc84acd6fd2729c57a3f35f91d4f52beeba3d0c8ce2445"
+  },
+  {
+    "path": "data/en/fig_02d_partial_coverage_rates_en.csv",
+    "bytes": 9229,
+    "sha256": "74d7b8808084dba1a88aafcfce62d7e7e39a965e49923b64c7b79664ee9a1557"
+  },
+  {
+    "path": "data/en/fig_03_microregion_homicides_en.csv",
+    "bytes": 55903,
+    "sha256": "1989c79b00464b4dc5e6329760c729db0f58dd1e1abd27b109ebe17971c2c9cd"
+  },
+  {
+    "path": "data/en/fig_04_microregion_homicide_change_en.csv",
+    "bytes": 113931,
+    "sha256": "ead332c6eebe1f138027e5a5a7efa15e6d41984ab59051d2e0d924f08677e0db"
+  },
+  {
+    "path": "data/en/fig_05_microregion_homicide_convergence_en.csv",
+    "bytes": 104891,
+    "sha256": "d28c38216394c9cf616ede458c45a07274fd50dc788b5740e297d422fa9e488b"
+  },
+  {
+    "path": "data/en/fig_06_public_security_en.csv",
+    "bytes": 9184,
+    "sha256": "29e007b3360f11dd6d67e153bbfefee21db687c8dfd8cebabe6ac7368454c9d2"
+  },
+  {
+    "path": "data/en/fig_07_private_security_en.csv",
+    "bytes": 8265,
+    "sha256": "fadd70221c2f9de52c5d7a2b1e9a54fc5be88ad1dfe011c33e02e3da719371ed"
+  },
+  {
+    "path": "data/en/fig_08_incarceration_en.csv",
+    "bytes": 10156,
+    "sha256": "e49ee539307ae8f310baabf7b1e8fd91333f8e284ab23fcc92c217fab0e85aa2"
+  },
+  {
+    "path": "data/en/fig_09_insurance_material_losses_en.csv",
+    "bytes": 27624,
+    "sha256": "bd523b271645e1faf2c63e95955197958e20bdced05081de6b2b7c6e4ad65629"
+  },
+  {
+    "path": "data/en/fig_10_productive_capacity_en.csv",
+    "bytes": 4951,
+    "sha256": "b58009fbf932ffc495ebd7120e766da94242267e6517da73edaa56ac376cff54"
+  },
+  {
+    "path": "data/en/fig_11_judicial_costs_en.csv",
+    "bytes": 14103,
+    "sha256": "07cb96c4612f9251c010d1086181a313f1ed36d45186d84579c2883f8b30cebb"
+  },
+  {
+    "path": "data/en/fig_12_medical_costs_en.csv",
+    "bytes": 5491,
+    "sha256": "14e4e34e0a63d23c63abae538a1aad4c241169222b566d8c5774f8c829f2c523"
+  },
+  {
+    "path": "data/en/fig_13_total_costs_en.csv",
+    "bytes": 37202,
+    "sha256": "1c48ed53bfd93f911cf5ba9dbf666ee1dd93003fcf8c8fa36a00bedf2a85f2b3"
+  },
+  {
+    "path": "data/en/fig_14_state_costs_en.csv",
+    "bytes": 47887,
+    "sha256": "693d51099c853d78c1d103943c9856764125891d532f8896df05fe4b594e16e9"
+  },
+  {
+    "path": "data/en/fig_15_state_trajectories_en.csv",
+    "bytes": 9778,
+    "sha256": "db39192a593183adc3f9049c382f101c99df0eae9a79c82a0b34d342cbe97309"
+  },
+  {
+    "path": "data/geography/ibge_2015_microregions_simplified.geojson",
+    "bytes": 878650,
+    "sha256": "7153a2fcb802bfdd8412dc875b3d15d6d23ba6f943b126246cd52a19e2514b67"
+  },
+  {
+    "path": "data/pt/fig_01_distribuicao_mundial_homicidios.csv",
+    "bytes": 15529,
+    "sha256": "93d3a9f5f0e5fbf080e69244fe06061414d9581dc5831e312f55780985dadcc4"
+  },
+  {
+    "path": "data/pt/fig_02a_crimes_registrados.csv",
+    "bytes": 6582,
+    "sha256": "b6d5be353323fe632023405be71a7ecae50caf0920e072fe1f64ee545a81ebc1"
+  },
+  {
+    "path": "data/pt/fig_02b_taxas_criminalidade.csv",
+    "bytes": 8750,
+    "sha256": "2f78b17b4e6038fab8046910823d4c3b68fc466061a9d134bd82aad0fd73b17a"
+  },
+  {
+    "path": "data/pt/fig_02c_crimes_cobertura_parcial.csv",
+    "bytes": 7975,
+    "sha256": "ef77a058285e00397d89c76b4e4540b07a33b82542552c51b4428660c1284a5f"
+  },
+  {
+    "path": "data/pt/fig_02d_taxas_cobertura_parcial.csv",
+    "bytes": 9409,
+    "sha256": "51f4c967522a498bf4b5dcaa30f6a6ab9d6b1204e93facad2028ac77d2e0f7c9"
+  },
+  {
+    "path": "data/pt/fig_03_microrregion_homicides.csv",
+    "bytes": 55259,
+    "sha256": "dd21ec3df59290899f660f444112130352a5cea622efd504afbdb2631b6b2c51"
+  },
+  {
+    "path": "data/pt/fig_04_microrregion_homicide_change.csv",
+    "bytes": 113287,
+    "sha256": "5550bd1e7b11ac24040f16bf79cffca91dfa52065e72deac758001d6a7b8a2bd"
+  },
+  {
+    "path": "data/pt/fig_05_microrregion_homicide_convergence.csv",
+    "bytes": 104247,
+    "sha256": "5ccdbc9ba5dd395ba68b6e3d8c99e93a1b5ce4f70a927ff2a957302f82eacabd"
+  },
+  {
+    "path": "data/pt/fig_06_public_security.csv",
+    "bytes": 8784,
+    "sha256": "38d99e646d7c869f680110da2e6cd98e9f2c0e588452a3d027be6ba247cb5e4b"
+  },
+  {
+    "path": "data/pt/fig_07_private_security.csv",
+    "bytes": 8655,
+    "sha256": "f3090b0ee0c756332c8db747737af57f233babc330e01b44d99071daf4df2c0a"
+  },
+  {
+    "path": "data/pt/fig_08_incarceration.csv",
+    "bytes": 10336,
+    "sha256": "22bb57ce6728e0a1330ed073a68e0ab9aef4c568c5db6f2b146732b81834633b"
+  },
+  {
+    "path": "data/pt/fig_09_insurance_material_losses.csv",
+    "bytes": 27774,
+    "sha256": "50dfb3c1cecb7361f33f85ece7272d0aaf3ac0f5b96f09829fda361dff3f1f61"
+  },
+  {
+    "path": "data/pt/fig_10_productive_capacity.csv",
+    "bytes": 5161,
+    "sha256": "3da7468a6c0326b9810b38b4fd84ab592bfe2dcbaf83fe733f5634fb885c3541"
+  },
+  {
+    "path": "data/pt/fig_11_judicial_costs.csv",
+    "bytes": 14673,
+    "sha256": "f726684128e920d7b9c4b9998b1e626dc486e3ccc4acf968b6bf8917ed17107c"
+  },
+  {
+    "path": "data/pt/fig_12_medical_costs.csv",
+    "bytes": 5461,
+    "sha256": "da4094991fec44e4b3ce6efaa6472da0ec44ab6cf207b7246dba3df42b64c637"
+  },
+  {
+    "path": "data/pt/fig_13_total_costs.csv",
+    "bytes": 37352,
+    "sha256": "d7468866af323eb65b82c939f33da79451839fa52ac45081d46ed7a142bf609f"
+  },
+  {
+    "path": "data/pt/fig_14_state_costs.csv",
+    "bytes": 46078,
+    "sha256": "bfac06da2f94395eb5c449f7bda1e370666d3a1d02f3de65d53888124322b566"
+  },
+  {
+    "path": "data/pt/fig_15_state_trajectories.csv",
+    "bytes": 9292,
+    "sha256": "bae14e925bc17117dabfc2fd1ebd08d8faa0997c2d1a4f0da194d8da3202e6e2"
+  },
+  {
+    "path": "downloads/report-en.docx",
+    "bytes": 3389806,
+    "sha256": "511552c5f06177500be70c0bc4550749c0c0b91cb4341a98f60d4b1d812c0d92"
+  },
+  {
+    "path": "downloads/report-en.md",
+    "bytes": 40018,
+    "sha256": "d1114ce9a0af34fcef24d2a3cacfca2e2fa62e8bd862b42d98988dca9934081b"
+  },
+  {
+    "path": "downloads/report-en.pdf",
+    "bytes": 2129167,
+    "sha256": "8fa88acc9e4a3d5c09d5c121bfba56c92ab99bb433e306ac4f5ef506bbf0cc51"
+  },
+  {
+    "path": "downloads/report.docx",
+    "bytes": 4156430,
+    "sha256": "dc34c2878127e5258ca223a15403ced16eada2d510cf1ba5b1c2688e2d08e3c3"
+  },
+  {
+    "path": "downloads/report.md",
+    "bytes": 43538,
+    "sha256": "637059c790a68f2911367984008d5e9db6804fe052c828e27db1ef8e3c1955fb"
+  },
+  {
+    "path": "downloads/report.pdf",
+    "bytes": 2280461,
+    "sha256": "8b128031e1d62b4aef56c4c7ffb041921b1b4961f5b308b75505410630eae941"
+  },
+  {
+    "path": "favicon.svg",
+    "bytes": 316,
+    "sha256": "c8b0deeb3e521db9c538961bbdfa555dc2c0e7015e55717ed8bd7e0e1ad53159"
+  },
+  {
+    "path": "index.html",
+    "bytes": 16092,
+    "sha256": "03ad7c0e707f18874255b7512c6f277795968783a7826a5543060749c19e2b27"
+  }
+]

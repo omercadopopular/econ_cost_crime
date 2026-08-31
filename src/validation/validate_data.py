@@ -17,6 +17,7 @@ from dataclasses import asdict, dataclass
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
 import sys
 from typing import Any, Iterable, Sequence
@@ -25,8 +26,14 @@ from .workbook_reader import Sheet, Workbook, column_label
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-NATIONAL_PATH = REPO_ROOT / "data" / "output" / "tabela_final_cec_brasil.xlsx"
-UF_PATH = REPO_ROOT / "data" / "output" / "tabela_final_cec_ufs.xlsx"
+NATIONAL_PATH = Path(os.environ.get(
+    "CEC_NATIONAL_WORKBOOK",
+    REPO_ROOT / "data" / "output" / "tabela_final_cec_brasil.xlsx",
+)).resolve()
+UF_PATH = Path(os.environ.get(
+    "CEC_UF_WORKBOOK",
+    REPO_ROOT / "data" / "output" / "tabela_final_cec_ufs.xlsx",
+)).resolve()
 
 EXPECTED_NATIONAL_SHEETS = (
     "custo_total_violencia",

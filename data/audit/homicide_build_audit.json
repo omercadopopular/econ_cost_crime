@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "homicide_definition": "CAUSABAS X85-X99, Y00-Y09, Y35 ou Y36; todas as idades; residência",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2022,
+    2023,
+    2024
+  ],
+  "crosswalk": {
+    "municipalities": 5570,
+    "microrregions": 558,
+    "ufs": 27,
+    "excluded_localities": [
+      {
+        "municipality_code_7": "5101837",
+        "municipality_name": "Boa Esperança do Norte"
+      }
+    ],
+    "geometry_feature_records": 562,
+    "geometry_unique_microrregions": 558,
+    "geometry_multi_feature_codes": {
+      "13013": 3,
+      "13012": 3
+    }
+  },
+  "population": {
+    "2015": {
+      "source_rows": 5571,
+      "numeric_rows": 5570,
+      "nonnumeric_rows": [
+        {
+          "municipality_code_7": "5101837",
+          "name": "Boa Esperança do Norte - MT",
+          "value": "..."
+        }
+      ],
+      "municipal_population_total": 204450049.0,
+      "source_reference": "Estimativa da população residente em 1º de julho de 2015"
+    },
+    "2016": {
+      "source_rows": 5571,
+      "numeric_rows": 5570,
+      "nonnumeric_rows": [
+        {
+          "municipality_code_7": "5101837",
+          "name": "Boa Esperança do Norte - MT",
+          "value": "..."
+        }
+      ],
+      "municipal_population_total": 206081432.0,
+      "source_reference": "Estimativa da população residente em 1º de julho de 2016"
+    },
+    "2017": {
+      "source_rows": 5571,
+      "numeric_rows": 5570,
+      "nonnumeric_rows": [
+        {
+          "municipality_code_7": "5101837",
+          "name": "Boa Esperança do Norte - MT",
+          "value": "..."
+        }
+      ],
+      "municipal_population_total": 207660929.0,
+      "source_reference": "Estimativa da população residente em 1º de julho de 2017"
+    },
+    "2022": {
+      "source_rows": 5570,
+      "numeric_rows": 5570,
+      "nonnumeric_rows": [],
+      "municipal_population_total": 203080756.0,
+      "source_reference": "População residente do Censo Demográfico 2022, referência em 1º de agosto"
+    },
+    "2024": {
+      "source_rows": 5571,
+      "numeric_rows": 5570,
+      "nonnumeric_rows": [
+        {
+          "municipality_code_7": "5101837",
+          "name": "Boa Esperança do Norte - MT",
+          "value": "..."
+        }
+      ],
+      "municipal_population_total": 212583750.0,
+      "source_reference": "Estimativa da população residente em 1º de julho de 2024"
+    },
+    "2023": {
+      "source_rows": 5570,
+      "numeric_rows": 5570,
+      "nonnumeric_rows": [],
+      "municipal_population_total": 207832253.0,
+      "source_reference": "Interpolação linear municipal entre Censo 2022 e estimativa 2024; diagnóstico apenas"
+    }
+  },
+  "sim": {
+    "2015": {
+      "raw_mortality_records": 1264175,
+      "official_sim_homicide_records": 59080,
+      "mapped_homicides": 58278,
+      "excluded_homicides": 802,
+      "match_rate_pct": 98.64251861882194,
+      "missing_death_date": 0,
+      "death_year_outside_annual_file": 0,
+      "missing_residence_municipality": 802,
+      "unmatched_residence_codes": {},
+      "homicides_with_missing_age_retained": 0,
+      "circumstance_of_death_among_mapped_homicides": {
+        "1": 762,
+        "2": 2,
+        "3": 55114,
+        "4": 825,
+        "9": 1551,
+        "missing": 24
+      }
+    },
+    "2016": {
+      "raw_mortality_records": 1309774,
+      "official_sim_homicide_records": 62517,
+      "mapped_homicides": 61531,
+      "excluded_homicides": 986,
+      "match_rate_pct": 98.42282899051457,
+      "missing_death_date": 0,
+      "death_year_outside_annual_file": 0,
+      "missing_residence_municipality": 986,
+      "unmatched_residence_codes": {},
+      "homicides_with_missing_age_retained": 0,
+      "circumstance_of_death_among_mapped_homicides": {
+        "1": 739,
+        "2": 3,
+        "3": 57090,
+        "4": 1118,
+        "9": 2550,
+        "missing": 31
+      }
+    },
+    "2017": {
+      "raw_mortality_records": 1312663,
+      "official_sim_homicide_records": 65602,
+      "mapped_homicides": 64660,
+      "excluded_homicides": 942,
+      "match_rate_pct": 98.56406816865339,
+      "missing_death_date": 0,
+      "death_year_outside_annual_file": 0,
+      "missing_residence_municipality": 942,
+      "unmatched_residence_codes": {},
+      "homicides_with_missing_age_retained": 0,
+      "circumstance_of_death_among_mapped_homicides": {
+        "1": 721,
+        "2": 13,
+        "3": 60110,
+        "4": 1579,
+        "9": 2038,
+        "missing": 199
+      }
+    },
+    "2022": {
+      "raw_mortality_records": 1544266,
+      "official_sim_homicide_records": 46409,
+      "mapped_homicides": 45819,
+      "excluded_homicides": 590,
+      "match_rate_pct": 98.7286948652201,
+      "missing_death_date": 0,
+      "death_year_outside_annual_file": 0,
+      "missing_residence_municipality": 590,
+      "unmatched_residence_codes": {},
+      "homicides_with_missing_age_retained": 0,
+      "circumstance_of_death_among_mapped_homicides": {
+        "1": 578,
+        "2": 2,
+        "3": 41773,
+        "4": 1911,
+        "9": 1488,
+        "missing": 67
+      }
+    },
+    "2023": {
+      "raw_mortality_records": 1465610,
+      "official_sim_homicide_records": 45747,
+      "mapped_homicides": 45210,
+      "excluded_homicides": 537,
+      "match_rate_pct": 98.82615253459244,
+      "missing_death_date": 0,
+      "death_year_outside_annual_file": 0,
+      "missing_residence_municipality": 537,
+      "unmatched_residence_codes": {},
+      "homicides_with_missing_age_retained": 0,
+      "circumstance_of_death_among_mapped_homicides": {
+        "1": 586,
+        "3": 41102,
+        "4": 2151,
+        "9": 1323,
+        "missing": 48
+      }
+    },
+    "2024": {
+      "raw_mortality_records": 1532015,
+      "official_sim_homicide_records": 42590,
+      "mapped_homicides": 42132,
+      "excluded_homicides": 458,
+      "match_rate_pct": 98.92463019488143,
+      "missing_death_date": 0,
+      "death_year_outside_annual_file": 0,
+      "missing_residence_municipality": 458,
+      "unmatched_residence_codes": {},
+      "homicides_with_missing_age_retained": 0,
+      "circumstance_of_death_among_mapped_homicides": {
+        "1": 600,
+        "3": 37726,
+        "4": 2529,
+        "9": 1228,
+        "missing": 49
+      }
+    }
+  },
+  "coverage": {
+    "2015": {
+      "municipality_rows": 5570,
+      "missing_population_codes": [],
+      "extra_numeric_population_codes": []
+    },
+    "2016": {
+      "municipality_rows": 5570,
+      "missing_population_codes": [],
+      "extra_numeric_population_codes": []
+    },
+    "2017": {
+      "municipality_rows": 5570,
+      "missing_population_codes": [],
+      "extra_numeric_population_codes": []
+    },
+    "2022": {
+      "municipality_rows": 5570,
+      "missing_population_codes": [],
+      "extra_numeric_population_codes": []
+    },
+    "2023": {
+      "municipality_rows": 5570,
+      "missing_population_codes": [],
+      "extra_numeric_population_codes": []
+    },
+    "2024": {
+      "municipality_rows": 5570,
+      "missing_population_codes": [],
+      "extra_numeric_population_codes": []
+    }
+  },
+  "outputs": {
+    "municipality_year_rows": 33420,
+    "microrregion_year_rows": 3348
+  }
+}

@@ -7,7 +7,7 @@ These specifications define the intended analytical content. `docs/graphing-styl
 - Use `ANO_FINAL` for the latest complete common year, with 2025 as the target. Do not label a figure as 2025 until completeness has been verified.
 - In titles and subtitles, display the actual years used.
 - Express monetary values in the convention documented in `docs/DATA-DICTIONARY.md`. State the constant-price base year and deflator in the note.
-- For Figures 5–8 and 10, “share of total” means the share of the relevant cost component, so the plotted categories should sum to 100% within each year. For Figure 12, it means the share of total measured economic costs of crime.
+- For Figures 6–9 and 11, “share of total” means the share of the relevant cost component, so the plotted categories should sum to 100% within each year. For Figure 13, it means the share of total measured economic costs of crime.
 - Use publication-quality Portuguese labels. Never print raw workbook column names.
 - Every script must export PDF and PNG versions to `figs/` and, whenever feasible, a figure-ready CSV to `data/figure_data/`.
 - Source notes must identify the institution, series or database, author calculations, and any non-obvious transformation.
@@ -15,7 +15,7 @@ These specifications define the intended analytical content. `docs/graphing-styl
 - For annual time series, use bars so that each year's value is visually discrete. Print every
   year on the horizontal axis and rotate the labels 90 degrees.
 - Name panels that report category shares **"Percentual do total"**. The denominator is the
-  relevant component total in Figures 5–8 and 10, and total measured crime costs in Figure 12.
+  relevant component total in Figures 6–9 and 11, and total measured crime costs in Figure 13.
 - When an authoritative total exists but its component decomposition is unavailable for part of the
   period, show the total over the full available period and leave the decomposition visibly absent.
   Do not impute component shares solely to complete a figure. Figure code must detect newly populated
@@ -26,25 +26,25 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Output stem:** `fig_01_distribuicao_mundial_homicidios`
 
-**Purpose:** Compare Brazil with the cross-country distribution in two non-overlapping periods.
+**Purpose:** Compare Brazil with the cross-country distribution in 2016 and 2024.
 
 **Preferred design:** Two aligned panels.
 
-- Panel A: average homicide rate in 2006–2015.
-- Panel B: average homicide rate in 2016–2025.
-- If 2025 is unavailable, use the latest two non-overlapping windows of equal length ending in the latest complete year. Report the exact windows.
-- Unit of observation: country.
-- Vertical axis: average homicides per 100,000 inhabitants.
+- Panel A: homicide rate in 2016.
+- Panel B: homicide rate in 2024, the latest year with sufficiently broad coverage in the retained UNODC vintage.
+- Unit of observation: official country/territory reporting unit observed in both years.
+- Vertical axis: intentional homicides per 100,000 inhabitants in the stated year.
 - Horizontal axis: percentile in the unweighted country distribution.
 - Highlight Brazil and report its percentile in each panel.
-- Prefer a common country sample across panels. Require a documented minimum annual coverage within each window; report sample size and coverage rule.
-- Do not mix national sources or interpolate missing annual rates without documentation.
+- Use the common sample observed in both panels and report its size.
+- Do not mix national sources, fill missing annual rates or change the sample between panels.
 
 **Source:** UNODC, with author calculations.
 
 ## Figure 2 — Brasil: tendências da criminalidade
 
-**Output stems:** `fig_02a_crimes_registrados` and `fig_02b_taxas_criminalidade`
+**Output stems:** `fig_02a_crimes_registrados`, `fig_02b_taxas_criminalidade`,
+`fig_02c_crimes_cobertura_parcial` and `fig_02d_taxas_cobertura_parcial`
 
 **Purpose:** Show recent national trends in consistently defined reported crimes.
 
@@ -55,9 +55,19 @@ These specifications define the intended analytical content. `docs/graphing-styl
 - Horizontal axis: year.
 - Vertical axis: incidents or incidents per 100,000, as applicable.
 - Use the same offenses, ordering, and period in both versions.
+- Print the value above every annual bar in Figures 2A–2D using Brazilian formatting. Count panels (2A and 2C) use no decimal places and display positive values below one thousand as `<1`. Rate panels (2B and 2D) use one decimal place and display positive values below 0.05 per 100,000 as `<0,1`, rather than rounding them to zero.
 - Include only offenses with sufficiently stable definitions and reporting coverage. Do not merge categories across classification breaks without a documented crosswalk.
 - Annotate material changes in coverage, reporting rules, or participating jurisdictions.
 - Produce a state-level validation or appendix output when comparable state reporting is feasible; do not force state disaggregation when coverage is inconsistent.
+
+**Companion figures for partial coverage:** Figures 2C (counts) and 2D (rates) show the
+otherwise usable property-crime indicators that do not cover all 27 UFs: vehicle theft, vehicle
+robbery, cargo robbery and robbery of financial institutions. Use a separate UF panel for each
+indicator, balanced over the entire displayed period, to maximize valid geographic coverage without
+changing the sample within a series. For every indicator, state in the note the excluded UFs and the
+population share covered in the terminal year; never describe these values as Brazil-wide totals.
+Do not replace missing reporting with zero. Figures 2C and 2D must use identical offenses, ordering,
+period and, within each indicator, the same geographic sample.
 
 **Legacy reference:** `sinesp/sinesp.py` in the pinned legacy-code commit listed in `docs/REFERENCE-FILES.md`.
 
@@ -100,9 +110,26 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations using SIM/Ministério da Saúde and IBGE.
 
-## Figure 5 — Brasil: gastos com segurança pública
+## Figure 5 — Brasil: convergência das taxas de homicídio entre microrregiões
 
-**Output stem:** `fig_05_seguranca_publica`
+**Output stem:** `fig_05_convergencia_homicidios_microrregioes`
+
+**Purpose:** Assess whether microrregions with higher homicide rates in 2016 subsequently registered larger absolute declines through 2024.
+
+**Preferred design:** Population-weighted bubble scatterplot.
+
+- Horizontal axis: homicide rate per 100,000 inhabitants in 2016.
+- Vertical axis: 2024 rate minus 2016 rate, in homicides per 100,000 inhabitants.
+- Bubble area: 2016 microrregion population.
+- Include a population-weighted descriptive regression line and report its coefficient.
+- State explicitly that the relationship is descriptive, that the initial rate enters mechanically in the dependent-variable change, and that the result may reflect regression to the mean.
+- Retain the smoothed-endpoint diagnostic in the audit output.
+
+**Source:** Author calculations using SIM/Ministério da Saúde and IBGE.
+
+## Figure 6 — Brasil: gastos com segurança pública
+
+**Output stem:** `fig_06_seguranca_publica`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -118,9 +145,9 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations; see the methodological appendix for underlying official sources and construction.
 
-## Figure 6 — Brasil: gastos com segurança privada
+## Figure 7 — Brasil: gastos com segurança privada
 
-**Output stem:** `fig_06_seguranca_privada`
+**Output stem:** `fig_07_seguranca_privada`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -134,9 +161,9 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations using RAIS/MTb, IBGE, and PNADC; see the methodological appendix.
 
-## Figure 7 — Brasil: custos de encarceramento e auxílio-reclusão
+## Figure 8 — Brasil: custos de encarceramento e auxílio-reclusão
 
-**Output stem:** `fig_07_encarceramento_auxilio_reclusao`
+**Output stem:** `fig_08_encarceramento_auxilio_reclusao`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -151,9 +178,9 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations using IBGE, Anuários Estatísticos da Previdência Social, Departamento Penitenciário Nacional, and the CPI sobre o Sistema Penitenciário Nacional; see the methodological appendix.
 
-## Figure 8 — Brasil: seguros e perdas materiais
+## Figure 9 — Brasil: seguros e perdas materiais
 
-**Output stem:** `fig_08_seguros_perdas_materiais`
+**Output stem:** `fig_09_seguros_perdas_materiais`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -168,9 +195,9 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations using Susep and IBGE. State the precise Susep products, aggregation frequency, and terminal year documented in the data dictionary and methodological appendix.
 
-## Figure 9 — Brasil: perda de capacidade produtiva
+## Figure 10 — Brasil: perda de capacidade produtiva
 
-**Output stem:** `fig_09_perda_capacidade_produtiva`
+**Output stem:** `fig_10_perda_capacidade_produtiva`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -183,9 +210,9 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations; see the methodological appendix.
 
-## Figure 10 — Brasil: custos judiciais associados à criminalidade
+## Figure 11 — Brasil: custos judiciais associados à criminalidade
 
-**Output stem:** `fig_10_custos_judiciais`
+**Output stem:** `fig_11_custos_judiciais`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -199,9 +226,9 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations using Conselho Nacional de Justiça, Conselho Nacional do Ministério Público, relevant federal budget or planning sources, and IBGE; see the methodological appendix.
 
-## Figure 11 — Brasil: custos médico-terapêuticos
+## Figure 12 — Brasil: custos médico-terapêuticos
 
-**Output stem:** `fig_11_custos_medico_terapeuticos`
+**Output stem:** `fig_12_custos_medico_terapeuticos`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -213,9 +240,9 @@ These specifications define the intended analytical content. `docs/graphing-styl
 
 **Source:** Author calculations; see the methodological appendix.
 
-## Figure 12 — Brasil: custos econômicos da criminalidade
+## Figure 13 — Brasil: custos econômicos da criminalidade
 
-**Output stem:** `fig_12_custos_economicos_criminalidade`
+**Output stem:** `fig_13_custos_economicos_criminalidade`
 
 **Input:** `data/output/tabela_final_cec_brasil.xlsx`
 
@@ -240,9 +267,9 @@ Panels:
 
 **Source:** Author calculations; see the methodological appendix.
 
-## Figure 13 — UFs: nível e composição dos custos econômicos da criminalidade
+## Figure 14 — UFs: nível e composição dos custos econômicos da criminalidade
 
-**Output stem:** `fig_13_custos_economicos_ufs`
+**Output stem:** `fig_14_custos_economicos_ufs`
 
 **Input:** `data/output/tabela_final_cec_ufs.xlsx`
 
@@ -257,9 +284,9 @@ Panels:
 
 **Source:** Author calculations from the state workbook and the underlying official sources documented in the appendix.
 
-## Figure 14 — UFs: trajetória da renda e do custo da criminalidade
+## Figure 15 — UFs: trajetória da renda e do custo da criminalidade
 
-**Output stem:** `fig_14_trajetoria_renda_custo_ufs`
+**Output stem:** `fig_15_trajetoria_renda_custo_ufs`
 
 **Input:** `data/output/tabela_final_cec_ufs.xlsx`
 

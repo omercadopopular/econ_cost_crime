@@ -1,0 +1,16 @@
+﻿section,claim,value,display,source,calculation
+3.1,"Brazil homicide rate, 2016",30.1193623667804,"30,1",fig_01_distribuicao_mundial_homicidios.csv,Official UNODC annual rate for Brazil
+3.1,"Brazil percentile, 2016",91.86046511627907,"91,9",fig_01_distribuicao_mundial_homicidios.csv,Unweighted average-rank percentile
+3.1,"Brazil homicide rate, 2024",18.6911635044563,"18,7",fig_01_distribuicao_mundial_homicidios.csv,Official UNODC annual rate for Brazil
+3.1,"Brazil percentile, 2024",86.04651162790698,"86,0",fig_01_distribuicao_mundial_homicidios.csv,Unweighted average-rank percentile
+3.2,"Homicídio doloso rate, 2016",25.092714457863682,"25,1",fig_02b_taxas_criminalidade.csv,Sinesp count / matched IBGE population
+3.2,"Homicídio doloso rate, 2025",14.75580872564123,"14,8",fig_02b_taxas_criminalidade.csv,Sinesp count / matched IBGE population
+3.4,Microrregions with declining endpoint rate,70.25089605734767,"70,3",fig_04_microrregion_homicide_change.csv,100 * count(delta < 0) / 558
+4.7,"Total measured cost, 1996",220.56388799758747,"220,6",fig_13_total_costs.csv,Reported accounting total / 1e9
+4.7,"Total measured cost GDP share, 1996",4.729227952771371,"4,7",fig_13_total_costs.csv,100 * total / GDP
+4.7,"Total measured cost, 2025",439.524539863936,"439,5",fig_13_total_costs.csv,Reported accounting total / 1e9
+4.7,"Total measured cost GDP share, 2025",3.4608231485349292,"3,5",fig_13_total_costs.csv,100 * total / GDP
+4.7,2025 total composition: Segurança pública,37.11234620901407,"37,1",fig_13_total_costs.csv,100 * component / seven-component total
+4.7,2025 total composition: Seguros e perdas materiais,21.896485618708166,"21,9",fig_13_total_costs.csv,100 * component / seven-component total
+5.1,"State burden median, 2025",4.857516920310012,"4,9",fig_14_state_costs.csv,Unweighted cross-state quantile 0.5
+5.2,State trajectories: income_up_burden_down,19,19,fig_15_state_trajectories.csv,Count from each UF's 2016 and 2025 endpoints

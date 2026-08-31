@@ -1,0 +1,63 @@
+{
+  "indicator": "Victims of intentional homicide",
+  "selector": {
+    "dimension": "Total",
+    "category": "Total",
+    "sex": "Total",
+    "age": "Total",
+    "unit": "Rate per 100,000 population"
+  },
+  "duplicate_identical_rows_collapsed": 0,
+  "country_name_variants": {},
+  "excluded_nonstandard_country_identifiers": {
+    "GBR_E_W": 21,
+    "GBR_NI": 19,
+    "GBR_S": 21,
+    "IRQ_C": 11,
+    "IRQ_KRI": 6
+  },
+  "comparison_years": [
+    2016,
+    2024
+  ],
+  "common_sample_reporting_units": 87,
+  "countries_by_year": {
+    "2003": 116,
+    "2004": 134,
+    "2005": 129,
+    "2006": 137,
+    "2007": 150,
+    "2008": 160,
+    "2009": 159,
+    "2010": 157,
+    "2011": 149,
+    "2012": 152,
+    "2013": 130,
+    "2014": 128,
+    "2015": 131,
+    "2016": 130,
+    "2017": 130,
+    "2018": 129,
+    "2019": 136,
+    "2020": 132,
+    "2021": 122,
+    "2022": 116,
+    "2023": 105,
+    "2024": 95
+  },
+  "terminal_year": 2024,
+  "terminal_year_countries": 95,
+  "terminal_completeness_rule": "At least 90 reporting units and at least 70% of the median annual coverage in 2015–2023; Figure 1 retains only units observed in both 2016 and 2024.",
+  "percentile_convention": "Unweighted average rank, scaled as 100*(rank-1)/(N-1); tied values receive average ranks.",
+  "brazil": {
+    "2016": {
+      "rate": 30.1193623667804,
+      "percentile": 91.86046511627907
+    },
+    "2024": {
+      "rate": 18.6911635044563,
+      "percentile": 86.04651162790698
+    }
+  },
+  "country_year_rows": 2927
+}

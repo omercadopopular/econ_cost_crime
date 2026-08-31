@@ -1,0 +1,110 @@
+[
+  {
+    "stem": "fig_02a_recorded_crime_en",
+    "data": "data/figure_data/en/fig_02a_recorded_crime_en.csv",
+    "pdf": "figs/fig_02a_recorded_crime_en.pdf",
+    "png": "figs/fig_02a_recorded_crime_en.png"
+  },
+  {
+    "stem": "fig_02b_crime_rates_en",
+    "data": "data/figure_data/en/fig_02b_crime_rates_en.csv",
+    "pdf": "figs/fig_02b_crime_rates_en.pdf",
+    "png": "figs/fig_02b_crime_rates_en.png"
+  },
+  {
+    "stem": "fig_02c_partial_coverage_counts_en",
+    "data": "data/figure_data/en/fig_02c_partial_coverage_counts_en.csv",
+    "pdf": "figs/fig_02c_partial_coverage_counts_en.pdf",
+    "png": "figs/fig_02c_partial_coverage_counts_en.png"
+  },
+  {
+    "stem": "fig_02d_partial_coverage_rates_en",
+    "data": "data/figure_data/en/fig_02d_partial_coverage_rates_en.csv",
+    "pdf": "figs/fig_02d_partial_coverage_rates_en.pdf",
+    "png": "figs/fig_02d_partial_coverage_rates_en.png"
+  },
+  {
+    "stem": "fig_01_world_homicides_en",
+    "data": "data/figure_data/en/fig_01_world_homicides_en.csv",
+    "pdf": "figs/fig_01_world_homicides_en.pdf",
+    "png": "figs/fig_01_world_homicides_en.png"
+  },
+  {
+    "stem": "fig_03_microregion_homicides_en",
+    "data": "data/figure_data/en/fig_03_microregion_homicides_en.csv",
+    "pdf": "figs/fig_03_microregion_homicides_en.pdf",
+    "png": "figs/fig_03_microregion_homicides_en.png"
+  },
+  {
+    "stem": "fig_04_microregion_homicide_change_en",
+    "data": "data/figure_data/en/fig_04_microregion_homicide_change_en.csv",
+    "pdf": "figs/fig_04_microregion_homicide_change_en.pdf",
+    "png": "figs/fig_04_microregion_homicide_change_en.png"
+  },
+  {
+    "stem": "fig_05_microregion_homicide_convergence_en",
+    "data": "data/figure_data/en/fig_05_microregion_homicide_convergence_en.csv",
+    "pdf": "figs/fig_05_microregion_homicide_convergence_en.pdf",
+    "png": "figs/fig_05_microregion_homicide_convergence_en.png"
+  },
+  {
+    "stem": "fig_06_public_security_en",
+    "data": "data/figure_data/en/fig_06_public_security_en.csv",
+    "pdf": "figs/fig_06_public_security_en.pdf",
+    "png": "figs/fig_06_public_security_en.png"
+  },
+  {
+    "stem": "fig_07_private_security_en",
+    "data": "data/figure_data/en/fig_07_private_security_en.csv",
+    "pdf": "figs/fig_07_private_security_en.pdf",
+    "png": "figs/fig_07_private_security_en.png"
+  },
+  {
+    "stem": "fig_08_incarceration_en",
+    "data": "data/figure_data/en/fig_08_incarceration_en.csv",
+    "pdf": "figs/fig_08_incarceration_en.pdf",
+    "png": "figs/fig_08_incarceration_en.png"
+  },
+  {
+    "stem": "fig_09_insurance_material_losses_en",
+    "data": "data/figure_data/en/fig_09_insurance_material_losses_en.csv",
+    "pdf": "figs/fig_09_insurance_material_losses_en.pdf",
+    "png": "figs/fig_09_insurance_material_losses_en.png"
+  },
+  {
+    "stem": "fig_10_productive_capacity_en",
+    "data": "data/figure_data/en/fig_10_productive_capacity_en.csv",
+    "pdf": "figs/fig_10_productive_capacity_en.pdf",
+    "png": "figs/fig_10_productive_capacity_en.png"
+  },
+  {
+    "stem": "fig_11_judicial_costs_en",
+    "data": "data/figure_data/en/fig_11_judicial_costs_en.csv",
+    "pdf": "figs/fig_11_judicial_costs_en.pdf",
+    "png": "figs/fig_11_judicial_costs_en.png"
+  },
+  {
+    "stem": "fig_12_medical_costs_en",
+    "data": "data/figure_data/en/fig_12_medical_costs_en.csv",
+    "pdf": "figs/fig_12_medical_costs_en.pdf",
+    "png": "figs/fig_12_medical_costs_en.png"
+  },
+  {
+    "stem": "fig_13_total_costs_en",
+    "data": "data/figure_data/en/fig_13_total_costs_en.csv",
+    "pdf": "figs/fig_13_total_costs_en.pdf",
+    "png": "figs/fig_13_total_costs_en.png"
+  },
+  {
+    "stem": "fig_14_state_costs_en",
+    "data": "data/figure_data/en/fig_14_state_costs_en.csv",
+    "pdf": "figs/fig_14_state_costs_en.pdf",
+    "png": "figs/fig_14_state_costs_en.png"
+  },
+  {
+    "stem": "fig_15_state_trajectories_en",
+    "data": "data/figure_data/en/fig_15_state_trajectories_en.csv",
+    "pdf": "figs/fig_15_state_trajectories_en.pdf",
+    "png": "figs/fig_15_state_trajectories_en.png"
+  }
+]

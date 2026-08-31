@@ -1,0 +1,2385 @@
+{
+  "checks": [
+    {
+      "code": "raw_manifest",
+      "severity": "error",
+      "passed": true,
+      "message": "Raw-source manifest exists.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2015.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2015.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2015.",
+      "details": {
+        "source_id": "sinesp_vde_2015"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2015.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2016.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2016.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2016.",
+      "details": {
+        "source_id": "sinesp_vde_2016"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2016.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2017.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2017.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2017.",
+      "details": {
+        "source_id": "sinesp_vde_2017"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2017.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2018.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2018.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2018.",
+      "details": {
+        "source_id": "sinesp_vde_2018"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2018.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2019.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2019.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2019.",
+      "details": {
+        "source_id": "sinesp_vde_2019"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2019.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2020.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2020.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2020.",
+      "details": {
+        "source_id": "sinesp_vde_2020"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2020.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2021.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2021.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2021.",
+      "details": {
+        "source_id": "sinesp_vde_2021"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2021.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2022.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2022.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2022.",
+      "details": {
+        "source_id": "sinesp_vde_2022"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2022.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2023.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2023.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2023.",
+      "details": {
+        "source_id": "sinesp_vde_2023"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2023.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2024.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2024.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2024.",
+      "details": {
+        "source_id": "sinesp_vde_2024"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2024.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains sinesp_vde_2025.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: sinesp_vde_2025.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: sinesp_vde_2025.",
+      "details": {
+        "source_id": "sinesp_vde_2025"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: sinesp_vde_2025.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains ibge_population_projection_2024_uf_age_sex.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: ibge_population_projection_2024_uf_age_sex.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: ibge_population_projection_2024_uf_age_sex.",
+      "details": {
+        "source_id": "ibge_population_projection_2024_uf_age_sex"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: ibge_population_projection_2024_uf_age_sex.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains unodc_intentional_homicide_2026_07.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: unodc_intentional_homicide_2026_07.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: unodc_intentional_homicide_2026_07.",
+      "details": {
+        "source_id": "unodc_intentional_homicide_2026_07"
+      }
+    },
+    {
+      "code": "xlsx_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "XLSX is a valid ZIP: unodc_intentional_homicide_2026_07.",
+      "details": {}
+    },
+    {
+      "code": "manifest_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Manifest contains unodc_intentional_homicide_metadata_2026_07.",
+      "details": {}
+    },
+    {
+      "code": "raw_source",
+      "severity": "error",
+      "passed": true,
+      "message": "Retained raw source exists: unodc_intentional_homicide_metadata_2026_07.",
+      "details": {}
+    },
+    {
+      "code": "raw_checksum",
+      "severity": "error",
+      "passed": true,
+      "message": "Checksum matches manifest: unodc_intentional_homicide_metadata_2026_07.",
+      "details": {
+        "source_id": "unodc_intentional_homicide_metadata_2026_07"
+      }
+    },
+    {
+      "code": "sinesp_file",
+      "severity": "error",
+      "passed": true,
+      "message": "sinesp_category_coverage.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "sinesp_file",
+      "severity": "error",
+      "passed": true,
+      "message": "sinesp_uf_year_crime.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "sinesp_file",
+      "severity": "error",
+      "passed": true,
+      "message": "sinesp_national_year_crime.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "sinesp_file",
+      "severity": "error",
+      "passed": true,
+      "message": "sinesp_partial_coverage_panel.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "sinesp_coverage_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "Coverage keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "sinesp_uf_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "UF-year-crime keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "sinesp_national_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "National year-crime keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "missing_not_zero",
+      "severity": "error",
+      "passed": true,
+      "message": "Non-reporting remains missing rather than zero.",
+      "details": {}
+    },
+    {
+      "code": "selected_full_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Homicídio doloso has 27-UF coverage in every Figure 2 year.",
+      "details": {
+        "crime": "Homicídio doloso"
+      }
+    },
+    {
+      "code": "full_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Homicídio doloso raw and balanced totals agree.",
+      "details": {
+        "crime": "Homicídio doloso"
+      }
+    },
+    {
+      "code": "selected_measurement_concept",
+      "severity": "error",
+      "passed": true,
+      "message": "Homicídio doloso is explicitly classified as a victim count.",
+      "details": {
+        "crime": "Homicídio doloso"
+      }
+    },
+    {
+      "code": "selected_full_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Latrocínio has 27-UF coverage in every Figure 2 year.",
+      "details": {
+        "crime": "Latrocínio"
+      }
+    },
+    {
+      "code": "full_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Latrocínio raw and balanced totals agree.",
+      "details": {
+        "crime": "Latrocínio"
+      }
+    },
+    {
+      "code": "selected_measurement_concept",
+      "severity": "error",
+      "passed": true,
+      "message": "Latrocínio is explicitly classified as a victim count.",
+      "details": {
+        "crime": "Latrocínio"
+      }
+    },
+    {
+      "code": "selected_full_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Tentativa de homicídio has 27-UF coverage in every Figure 2 year.",
+      "details": {
+        "crime": "Tentativa de homicídio"
+      }
+    },
+    {
+      "code": "full_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Tentativa de homicídio raw and balanced totals agree.",
+      "details": {
+        "crime": "Tentativa de homicídio"
+      }
+    },
+    {
+      "code": "selected_measurement_concept",
+      "severity": "error",
+      "passed": true,
+      "message": "Tentativa de homicídio is explicitly classified as a victim count.",
+      "details": {
+        "crime": "Tentativa de homicídio"
+      }
+    },
+    {
+      "code": "selected_full_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Estupro has 27-UF coverage in every Figure 2 year.",
+      "details": {
+        "crime": "Estupro"
+      }
+    },
+    {
+      "code": "full_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Estupro raw and balanced totals agree.",
+      "details": {
+        "crime": "Estupro"
+      }
+    },
+    {
+      "code": "selected_measurement_concept",
+      "severity": "error",
+      "passed": true,
+      "message": "Estupro is explicitly classified as a victim count.",
+      "details": {
+        "crime": "Estupro"
+      }
+    },
+    {
+      "code": "selected_full_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Estupro de vulnerável has 27-UF coverage in every Figure 2 year.",
+      "details": {
+        "crime": "Estupro de vulnerável"
+      }
+    },
+    {
+      "code": "full_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Estupro de vulnerável raw and balanced totals agree.",
+      "details": {
+        "crime": "Estupro de vulnerável"
+      }
+    },
+    {
+      "code": "selected_measurement_concept",
+      "severity": "error",
+      "passed": true,
+      "message": "Estupro de vulnerável is explicitly classified as a victim count.",
+      "details": {
+        "crime": "Estupro de vulnerável"
+      }
+    },
+    {
+      "code": "selected_full_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Feminicídio has 27-UF coverage in every Figure 2 year.",
+      "details": {
+        "crime": "Feminicídio"
+      }
+    },
+    {
+      "code": "full_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Feminicídio raw and balanced totals agree.",
+      "details": {
+        "crime": "Feminicídio"
+      }
+    },
+    {
+      "code": "selected_measurement_concept",
+      "severity": "error",
+      "passed": true,
+      "message": "Feminicídio is explicitly classified as a victim count.",
+      "details": {
+        "crime": "Feminicídio"
+      }
+    },
+    {
+      "code": "partial_panel_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "Partial-coverage balanced-panel keys are complete and unique.",
+      "details": {}
+    },
+    {
+      "code": "partial_indicator_sample",
+      "severity": "error",
+      "passed": true,
+      "message": "Furto de veículo uses one documented indicator-specific balanced UF sample.",
+      "details": {
+        "crime": "Furto de veículo"
+      }
+    },
+    {
+      "code": "partial_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Furto de veículo sample agrees with its full-period balanced sample.",
+      "details": {
+        "crime": "Furto de veículo"
+      }
+    },
+    {
+      "code": "partial_indicator_sample",
+      "severity": "error",
+      "passed": true,
+      "message": "Roubo de veículo uses one documented indicator-specific balanced UF sample.",
+      "details": {
+        "crime": "Roubo de veículo"
+      }
+    },
+    {
+      "code": "partial_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Roubo de veículo sample agrees with its full-period balanced sample.",
+      "details": {
+        "crime": "Roubo de veículo"
+      }
+    },
+    {
+      "code": "partial_indicator_sample",
+      "severity": "error",
+      "passed": true,
+      "message": "Roubo de carga uses one documented indicator-specific balanced UF sample.",
+      "details": {
+        "crime": "Roubo de carga"
+      }
+    },
+    {
+      "code": "partial_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Roubo de carga sample agrees with its full-period balanced sample.",
+      "details": {
+        "crime": "Roubo de carga"
+      }
+    },
+    {
+      "code": "partial_indicator_sample",
+      "severity": "error",
+      "passed": true,
+      "message": "Roubo a instituição financeira uses one documented indicator-specific balanced UF sample.",
+      "details": {
+        "crime": "Roubo a instituição financeira"
+      }
+    },
+    {
+      "code": "partial_sample_reconciliation",
+      "severity": "error",
+      "passed": true,
+      "message": "Roubo a instituição financeira sample agrees with its full-period balanced sample.",
+      "details": {
+        "crime": "Roubo a instituição financeira"
+      }
+    },
+    {
+      "code": "partial_values",
+      "severity": "error",
+      "passed": true,
+      "message": "Partial-panel counts are nonnegative and denominators positive.",
+      "details": {}
+    },
+    {
+      "code": "partial_measurement_concept",
+      "severity": "error",
+      "passed": true,
+      "message": "All four partial-coverage indicators count occurrences.",
+      "details": {}
+    },
+    {
+      "code": "large_yoy_changes",
+      "severity": "warning",
+      "passed": true,
+      "message": "Annual changes above 40% require interpretation, not mechanical correction.",
+      "details": {
+        "jumps": []
+      }
+    },
+    {
+      "code": "figure2_same_sample",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv and fig_02b_taxas_criminalidade.csv use identical samples.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Homicídio doloso 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Latrocínio 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Tentativa de homicídio 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Estupro de vulnerável 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Feminicídio 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_balanced_within_indicator",
+      "severity": "error",
+      "passed": true,
+      "message": "Every series in fig_02a_crimes_registrados.csv keeps a fixed UF sample across years.",
+      "details": {}
+    },
+    {
+      "code": "figure2_same_sample",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv and fig_02d_taxas_cobertura_parcial.csv use identical samples.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Furto de veículo 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de veículo 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo de carga 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2016.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2017.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2018.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2019.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2020.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2021.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2022.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2023.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2024.",
+      "details": {}
+    },
+    {
+      "code": "figure2_sample_size",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv uses the documented UF sample.",
+      "details": {}
+    },
+    {
+      "code": "figure2_rate_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Count/population/rate identity passes for Roubo a instituição financeira 2025.",
+      "details": {}
+    },
+    {
+      "code": "figure2_balanced_within_indicator",
+      "severity": "error",
+      "passed": true,
+      "message": "Every series in fig_02c_crimes_cobertura_parcial.csv keeps a fixed UF sample across years.",
+      "details": {}
+    },
+    {
+      "code": "unodc_keys",
+      "severity": "error",
+      "passed": true,
+      "message": "UNODC country-year keys are unique.",
+      "details": {}
+    },
+    {
+      "code": "unodc_rates",
+      "severity": "error",
+      "passed": true,
+      "message": "UNODC values are plausible rates, not counts.",
+      "details": {}
+    },
+    {
+      "code": "unodc_common_sample",
+      "severity": "error",
+      "passed": true,
+      "message": "Both comparison years use the same official country/territory reporting units.",
+      "details": {
+        "common_sample": 87
+      }
+    },
+    {
+      "code": "unodc_comparison_years",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 1 compares the requested 2016 and 2024 cross-sections.",
+      "details": {}
+    },
+    {
+      "code": "unodc_comparison_rates",
+      "severity": "error",
+      "passed": true,
+      "message": "Figure 1 rates reproduce the retained UNODC country-year panel.",
+      "details": {}
+    },
+    {
+      "code": "unodc_percentiles",
+      "severity": "error",
+      "passed": true,
+      "message": "Unweighted country percentiles reproduce the documented rank convention.",
+      "details": {}
+    },
+    {
+      "code": "unodc_brazil",
+      "severity": "error",
+      "passed": true,
+      "message": "Brazil is included in both comparison years.",
+      "details": {}
+    },
+    {
+      "code": "unodc_raw_spotchecks",
+      "severity": "error",
+      "passed": true,
+      "message": "Six country-year rates reproduce the retained raw workbook.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_01_distribuicao_mundial_homicidios.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_01_distribuicao_mundial_homicidios.pdf exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_01_distribuicao_mundial_homicidios.png exists.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_01_distribuicao_mundial_homicidios.png is a valid PNG.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.pdf exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.png exists.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02a_crimes_registrados.png is a valid PNG.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02b_taxas_criminalidade.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02b_taxas_criminalidade.pdf exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02b_taxas_criminalidade.png exists.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02b_taxas_criminalidade.png is a valid PNG.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.pdf exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.png exists.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02c_crimes_cobertura_parcial.png is a valid PNG.",
+      "details": {}
+    },
+    {
+      "code": "figure_csv",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02d_taxas_cobertura_parcial.csv exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02d_taxas_cobertura_parcial.pdf exists.",
+      "details": {}
+    },
+    {
+      "code": "figure_output",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02d_taxas_cobertura_parcial.png exists.",
+      "details": {}
+    },
+    {
+      "code": "png_integrity",
+      "severity": "error",
+      "passed": true,
+      "message": "fig_02d_taxas_cobertura_parcial.png is a valid PNG.",
+      "details": {}
+    }
+  ],
+  "summary": {
+    "checks": 326,
+    "passed": 326,
+    "errors": 0,
+    "warnings": 0,
+    "sinesp": {
+      "coverage_rows": 3564,
+      "uf_rows": 3437,
+      "large_jumps": []
+    },
+    "unodc": {
+      "country_year_rows": 2927,
+      "common_sample": 87
+    }
+  }
+}

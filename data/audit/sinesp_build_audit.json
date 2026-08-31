@@ -1,0 +1,845 @@
+{
+  "rows_scanned_by_year": {
+    "2015": 820136,
+    "2016": 846569,
+    "2017": 764537,
+    "2018": 764187,
+    "2019": 764700,
+    "2020": 764700,
+    "2021": 764732,
+    "2022": 764604,
+    "2023": 764612,
+    "2024": 764788,
+    "2025": 832293
+  },
+  "raw_labels_by_crime_year": {
+    "Armas de fogo apreendidas|2015": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2016": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2017": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2018": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2019": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2020": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2021": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2022": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2023": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2024": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Armas de fogo apreendidas|2025": [
+      "Arma de Fogo Apreendida"
+    ],
+    "Estupro|2015": [
+      "Estupro"
+    ],
+    "Estupro|2016": [
+      "Estupro"
+    ],
+    "Estupro|2017": [
+      "Estupro"
+    ],
+    "Estupro|2018": [
+      "Estupro"
+    ],
+    "Estupro|2019": [
+      "Estupro"
+    ],
+    "Estupro|2020": [
+      "Estupro"
+    ],
+    "Estupro|2021": [
+      "Estupro"
+    ],
+    "Estupro|2022": [
+      "Estupro"
+    ],
+    "Estupro|2023": [
+      "Estupro"
+    ],
+    "Estupro|2024": [
+      "Estupro"
+    ],
+    "Estupro|2025": [
+      "Estupro"
+    ],
+    "Estupro de vulnerável|2015": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2016": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2017": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2018": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2019": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2020": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2021": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2022": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2023": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2024": [
+      "Estupro de vulnerável"
+    ],
+    "Estupro de vulnerável|2025": [
+      "Estupro de vulnerável"
+    ],
+    "Feminicídio|2015": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2016": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2017": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2018": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2019": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2020": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2021": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2022": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2023": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2024": [
+      "Feminicídio"
+    ],
+    "Feminicídio|2025": [
+      "Feminicídio"
+    ],
+    "Furto de veículo|2015": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2016": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2017": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2018": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2019": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2020": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2021": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2022": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2023": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2024": [
+      "Furto de veículo"
+    ],
+    "Furto de veículo|2025": [
+      "Furto de veículo"
+    ],
+    "Homicídio doloso|2015": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2016": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2017": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2018": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2019": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2020": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2021": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2022": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2023": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2024": [
+      "Homicídio doloso"
+    ],
+    "Homicídio doloso|2025": [
+      "Homicídio doloso"
+    ],
+    "Latrocínio|2015": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2016": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2017": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2018": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2019": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2020": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2021": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2022": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2023": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2024": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Latrocínio|2025": [
+      "Roubo seguido de morte (latrocínio)"
+    ],
+    "Roubo a instituição financeira|2015": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2016": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2017": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2018": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2019": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2020": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2021": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2022": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2023": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2024": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo a instituição financeira|2025": [
+      "Roubo a instituição financeira"
+    ],
+    "Roubo de carga|2015": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2016": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2017": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2018": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2019": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2020": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2021": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2022": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2023": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2024": [
+      "Roubo de carga"
+    ],
+    "Roubo de carga|2025": [
+      "Roubo de carga"
+    ],
+    "Roubo de veículo|2015": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2016": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2017": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2018": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2019": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2020": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2021": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2022": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2023": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2024": [
+      "Roubo de veículo"
+    ],
+    "Roubo de veículo|2025": [
+      "Roubo de veículo"
+    ],
+    "Tentativa de homicídio|2015": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2016": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2017": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2018": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2019": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2020": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2021": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2022": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2023": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2024": [
+      "Tentativa de homicídio"
+    ],
+    "Tentativa de homicídio|2025": [
+      "Tentativa de homicídio"
+    ],
+    "Tráfico de drogas|2015": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2016": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2017": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2018": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2019": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2020": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2021": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2022": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2023": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2024": [
+      "Tráfico de drogas"
+    ],
+    "Tráfico de drogas|2025": [
+      "Tráfico de drogas"
+    ]
+  },
+  "excluded_non_state_rows": {
+    "Armas de fogo apreendidas|2015": 2916,
+    "Armas de fogo apreendidas|2016": 2916,
+    "Armas de fogo apreendidas|2017": 2916,
+    "Armas de fogo apreendidas|2018": 2916,
+    "Armas de fogo apreendidas|2019": 2916,
+    "Armas de fogo apreendidas|2020": 2916,
+    "Armas de fogo apreendidas|2021": 2916,
+    "Armas de fogo apreendidas|2022": 2916,
+    "Armas de fogo apreendidas|2023": 2916,
+    "Armas de fogo apreendidas|2024": 2916,
+    "Armas de fogo apreendidas|2025": 2916,
+    "Furto de veículo|2015": 324,
+    "Furto de veículo|2016": 324,
+    "Furto de veículo|2017": 324,
+    "Furto de veículo|2018": 324,
+    "Furto de veículo|2019": 324,
+    "Furto de veículo|2020": 324,
+    "Furto de veículo|2021": 324,
+    "Furto de veículo|2022": 324,
+    "Furto de veículo|2023": 324,
+    "Furto de veículo|2024": 324,
+    "Furto de veículo|2025": 324,
+    "Roubo a instituição financeira|2015": 324,
+    "Roubo a instituição financeira|2016": 324,
+    "Roubo a instituição financeira|2017": 324,
+    "Roubo a instituição financeira|2018": 324,
+    "Roubo a instituição financeira|2019": 324,
+    "Roubo a instituição financeira|2020": 324,
+    "Roubo a instituição financeira|2021": 324,
+    "Roubo a instituição financeira|2022": 324,
+    "Roubo a instituição financeira|2023": 324,
+    "Roubo a instituição financeira|2024": 324,
+    "Roubo a instituição financeira|2025": 324,
+    "Roubo de carga|2015": 324,
+    "Roubo de carga|2016": 324,
+    "Roubo de carga|2017": 324,
+    "Roubo de carga|2018": 324,
+    "Roubo de carga|2019": 324,
+    "Roubo de carga|2020": 324,
+    "Roubo de carga|2021": 324,
+    "Roubo de carga|2022": 324,
+    "Roubo de carga|2023": 324,
+    "Roubo de carga|2024": 324,
+    "Roubo de carga|2025": 324,
+    "Roubo de veículo|2015": 324,
+    "Roubo de veículo|2016": 324,
+    "Roubo de veículo|2017": 324,
+    "Roubo de veículo|2018": 324,
+    "Roubo de veículo|2019": 324,
+    "Roubo de veículo|2020": 324,
+    "Roubo de veículo|2021": 324,
+    "Roubo de veículo|2022": 324,
+    "Roubo de veículo|2023": 324,
+    "Roubo de veículo|2024": 324,
+    "Roubo de veículo|2025": 324,
+    "Tráfico de drogas|2015": 324,
+    "Tráfico de drogas|2016": 324,
+    "Tráfico de drogas|2017": 324,
+    "Tráfico de drogas|2018": 324,
+    "Tráfico de drogas|2019": 324,
+    "Tráfico de drogas|2020": 324,
+    "Tráfico de drogas|2021": 324,
+    "Tráfico de drogas|2022": 324,
+    "Tráfico de drogas|2023": 324,
+    "Tráfico de drogas|2024": 324,
+    "Tráfico de drogas|2025": 324
+  },
+  "source_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "figure_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "candidate_crimes": [
+    "Homicídio doloso",
+    "Latrocínio",
+    "Tentativa de homicídio",
+    "Furto de veículo",
+    "Roubo de veículo",
+    "Roubo de carga",
+    "Roubo a instituição financeira",
+    "Estupro",
+    "Estupro de vulnerável",
+    "Feminicídio",
+    "Tráfico de drogas",
+    "Armas de fogo apreendidas"
+  ],
+  "configured_selected_crimes": [
+    "Homicídio doloso",
+    "Latrocínio",
+    "Tentativa de homicídio",
+    "Estupro",
+    "Estupro de vulnerável",
+    "Feminicídio"
+  ],
+  "balanced_ufs": {
+    "Homicídio doloso": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Latrocínio": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Tentativa de homicídio": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Furto de veículo": [
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "RJ",
+      "RN",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Roubo de veículo": [
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "RJ",
+      "RN",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Roubo de carga": [
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "MA",
+      "MG",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "RJ",
+      "RN",
+      "RR",
+      "RS",
+      "SC",
+      "SP",
+      "TO"
+    ],
+    "Roubo a instituição financeira": [
+      "AL",
+      "AM",
+      "BA",
+      "CE",
+      "DF",
+      "MA",
+      "MG",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "RJ",
+      "RN",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Estupro": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Estupro de vulnerável": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Feminicídio": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "Tráfico de drogas": [
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "RJ",
+      "RN",
+      "RO",
+      "RS",
+      "SC",
+      "SE",
+      "SP"
+    ],
+    "Armas de fogo apreendidas": [
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PE",
+      "PI",
+      "RJ",
+      "RN",
+      "RS",
+      "SC",
+      "SE",
+      "SP"
+    ]
+  },
+  "population_rows": 297,
+  "coverage_rows": 3564,
+  "uf_panel_rows": 3437,
+  "national_panel_rows": 132,
+  "partial_coverage_panel_rows": 40
+}
